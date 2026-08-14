@@ -1,0 +1,12 @@
+{
+  "Name": "(TTG) Fippsies Japanese Onsen Redux",
+  "Author": "ThaleTheGreat",
+  "Version": "1.0.2",
+  "Description": "Fippsies Japanese Onsen Redux.",
+  "UniqueID": "ThaleTheGreat.FippsiesJapaneseOnsenRedux",
+  "EntryDll": "FippsiesJapaneseOnsenRedux.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:47326"
+  ]
+}

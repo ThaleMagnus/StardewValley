@@ -1,0 +1,254 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/MouseyPounds.ShadowFestival/Data",
+      "FromFile": "data.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/MouseyPounds.ShadowFestival/GlowOrb",
+      "FromFile": "assets/GlowOrb.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/MouseyPounds.ShadowFestival/Goblin_Nose",
+      "FromFile": "assets/Goblin_Nose.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/GlowOrb",
+      "FromFile": "assets/GlowOrb.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/Goblin_Nose",
+      "FromFile": "assets/Goblin_Nose.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/ShadowFestivalHats",
+      "FromFile": "assets/ShadowFestivalHats.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/DinoBoots",
+      "FromFile": "assets/DinoBoots.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/DinoBootsColor",
+      "FromFile": "assets/DinoBootsColor.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/DinoShirt",
+      "FromFile": "assets/DinoShirt.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/DinoShirtAlt",
+      "FromFile": "assets/DinoShirtAlt.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Sewer",
+      "FromFile": "assets/Sewer.tbin",
+      "When": {
+        "Season": "fall",
+        "Day": "27"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Hats",
+      "Entries": {
+        "MouseyPounds.ShadowFestival.ImposingMask": "{{i18n:item.imposing-mask.name}}/{{i18n:item.imposing-mask.description}}/false/true//{{i18n:item.imposing-mask.name}}/0/{{ModId}}\\ShadowFestivalHats",
+        "MouseyPounds.ShadowFestival.ShamanicMask": "{{i18n:item.shamanic-mask.name}}/{{i18n:item.shamanic-mask.description}}/false/true//{{i18n:item.shamanic-mask.name}}/1/{{ModId}}\\ShadowFestivalHats",
+        "MouseyPounds.ShadowFestival.ShadyMask": "{{i18n:item.shady-mask.name}}/{{i18n:item.shady-mask.description}}/false/true//{{i18n:item.shady-mask.name}}/2/{{ModId}}\\ShadowFestivalHats",
+        "MouseyPounds.ShadowFestival.ShadyBowedMask": "{{i18n:item.shady-bowed-mask.name}}/{{i18n:item.shady-bowed-mask.description}}/false/true//{{i18n:item.shady-bowed-mask.name}}/3/{{ModId}}\\ShadowFestivalHats",
+        "MouseyPounds.ShadowFestival.StrangeBunHat": "{{i18n:item.strange-bun-hat.name}}/{{i18n:item.strange-bun-hat.description}}/true/false//{{i18n:item.strange-bun-hat.name}}/4/{{ModId}}\\ShadowFestivalHats"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "MouseyPounds.ShadowFestival.DinosaurBootsGreen": "{{i18n:item.dinosaur-boots-green.name}}/{{i18n:item.dinosaur-boots-green.description}}/0/1/1/0/{{i18n:item.dinosaur-boots-green.name}}/{{ModId}}\\DinoBootsColor/0/{{ModId}}\\DinoBoots",
+        "MouseyPounds.ShadowFestival.DinosaurBootsRed": "{{i18n:item.dinosaur-boots-red.name}}/{{i18n:item.dinosaur-boots-red.description}}/0/1/1/1/{{i18n:item.dinosaur-boots-red.name}}/{{ModId}}\\DinoBootsColor/1/{{ModId}}\\DinoBoots"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shirts",
+      "Entries": {
+        "MouseyPounds.ShadowFestival.DinosaurShirt": {
+          "Name": "DinosaurShirt",
+          "DisplayName": "{{i18n:item.dinosaur-shirt.name}}",
+          "Description": "{{i18n:item.dinosaur-shirt.description}}",
+          "Price": 1000,
+          "Texture": "{{ModId}}/DinoShirt",
+          "SpriteIndex": 0,
+          "CanBeDyed": false,
+          "HasSleeves": true
+        },
+        "MouseyPounds.ShadowFestival.DinosaurShirtAlt": {
+          "Name": "DinosaurShirtAlt",
+          "DisplayName": "{{i18n:item.dinosaur-shirt-alt.name}}",
+          "Description": "{{i18n:item.dinosaur-shirt-alt.description}}",
+          "Price": 1000,
+          "Texture": "{{ModId}}/DinoShirtAlt",
+          "SpriteIndex": 0,
+          "CanBeDyed": false,
+          "HasSleeves": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Wizard_ShadowFestival": "{{i18n:mail.wizard-shadow-festival}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Krobus",
+      "When": {
+        "Season": "fall",
+        "Day": "27"
+      },
+      "Entries": {
+        "fall_27": "{{i18n:dialogue.krobus-festival}}",
+        "fall_27_2": "{{i18n:dialogue.krobus-festival}}",
+        "spring_27": "{{i18n:dialogue.krobus-festival}}",
+        "summer_27": "{{i18n:dialogue.krobus-festival}}",
+        "winter_27": "{{i18n:dialogue.krobus-festival}}",
+        "Mon": "{{i18n:dialogue.krobus-festival}}",
+        "Tue": "{{i18n:dialogue.krobus-festival}}",
+        "Wed": "{{i18n:dialogue.krobus-festival}}",
+        "Thu": "{{i18n:dialogue.krobus-festival}}",
+        "Fri": "{{i18n:dialogue.krobus-festival}}",
+        "Sat": "{{i18n:dialogue.krobus-festival}}",
+        "Sun": "{{i18n:dialogue.krobus-festival}}",
+        "default": "{{i18n:dialogue.krobus-festival}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "When": {
+        "Season": "fall",
+        "Day": "27"
+      },
+      "Entries": {
+        "NPC.cs.3990": "{{i18n:dialogue.krobus-introduction}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "HatMouse",
+        "Items"
+      ],
+      "When": {
+        "Season": "fall",
+        "Day": "27"
+      },
+      "Entries": {
+        "ShadowFestival_DeluxeCowboyHat": {
+          "Id": "ShadowFestival_DeluxeCowboyHat",
+          "ItemId": "(H)37",
+          "Price": 5000
+        },
+        "ShadowFestival_DeluxePirateHat": {
+          "Id": "ShadowFestival_DeluxePirateHat",
+          "ItemId": "(H)38",
+          "Price": 5000
+        },
+        "ShadowFestival_DinosaurHat": {
+          "Id": "ShadowFestival_DinosaurHat",
+          "ItemId": "(H)43",
+          "Price": 10000
+        },
+        "ShadowFestival_ImposingMask": {
+          "Id": "ShadowFestival_ImposingMask",
+          "ItemId": "(H)MouseyPounds.ShadowFestival.ImposingMask",
+          "Price": 750
+        },
+        "ShadowFestival_ShamanicMask": {
+          "Id": "ShadowFestival_ShamanicMask",
+          "ItemId": "(H)MouseyPounds.ShadowFestival.ShamanicMask",
+          "Price": 750
+        },
+        "ShadowFestival_ShadyMask": {
+          "Id": "ShadowFestival_ShadyMask",
+          "ItemId": "(H)MouseyPounds.ShadowFestival.ShadyMask",
+          "Price": 750
+        },
+        "ShadowFestival_ShadyBowedMask": {
+          "Id": "ShadowFestival_ShadyBowedMask",
+          "ItemId": "(H)MouseyPounds.ShadowFestival.ShadyBowedMask",
+          "Price": 750
+        },
+        "ShadowFestival_StrangeBunHat": {
+          "Id": "ShadowFestival_StrangeBunHat",
+          "ItemId": "(H)MouseyPounds.ShadowFestival.StrangeBunHat",
+          "Price": 500
+        },
+        "ShadowFestival_DinoBootsGreen": {
+          "Id": "ShadowFestival_DinoBootsGreen",
+          "ItemId": "(B)MouseyPounds.ShadowFestival.DinosaurBootsGreen",
+          "Price": 1500
+        },
+        "ShadowFestival_DinoBootsRed": {
+          "Id": "ShadowFestival_DinoBootsRed",
+          "ItemId": "(B)MouseyPounds.ShadowFestival.DinosaurBootsRed",
+          "Price": 1500
+        },
+        "ShadowFestival_DinosaurShirt": {
+          "Id": "ShadowFestival_DinosaurShirt",
+          "ItemId": "(S)MouseyPounds.ShadowFestival.DinosaurShirt",
+          "Price": 2000
+        },
+        "ShadowFestival_DinosaurShirtAlt": {
+          "Id": "ShadowFestival_DinosaurShirtAlt",
+          "ItemId": "(S)MouseyPounds.ShadowFestival.DinosaurShirtAlt",
+          "Price": 2000
+        },
+        "ShadowFestival_DinosaurPants": {
+          "Id": "ShadowFestival_DinosaurPants",
+          "ItemId": "(P)5",
+          "Price": 2000
+        }
+      }
+    },
+    {
+      "LogName": "Better Things compatibility - Wizard schedule for Redux Festival of the Mundane",
+      "Action": "EditData",
+      "Priority": "Late",
+      "Target": "Characters/schedules/Wizard",
+      "Entries": {
+        "fall_27": "0 Sewer 7 22 2"
+      },
+      "When": {
+        "HasMod |contains=maat.BetterThings": true
+      }
+    },
+    {
+      "LogName": "Better Things compatibility - Agatha schedule for Redux Festival of the Mundane",
+      "Action": "EditData",
+      "Priority": "Late",
+      "Target": "Characters/schedules/Agatha",
+      "Entries": {
+        "fall_27": "0 Sewer 8 22 2 \"Strings\\schedules\\Agatha:agatha-dialogue-festival-of-mundane\"/2000 maat.BetterThings_AgathaHouse 10 17 2 \"Strings\\schedules\\Agatha:agatha-dialogue-festival-of-mundane-working\"/2400 maat.BetterThings_AgathaHouse 14 4 0 Agatha_sleep",
+        "marriage_fall_27": "0 Sewer 8 22 2 \"Strings\\schedules\\Agatha:agatha-spouse-dialogue-festival-of-mundane\"/2000 maat.BetterThings_AgathaHouse 10 17 2 \"Strings\\schedules\\Agatha:agatha-spouse-dialogue-festival-of-mundane-working\"/2400 bed"
+      },
+      "When": {
+        "HasMod |contains=maat.BetterThings": true
+      }
+    }
+  ]
+}
