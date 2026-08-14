@@ -1,0 +1,11 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Animals/Horse",
+      "FromFile": "assets/horse.png",
+      "PatchMode": "Replace"
+    }
+  ]
+}

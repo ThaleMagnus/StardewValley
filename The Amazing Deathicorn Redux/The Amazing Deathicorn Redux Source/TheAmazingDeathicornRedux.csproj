@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableModZip>false</EnableModZip>
+    <TargetFramework>net6.0</TargetFramework>
+    <Version>2.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RootNamespace>TheAmazingDeathicornRedux</RootNamespace>
+    <AssemblyName>TheAmazingDeathicornRedux</AssemblyName>
+    <ModFolderName>The Amazing Deathicorn Redux</ModFolderName>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS8600;CS8601;CS8604;CS8605;CS8625;CS8629</NoWarn>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <FileVersion>2.1.0.0</FileVersion>
+    <InformationalVersion>2.1.0</InformationalVersion>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="config.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="assets\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <Target Name="WriteGameModsPath">
+    <Error Condition="'$(GameModsPath)' == ''" Text="The Stardew Valley Mods folder could not be detected." />
+    <Error Condition="'$(GameModsPathOutputFile)' == ''" Text="GameModsPathOutputFile was not provided." />
+    <WriteLinesToFile File="$(GameModsPathOutputFile)" Lines="$(GameModsPath)" Overwrite="true" />
+  </Target>
+  <ItemGroup>
+    <None Include="i18n\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
