@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>GatherersAutomateIntegration</AssemblyName>
+    <RootNamespace>ThaleTheGreat.GatherersAutomateIntegration</RootNamespace>
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableModZip>false</EnableModZip>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.1</Version>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
+    <InformationalVersion>1.1.1</InformationalVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AutomateDllPath Condition="'$(AutomateDllPath)' == ''">$(MSBuildThisFileDirectory)..\lib\Automate.dll</AutomateDllPath>
+    <ModFolderName>Gatherers Automate Integration</ModFolderName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Automate">
+      <HintPath>$(AutomateDllPath)</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <None Include="..\lib\Automate.dll" CopyToOutputDirectory="Never" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="CheckAutomateReference" BeforeTargets="ResolveReferences" Condition="!Exists('$(AutomateDllPath)')">
+    <Error Text="Automate.dll was not found at '$(AutomateDllPath)'. Copy Automate.dll into the source lib folder or build with -p:AutomateDllPath=&quot;full path to Automate.dll&quot;." />
+  </Target>
+  <Target Name="DeployToSharedGatherersModsFolder" AfterTargets="Build" Condition="'$(DesignTimeBuild)' != 'true'">
+    <PropertyGroup>
+      <_GatherersSharedRoot>$([System.IO.Path]::Combine('$(GameModsPath)', 'Gatherers'))</_GatherersSharedRoot>
+      <_GatherersDeployPath>$([System.IO.Path]::Combine('$(_GatherersSharedRoot)', '$(ModFolderName)'))</_GatherersDeployPath>
+    </PropertyGroup>
+    <MakeDir Directories="$(_GatherersDeployPath)" />
+    <ItemGroup>
+      <_GatherersDeployFiles Include="$(TargetDir)**\*" Exclude="$(TargetDir)dotnet build.bat;$(TargetDir)Automate.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_GatherersDeployFiles)" SkipUnchangedFiles="true" DestinationFolder="$(_GatherersDeployPath)\%(RecursiveDir)" />
+    <Delete Files="$(_GatherersSharedRoot)\dotnet build.bat;$(_GatherersDeployPath)\dotnet build.bat" />
+    <Error Condition="!Exists('$(_GatherersDeployPath)\$(TargetName).dll')" Text="Deployment failed: '$(_GatherersDeployPath)\$(TargetName).dll' was not created." />
+    <Error Condition="!Exists('$(_GatherersDeployPath)\manifest.json')" Text="Deployment failed: '$(_GatherersDeployPath)\manifest.json' was not created." />
+  </Target>
+</Project>
