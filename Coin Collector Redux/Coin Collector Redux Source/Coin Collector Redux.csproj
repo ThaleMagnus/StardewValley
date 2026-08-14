@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.1.4</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableHarmony>true</EnableHarmony>
+    <AssemblyName>CoinCollectorRedux</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin/$(Configuration)/Coin Collector Redux/</OutputPath>
+    <Product>(TTG) Coin Collector Redux</Product>
+    <Title>(TTG) Coin Collector Redux</Title>
+    <ModFolderName>Coin Collector Redux</ModFolderName>
+    <RootNamespace>ThaleTheGreat.CoinCollectorRedux</RootNamespace>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Nullable>enable</Nullable>
+  
+    <AssemblyVersion>1.1.4.0</AssemblyVersion>
+    <FileVersion>1.1.4.0</FileVersion>
+    <InformationalVersion>1.1.4</InformationalVersion>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="assets\blip.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="assets\blip_left.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="assets\blip_right.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="assets\coins.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="assets\metaldetector.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="i18n\default.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="i18n\ru.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
