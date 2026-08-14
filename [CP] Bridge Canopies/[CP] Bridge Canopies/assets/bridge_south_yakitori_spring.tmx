@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" source="master_canopies.tsx" /><layer id="5" name="AlwaysFront" width="6" height="5">
+  <data encoding="csv">
+901,902,903,904,905,906,
+955,956,957,958,959,960,
+1009,1010,1011,1012,1013,1014,
+1063,1064,1065,1066,1067,1068,
+1117,1118,1119,0,1121,1122
+</data>
+ </layer>
+</map>
