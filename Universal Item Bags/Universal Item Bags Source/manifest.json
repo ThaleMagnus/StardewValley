@@ -1,0 +1,27 @@
+{
+  "Name": "(TTG) Universal Item Bags",
+  "Author": "ThaleTheGreat",
+  "Version": "1.0.0",
+  "Description": "Automatically adds compatible items from installed mods to Item Bags' standard bag categories.",
+  "UniqueID": "ThaleTheGreat.UniversalItemBags",
+  "EntryDll": "UniversalItemBags.dll",
+  "MinimumApiVersion": "4.1.3",
+  "UpdateKeys": [
+    "Nexus:48835"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "SlayerDharok.Item_Bags",
+      "IsRequired": true,
+      "MinimumVersion": "3.1.0"
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": false
+    }
+  ]
+}

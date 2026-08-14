@@ -1,0 +1,38 @@
+{
+  "Name": "(TTG) Tool and Sprinkler Upgrades",
+  "Author": "ThaleTheGreat",
+  "Version": "2.1.2",
+  "Description": "Adds Cobalt, Prismatic, and Radioactive tool and sprinkler upgrades with configurable tier order, public alternative-tier integration, and optional compatibility features.",
+  "UniqueID": "ThaleTheGreat.ToolAndSprinklerUpgrades",
+  "EntryDll": "ToolAndSprinklerUpgrades.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:47246"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "ThaleTheGreat.WalletTools",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "aedenthorn.ImmersiveSprinklersAndScarecrows",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "aedenthorn.NozzleAndEnricher",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DN.SnS",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "KCC.SnS",
+      "IsRequired": false
+    }
+  ]
+}
