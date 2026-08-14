@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>WalletTools</AssemblyName>
+    <RootNamespace>ThaleTheGreat.WalletTools</RootNamespace>
+    <Version>3.3.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ModFolderName>Wallet Tools</ModFolderName>
+    <EnableHarmony>true</EnableHarmony>
+
+    <AssemblyVersion>3.3.1.0</AssemblyVersion>
+    <FileVersion>3.3.1.0</FileVersion>
+    <InformationalVersion>3.3.1</InformationalVersion>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="i18n\**\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <Target Name="RemoveSourceAssetFoldersFromBuildOutputs" AfterTargets="Build">
+    <RemoveDir Directories="$(TargetDir)assets" />
+    <RemoveDir Directories="$(OutputPath)assets" />
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\$(ModFolderName)\assets" />
+  </Target>
+</Project>

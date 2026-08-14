@@ -1,0 +1,82 @@
+{
+  "Name": "(TTG) Wallet Tools",
+  "Author": "ThaleTheGreat",
+  "Version": "3.3.1",
+  "Description": "Stores vanilla and supported modded tools, the Fashion Sense Hand Mirror, Auto-Petter, Return Scepter, Horse Flute, and optional Timeless Pocket Watch with wallet-based gear loading in one multiplayer-aware wallet system.",
+  "UniqueID": "ThaleTheGreat.WalletTools",
+  "EntryDll": "WalletTools.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:47136"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "aedenthorn.ToolSmartSwitch",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Trapyy.AutomatetoolSwap",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "PeacefulEnd.FashionSense",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "PeacefulEnd.TimelessPocketWatch",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Spiderbuttons.SpecialPowerUtilities",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DIGUS.ANIMALHUSBANDRYMOD",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "ThaleTheGreat.CoinCollectorRedux",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Nature.NatureInTheValley",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Nature.NatureInValleyContent",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DN.SnS",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "KCC.SnS",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Pixeltica.SMAPI.Tool_Bundles",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Pixeltica.Tool_Bundles",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Pathoschild.TractorMod",
+      "IsRequired": false
+    }
+  ]
+}
