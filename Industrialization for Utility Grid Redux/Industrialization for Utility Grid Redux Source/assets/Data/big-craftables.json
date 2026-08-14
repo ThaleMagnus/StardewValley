@@ -1,0 +1,377 @@
+{
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace",
+    "DisplayName": "{{i18n:machine.alternator-e-furnace.name}}",
+    "Description": "{{i18n:machine.alternator-e-furnace.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 0,
+    "ContextTags": [
+      "item_alternatorefurnace"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AutoMiner": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_AutoMiner",
+    "DisplayName": "{{i18n:machine.auto-miner.name}}",
+    "Description": "{{i18n:machine.auto-miner.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 7,
+    "ContextTags": [
+      "item_autominer"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CeramicKiln": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_CeramicKiln",
+    "DisplayName": "{{i18n:machine.ceramic-kiln.name}}",
+    "Description": "{{i18n:machine.ceramic-kiln.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 11,
+    "ContextTags": [
+      "item_ceramickiln"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace",
+    "DisplayName": "{{i18n:machine.chromium-furnace.name}}",
+    "Description": "{{i18n:machine.chromium-furnace.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 18,
+    "ContextTags": [
+      "item_chromiumfurnace"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionGenerator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionGenerator",
+    "DisplayName": "{{i18n:machine.combustion-generator.name}}",
+    "Description": "{{i18n:machine.combustion-generator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 25,
+    "ContextTags": [
+      "item_combustiongenerator"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionMiner": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionMiner",
+    "DisplayName": "{{i18n:machine.combustion-miner.name}}",
+    "Description": "{{i18n:machine.combustion-miner.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 32,
+    "ContextTags": [
+      "item_combustionminer"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace",
+    "DisplayName": "{{i18n:machine.electric-furnace.name}}",
+    "Description": "{{i18n:machine.electric-furnace.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 36,
+    "ContextTags": [
+      "item_powerfurnace"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche",
+    "DisplayName": "{{i18n:machine.garden-cloche.name}}",
+    "Description": "{{i18n:machine.garden-cloche.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 43,
+    "ContextTags": [
+      "item_gardencloche"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher",
+    "DisplayName": "{{i18n:machine.gem-polisher.name}}",
+    "Description": "{{i18n:machine.gem-polisher.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 46,
+    "ContextTags": [
+      "item_gempolisher"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayBin": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayBin",
+    "DisplayName": "{{i18n:machine.hay-bin.name}}",
+    "Description": "{{i18n:machine.hay-bin.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 53,
+    "ContextTags": [
+      "item_haybin"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayRehydrator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayRehydrator",
+    "DisplayName": "{{i18n:machine.hay-rehydrator.name}}",
+    "Description": "{{i18n:machine.hay-rehydrator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 56,
+    "ContextTags": [
+      "item_hayrehydrator"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery",
+    "DisplayName": "{{i18n:machine.industrial-distillery.name}}",
+    "Description": "{{i18n:machine.industrial-distillery.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 59,
+    "ContextTags": [
+      "item_industrialdistillery"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_JojaColaGenerator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_JojaColaGenerator",
+    "DisplayName": "{{i18n:machine.joja-cola-generator.name}}",
+    "Description": "{{i18n:machine.joja-cola-generator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 66,
+    "ContextTags": [
+      "item_jojacolagenerator"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher",
+    "DisplayName": "{{i18n:machine.mineral-washer.name}}",
+    "Description": "{{i18n:machine.mineral-washer.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 76,
+    "ContextTags": [
+      "item_mineralwasher"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PreservativePress": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PreservativePress",
+    "DisplayName": "{{i18n:machine.preservative-press.name}}",
+    "Description": "{{i18n:machine.preservative-press.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 83,
+    "ContextTags": [
+      "item_preservativepress"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer",
+    "DisplayName": "{{i18n:machine.pulverizer.name}}",
+    "Description": "{{i18n:machine.pulverizer.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 90,
+    "ContextTags": [
+      "item_pulverizer"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher",
+    "DisplayName": "{{i18n:machine.rock-crusher.name}}",
+    "Description": "{{i18n:machine.rock-crusher.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 96,
+    "ContextTags": [
+      "item_rockcrusher"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche",
+    "DisplayName": "{{i18n:machine.super-garden-cloche.name}}",
+    "Description": "{{i18n:machine.super-garden-cloche.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 103,
+    "ContextTags": [
+      "item_supergardencloche"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche",
+    "DisplayName": "{{i18n:machine.tree-cloche.name}}",
+    "Description": "{{i18n:machine.tree-cloche.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 106,
+    "ContextTags": [
+      "item_treecloche"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_BatteryCharger": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_BatteryCharger",
+    "DisplayName": "{{i18n:machine.battery-charger.name}}",
+    "Description": "{{i18n:machine.battery-charger.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 109,
+    "ContextTags": [
+      "item_batterycharger"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine",
+    "DisplayName": "{{i18n:machine.chemical-processing-machine.name}}",
+    "Description": "{{i18n:machine.chemical-processing-machine.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 112,
+    "ContextTags": [
+      "item_chemicalprocessingmachine"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator",
+    "DisplayName": "{{i18n:machine.electric-generator.name}}",
+    "Description": "{{i18n:machine.electric-generator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 115,
+    "ContextTags": [
+      "item_powergenerator"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_NuclearGenerator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_NuclearGenerator",
+    "DisplayName": "{{i18n:machine.nuclear-generator.name}}",
+    "Description": "{{i18n:machine.nuclear-generator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 119,
+    "ContextTags": [
+      "item_nucleargenerator"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_OilDrill": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_OilDrill",
+    "DisplayName": "{{i18n:machine.oil-drill.name}}",
+    "Description": "{{i18n:machine.oil-drill.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 123,
+    "ContextTags": [
+      "item_oildrill"
+    ]
+  },
+  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SolarGenerator": {
+    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_SolarGenerator",
+    "DisplayName": "{{i18n:machine.solar-generator.name}}",
+    "Description": "{{i18n:machine.solar-generator.description}}",
+    "Price": 0,
+    "Fragility": 0,
+    "CanBePlacedOutdoors": true,
+    "CanBePlacedIndoors": true,
+    "IsLamp": false,
+    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables",
+    "SpriteIndex": 127,
+    "ContextTags": [
+      "item_solargenerator"
+    ]
+  }
+}
