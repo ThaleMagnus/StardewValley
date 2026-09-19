@@ -286,7 +286,7 @@
   </object>
   <object id="2" name="TileData" x="192" y="80" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_LockedDoor"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_LockedDoor"/>
     <property name="UnlockAction" value="Warp 9 12 FrostDungeon.Branch2"/>
     <property name="UnlockId" value="Branch1"/>
    </properties>

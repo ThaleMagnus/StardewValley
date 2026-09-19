@@ -6,7 +6,7 @@ using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Monsters;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar.Framework
+namespace ThaleMagnus.TheftOfTheWinterStar.Framework
 {
     internal class Beam
     {

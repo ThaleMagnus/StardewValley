@@ -9,7 +9,7 @@ using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar.Patches
+namespace ThaleMagnus.TheftOfTheWinterStar.Patches
 {
     /// <summary>Applies the Tempus Globe planting and season behavior.</summary>
     [SuppressMessage("ReSharper", "InconsistentNaming", Justification = "The parameters are named for Harmony's patch contract.")]

@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.SaloonCover;
+namespace ThaleMagnus.SaloonCover;
 
 internal sealed class ModConfig
 {

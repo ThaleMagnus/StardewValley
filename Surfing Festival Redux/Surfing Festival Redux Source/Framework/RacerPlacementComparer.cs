@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using StardewValley;
 
-namespace ThaleTheGreat.SurfingFestival.Framework
+namespace ThaleMagnus.SurfingFestival.Framework
 {
     internal class RacerPlacementComparer : Comparer<string>
     {

@@ -3,39 +3,39 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveBigKeyA",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveBigKeyA",
             "FromFile": "assets/festive-big-key-a.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveBigKeyB",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveBigKeyB",
             "FromFile": "assets/festive-big-key-b.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveKey",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveKey",
             "FromFile": "assets/festive-key.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FrostyStardropPiece",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/FrostyStardropPiece",
             "FromFile": "assets/frosty-stardrop-piece.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/TempusGlobe",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/TempusGlobe",
             "FromFile": "assets/tempus-globe.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveScepter",
+            "Target": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveScepter",
             "FromFile": "assets/festive-scepter.png"
         },
         {
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "ThaleTheGreat.TheftOfTheWinterStar_FestiveBigKeyA": {
+                "ThaleMagnus.TheftOfTheWinterStar_FestiveBigKeyA": {
                     "Name": "Festive Big Key (A)",
                     "DisplayName": "{{i18n:item.festive-big-key-a.name}}",
                     "Description": "{{i18n:item.festive-big-key-a.description}}",
@@ -44,14 +44,14 @@
                     "Price": 0,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveBigKeyA",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveBigKeyA",
                     "SpriteIndex": 0,
                     "CanBeGivenAsGift": false,
                     "CanBeTrashed": false,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 },
-                "ThaleTheGreat.TheftOfTheWinterStar_FestiveBigKeyB": {
+                "ThaleMagnus.TheftOfTheWinterStar_FestiveBigKeyB": {
                     "Name": "Festive Big Key (B)",
                     "DisplayName": "{{i18n:item.festive-big-key-b.name}}",
                     "Description": "{{i18n:item.festive-big-key-b.description}}",
@@ -60,14 +60,14 @@
                     "Price": 0,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveBigKeyB",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveBigKeyB",
                     "SpriteIndex": 0,
                     "CanBeGivenAsGift": false,
                     "CanBeTrashed": false,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 },
-                "ThaleTheGreat.TheftOfTheWinterStar_FestiveKey": {
+                "ThaleMagnus.TheftOfTheWinterStar_FestiveKey": {
                     "Name": "Festive Key",
                     "DisplayName": "{{i18n:item.festive-key.name}}",
                     "Description": "{{i18n:item.festive-key.description}}",
@@ -76,14 +76,14 @@
                     "Price": 0,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveKey",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveKey",
                     "SpriteIndex": 0,
                     "CanBeGivenAsGift": false,
                     "CanBeTrashed": false,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 },
-                "ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropPiece": {
+                "ThaleMagnus.TheftOfTheWinterStar_FrostyStardropPiece": {
                     "Name": "Frosty Stardrop Piece",
                     "DisplayName": "{{i18n:item.frosty-stardrop-piece.name}}",
                     "Description": "{{i18n:item.frosty-stardrop-piece.description}}",
@@ -92,14 +92,14 @@
                     "Price": 0,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FrostyStardropPiece",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/FrostyStardropPiece",
                     "SpriteIndex": 0,
                     "CanBeGivenAsGift": false,
                     "CanBeTrashed": false,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 },
-                "ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropRecipeToken": {
+                "ThaleMagnus.TheftOfTheWinterStar_FrostyStardropRecipeToken": {
                     "Name": "Frosty Stardrop",
                     "DisplayName": "{{i18n:recipe.frosty-stardrop.name}}",
                     "Description": "{{i18n:item.frosty-stardrop-piece.description}}",
@@ -124,7 +124,7 @@
             "Action": "EditData",
             "Target": "Data/BigCraftables",
             "Entries": {
-                "ThaleTheGreat.TheftOfTheWinterStar_TempusGlobe": {
+                "ThaleMagnus.TheftOfTheWinterStar_TempusGlobe": {
                     "Name": "Tempus Globe",
                     "DisplayName": "{{i18n:item.tempus-globe.name}}",
                     "Description": "{{i18n:item.tempus-globe.description}}",
@@ -133,7 +133,7 @@
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
                     "IsLamp": true,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/TempusGlobe",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/TempusGlobe",
                     "SpriteIndex": 0
                 }
             }
@@ -142,7 +142,7 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "ThaleTheGreat.TheftOfTheWinterStar_FestiveScepter": {
+                "ThaleMagnus.TheftOfTheWinterStar_FestiveScepter": {
                     "Name": "Festive Scepter",
                     "DisplayName": "{{i18n:weapon.festive-scepter.name}}",
                     "Description": "{{i18n:weapon.festive-scepter.description}}",
@@ -151,7 +151,7 @@
                     "MaxDamage": 35,
                     "Knockback": 1.0,
                     "CanBeLostOnDeath": false,
-                    "Texture": "Mods/ThaleTheGreat/TheftOfTheWinterStar/FestiveScepter",
+                    "Texture": "Mods/ThaleMagnus/TheftOfTheWinterStar/FestiveScepter",
                     "SpriteIndex": 0
                 }
             }
@@ -160,23 +160,23 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Frosty Stardrop": "ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropPiece 5/Field/434/false/null/{{i18n:recipe.frosty-stardrop.name}}",
-                "Tempus Globe": "768 25 769 25 645 1/Home/ThaleTheGreat.TheftOfTheWinterStar_TempusGlobe/true/null/{{i18n:item.tempus-globe.name}}"
+                "Frosty Stardrop": "ThaleMagnus.TheftOfTheWinterStar_FrostyStardropPiece 5/Field/434/false/null/{{i18n:recipe.frosty-stardrop.name}}",
+                "Tempus Globe": "768 25 769 25 645 1/Home/ThaleMagnus.TheftOfTheWinterStar_TempusGlobe/true/null/{{i18n:item.tempus-globe.name}}"
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/MuseumRewards",
             "Entries": {
-                "ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropRecipeReward": {
+                "ThaleMagnus.TheftOfTheWinterStar_FrostyStardropRecipeReward": {
                     "TargetContextTags": [
                         {
-                            "Tag": "id_o_ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropPiece",
+                            "Tag": "id_o_ThaleMagnus.TheftOfTheWinterStar_FrostyStardropPiece",
                             "Count": 1
                         }
                     ],
                     "FlagOnCompletion": true,
-                    "RewardItemId": "(O)ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropRecipeToken",
+                    "RewardItemId": "(O)ThaleMagnus.TheftOfTheWinterStar_FrostyStardropRecipeToken",
                     "RewardItemIsRecipe": true
                 }
             }

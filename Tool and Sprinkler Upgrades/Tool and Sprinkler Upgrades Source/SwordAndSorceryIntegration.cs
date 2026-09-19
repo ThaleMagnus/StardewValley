@@ -1,11 +1,11 @@
 using StardewValley.GameData.Tools;
 
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 internal static class SwordAndSorceryIntegration
 {
     public const int AssetEditPriority = 100000;
-    public const string LegacyAddonModId = "ThaleTheGreat.ToolAndSprinklerUpgradesForSwordAndSorcery";
+    public const string LegacyAddonModId = "ThaleMagnus.ToolAndSprinklerUpgradesForSwordAndSorcery";
     public const string ContentModId = "DN.SnS";
     public const string CodeModId = "KCC.SnS";
 

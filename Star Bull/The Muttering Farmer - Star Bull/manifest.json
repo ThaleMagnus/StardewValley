@@ -1,9 +1,9 @@
 {
   "Name": "The Muttering Farmer - Star Bull",
-  "Author": "ThaleTheGreat",
-  "Version": "1.5.1",
+  "Author": "ThaleMagnus",
+  "Version": "1.5.2",
   "Description": "Adds Star Bull specific mutters for The Muttering Farmer.",
-  "UniqueID": "ThaleTheGreat.TMFStarBull",
+  "UniqueID": "ThaleMagnus.TMFStarBull",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:42059"
@@ -18,7 +18,7 @@
       "IsRequired": true
     },
     {
-      "UniqueID": "ThaleTheGreat.StarBull",
+      "UniqueID": "ThaleMagnus.StarBull",
       "IsRequired": true
     }
   ]

@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.SurfingFestival.Framework
+namespace ThaleMagnus.SurfingFestival.Framework
 {
     public enum SurfItem
     {

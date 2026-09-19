@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 
-namespace ThaleTheGreat.SurfingFestival.Framework
+namespace ThaleMagnus.SurfingFestival.Framework
 {
     public sealed class RaceInputMessage
     {

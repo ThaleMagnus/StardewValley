@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar
+namespace ThaleMagnus.TheftOfTheWinterStar
 {
     public static class I18n
     {

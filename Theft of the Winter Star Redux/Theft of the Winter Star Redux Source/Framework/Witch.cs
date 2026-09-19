@@ -8,7 +8,7 @@ using StardewValley.Monsters;
 using StardewValley.Projectiles;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar.Framework
+namespace ThaleMagnus.TheftOfTheWinterStar.Framework
 {
     public class Witch : Monster
     {

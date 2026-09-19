@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Star Bull",
-  "Author": "ThaleTheGreat",
-  "Version": "1.5.2",
+  "Author": "ThaleMagnus",
+  "Version": "1.5.3",
   "Description": "Adds Red Bull energy drinks, a themed hat, and a themed vending machine.",
-  "UniqueID": "ThaleTheGreat.StarBull",
+  "UniqueID": "ThaleMagnus.StarBull",
   "EntryDll": "StarBull.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

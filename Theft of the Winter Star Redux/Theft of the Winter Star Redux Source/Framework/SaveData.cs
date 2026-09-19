@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar.Framework
+namespace ThaleMagnus.TheftOfTheWinterStar.Framework
 {
     internal class SaveData
     {

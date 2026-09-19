@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using StardewValley;
 
-namespace ThaleTheGreat.SurfingFestival.Framework
+namespace ThaleMagnus.SurfingFestival.Framework
 {
     public class Obstacle
     {

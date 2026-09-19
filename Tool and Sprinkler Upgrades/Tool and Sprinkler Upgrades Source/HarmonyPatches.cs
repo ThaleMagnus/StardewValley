@@ -7,7 +7,7 @@ using StardewValley.Tools;
 using StardewValley.TerrainFeatures;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 internal static class CustomPanAnimationPatch
 {

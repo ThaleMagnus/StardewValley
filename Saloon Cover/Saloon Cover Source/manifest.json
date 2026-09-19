@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Saloon Cover",
-  "Author": "ThaleTheGreat",
-  "Version": "2.1.1",
+  "Author": "ThaleMagnus",
+  "Version": "2.1.2",
   "Description": "Adds a bouncer inside the Stardrop Saloon with configurable cover charge time, price, and days.",
-  "UniqueID": "ThaleTheGreat.SaloonCover",
+  "UniqueID": "ThaleMagnus.SaloonCover",
   "EntryDll": "SaloonCover.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

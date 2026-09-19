@@ -1,7 +1,7 @@
 using System;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.SaloonCover;
+namespace ThaleMagnus.SaloonCover;
 
 public interface IGenericModConfigMenuApi
 {

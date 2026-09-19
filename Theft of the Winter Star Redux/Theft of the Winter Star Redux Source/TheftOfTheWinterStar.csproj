@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>TheftOfTheWinterStar</AssemblyName>
-    <RootNamespace>ThaleTheGreat.TheftOfTheWinterStar</RootNamespace>
+    <RootNamespace>ThaleMagnus.TheftOfTheWinterStar</RootNamespace>
     <Version>1.1.1</Version>
     <ModFolderName>Theft of the Winter Star Redux</ModFolderName>
     <EnableModDeploy>true</EnableModDeploy>

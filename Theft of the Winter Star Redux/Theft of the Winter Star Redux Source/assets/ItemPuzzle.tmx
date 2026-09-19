@@ -341,17 +341,17 @@
   </object>
   <object id="13" name="TileData" x="96" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_ItemPuzzle 84 FrostDungeon.Bonus2"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_ItemPuzzle 84 FrostDungeon.Bonus2"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="176" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_ItemPuzzle 768 FrostDungeon.KeyRoom"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_ItemPuzzle 768 FrostDungeon.KeyRoom"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="208" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_ItemPuzzle 769 FrostDungeon.WeaponRoom"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_ItemPuzzle 769 FrostDungeon.WeaponRoom"/>
    </properties>
   </object>
  </objectgroup>

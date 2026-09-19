@@ -23,14 +23,14 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 
 #nullable disable
-namespace ThaleTheGreat.StarBull;
+namespace ThaleMagnus.StarBull;
 
 internal sealed class ModEntry : Mod
 {
-  private const string EmbeddedRoot = "ThaleTheGreat.StarBull.Resources.";
+  private const string EmbeddedRoot = "ThaleMagnus.StarBull.Resources.";
   private const string ContentJsonPath = "content.json";
-  private const string VendingMachineFurnitureId = "ThaleTheGreat.StarBull_VendingMachine";
-  private const string VendingMachineMailFlag = "ThaleTheGreat.StarBull_VendingMachineReceived";
+  private const string VendingMachineFurnitureId = "ThaleMagnus.StarBull_VendingMachine";
+  private const string VendingMachineMailFlag = "ThaleMagnus.StarBull_VendingMachineReceived";
   private readonly Dictionary<string, string> _loadMap = new Dictionary<string, string>((IEqualityComparer<string>) StringComparer.OrdinalIgnoreCase);
   private readonly Dictionary<string, List<ModEntry.EditOp>> _editOpsByTarget = new Dictionary<string, List<ModEntry.EditOp>>((IEqualityComparer<string>) StringComparer.OrdinalIgnoreCase);
   private ModConfig _config = new ModConfig();
@@ -242,7 +242,7 @@ internal sealed class ModEntry : Mod
         }
         if (!e.NameWithoutLocale.BaseName.Equals("Data/Furniture", StringComparison.OrdinalIgnoreCase))
           return;
-        e.Edit((Action<IAssetData>) (asset => ((IAssetData<IDictionary<string, string>>) asset.AsDictionary<string, string>()).Data["ThaleTheGreat.StarBull_VendingMachine"] = $"StarBullVendingMachine/other/1 2/1 1/1/0/2/{this.T("furniture.vending-machine.name")}/0/{this.VendingMachineTexture}/true/starbull vending_machine"), (AssetEditPriority) 0, (string) null);
+        e.Edit((Action<IAssetData>) (asset => ((IAssetData<IDictionary<string, string>>) asset.AsDictionary<string, string>()).Data["ThaleMagnus.StarBull_VendingMachine"] = $"StarBullVendingMachine/other/1 2/1 1/1/0/2/{this.T("furniture.vending-machine.name")}/0/{this.VendingMachineTexture}/true/starbull vending_machine"), (AssetEditPriority) 0, (string) null);
       }
     }
   }
@@ -251,10 +251,10 @@ internal sealed class ModEntry : Mod
   {
     try
     {
-      if (!GameStateQuery.CheckConditions("ANY \"IS_COMMUNITY_CENTER_COMPLETE\" \"IS_JOJA_MART_COMPLETE\"", (GameLocation) null, Game1.player, (Item) null, (Item) null, (Random) null, (HashSet<string>) null) || ((NetHashSet<string>) Game1.player.mailReceived).Contains("ThaleTheGreat.StarBull_VendingMachineReceived"))
+      if (!GameStateQuery.CheckConditions("ANY \"IS_COMMUNITY_CENTER_COMPLETE\" \"IS_JOJA_MART_COMPLETE\"", (GameLocation) null, Game1.player, (Item) null, (Item) null, (Random) null, (HashSet<string>) null) || ((NetHashSet<string>) Game1.player.mailReceived).Contains("ThaleMagnus.StarBull_VendingMachineReceived"))
         return;
-      Game1.player.addItemByMenuIfNecessary(ItemRegistry.Create("(F)ThaleTheGreat.StarBull_VendingMachine", 1, 0, false), (ItemGrabMenu.behaviorOnItemSelect) null, false);
-      ((NetHashSet<string>) Game1.player.mailReceived).Add("ThaleTheGreat.StarBull_VendingMachineReceived");
+      Game1.player.addItemByMenuIfNecessary(ItemRegistry.Create("(F)ThaleMagnus.StarBull_VendingMachine", 1, 0, false), (ItemGrabMenu.behaviorOnItemSelect) null, false);
+      ((NetHashSet<string>) Game1.player.mailReceived).Add("ThaleMagnus.StarBull_VendingMachineReceived");
       Game1.addHUDMessage(new HUDMessage(this.T("message.vending-delivered"), 2));
       this.Log("Delivered Star Bull vending machine.");
     }
@@ -291,7 +291,7 @@ internal sealed class ModEntry : Mod
     {
       return;
     }
-    if (furniture == null || !string.Equals(((Item) furniture).ItemId, "ThaleTheGreat.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase))
+    if (furniture == null || !string.Equals(((Item) furniture).ItemId, "ThaleMagnus.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase))
       return;
     this.Helper.Input.Suppress(e.Button);
     try
@@ -309,14 +309,14 @@ internal sealed class ModEntry : Mod
     int totalDays = Game1.Date.TotalDays;
     string s;
     int result;
-    if (((NetDictionary<string, string, NetString, SerializableDictionary<string, string>, NetStringDictionary<string, NetString>>) ((Character) Game1.player).modData).TryGetValue("ThaleTheGreat.StarBull/VendClaimDay", out s) && int.TryParse(s, out result) && result == totalDays)
+    if (((NetDictionary<string, string, NetString, SerializableDictionary<string, string>, NetStringDictionary<string, NetString>>) ((Character) Game1.player).modData).TryGetValue("ThaleMagnus.StarBull/VendClaimDay", out s) && int.TryParse(s, out result) && result == totalDays)
     {
       Game1.playSound("cancel", new int?());
       Game1.addHUDMessage(new HUDMessage(this.T("message.vending-empty"), 3));
     }
     else
     {
-      ((NetDictionary<string, string, NetString, SerializableDictionary<string, string>, NetStringDictionary<string, NetString>>) ((Character) Game1.player).modData)["ThaleTheGreat.StarBull/VendClaimDay"] = totalDays.ToString();
+      ((NetDictionary<string, string, NetString, SerializableDictionary<string, string>, NetStringDictionary<string, NetString>>) ((Character) Game1.player).modData)["ThaleMagnus.StarBull/VendClaimDay"] = totalDays.ToString();
       string[] strArray = new string[3]
       {
         $"(O){this.ModManifest.UniqueID}_Original",
@@ -587,7 +587,7 @@ internal sealed class ModEntry : Mod
       this.Log($"Easy Mode shop open detected: npc='{name ?? ""}', shopId='{str2 ?? ""}', storeContext='{str1 ?? ""}'", (LogLevel) 0);
       if (flag1)
       {
-        Item obj = ItemRegistry.Create("(F)ThaleTheGreat.StarBull_VendingMachine", 1, 0, false);
+        Item obj = ItemRegistry.Create("(F)ThaleMagnus.StarBull_VendingMachine", 1, 0, false);
         this.InjectShopItem(newMenu, obj, 10000, -1);
         this.Log("Easy Mode: injected Star Bull vending machine into Robin's shop.", (LogLevel) 0);
       }
@@ -765,7 +765,7 @@ internal sealed class ModEntry : Mod
       {
         foreach (Item obj in Game1.player.Items)
         {
-          if (obj != null && string.Equals(obj.QualifiedItemId, "(F)ThaleTheGreat.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase))
+          if (obj != null && string.Equals(obj.QualifiedItemId, "(F)ThaleMagnus.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase))
             return true;
         }
       }
@@ -773,7 +773,7 @@ internal sealed class ModEntry : Mod
       {
         foreach (Furniture furniture in location.furniture)
         {
-          if (furniture != null && (string.Equals(((Item) furniture).QualifiedItemId, "(F)ThaleTheGreat.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase) || string.Equals(((Item) furniture).ItemId, "ThaleTheGreat.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase)))
+          if (furniture != null && (string.Equals(((Item) furniture).QualifiedItemId, "(F)ThaleMagnus.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase) || string.Equals(((Item) furniture).ItemId, "ThaleMagnus.StarBull_VendingMachine", StringComparison.OrdinalIgnoreCase)))
             return true;
         }
       }
@@ -957,7 +957,7 @@ internal sealed class ModEntry : Mod
   {
     string str1 = relativePath.Replace('\\', '/').TrimStart('/');
     Assembly assembly = typeof (ModEntry).Assembly;
-    string str2 = "ThaleTheGreat.StarBull.Resources." + str1.Replace('/', '.');
+    string str2 = "ThaleMagnus.StarBull.Resources." + str1.Replace('/', '.');
     Stream manifestResourceStream = assembly.GetManifestResourceStream(str2);
     if (manifestResourceStream != null)
       return manifestResourceStream;

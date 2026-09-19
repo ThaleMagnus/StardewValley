@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 internal sealed class ModConfig
 {

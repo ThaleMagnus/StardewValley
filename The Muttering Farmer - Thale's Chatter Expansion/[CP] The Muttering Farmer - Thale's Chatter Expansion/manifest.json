@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) The Muttering Farmer - Thale's Chatter Expansion",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.3",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.4",
   "Description": "Adds a large amount of chatter for The Muttering Farmer.",
-  "UniqueID": "ThaleTheGreat.TheMutteringFarmerThalesChatterExpansion",
+  "UniqueID": "ThaleMagnus.TheMutteringFarmerThalesChatterExpansion",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:46884"

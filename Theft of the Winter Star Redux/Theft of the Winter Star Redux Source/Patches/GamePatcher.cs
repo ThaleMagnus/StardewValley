@@ -5,7 +5,7 @@ using Spacechase.Shared.Patching;
 using StardewModdingAPI;
 using StardewValley;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar.Patches
+namespace ThaleMagnus.TheftOfTheWinterStar.Patches
 {
     internal sealed class GamePatcher : BasePatcher
     {

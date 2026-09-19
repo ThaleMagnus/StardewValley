@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 public interface IGenericModConfigMenuApi
 {

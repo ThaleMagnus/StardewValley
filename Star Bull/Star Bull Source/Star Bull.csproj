@@ -7,7 +7,7 @@
     <Version>1.5.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <AssemblyName>StarBull</AssemblyName>
-    <RootNamespace>ThaleTheGreat.StarBull</RootNamespace>
+    <RootNamespace>ThaleMagnus.StarBull</RootNamespace>
     <LangVersion>10.0</LangVersion>
     <Nullable>disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>

@@ -1501,14 +1501,14 @@
     },
     {
       "Action": "Load",
-      "Target": "ThaleTheGreat.StarBull_RedBullHatTex",
+      "Target": "ThaleMagnus.StarBull_RedBullHatTex",
       "FromFile": "assets/redbull_hat.png"
     },
     {
       "Action": "EditData",
       "Target": "Data/Hats",
       "Entries": {
-        "{{ModId}}_RedBullHat": "{{ModId}}_RedBullHat/{{i18n:hat.red-bull.description}}/false/false//{{i18n:hat.red-bull.name}}/0/ThaleTheGreat.StarBull_RedBullHatTex"
+        "{{ModId}}_RedBullHat": "{{ModId}}_RedBullHat/{{i18n:hat.red-bull.description}}/false/false//{{i18n:hat.red-bull.name}}/0/ThaleMagnus.StarBull_RedBullHatTex"
       }
     },
     {

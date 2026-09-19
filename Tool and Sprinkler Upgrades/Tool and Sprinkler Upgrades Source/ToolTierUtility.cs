@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Tools;
 
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 internal enum UpgradeIdentity
 {

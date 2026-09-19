@@ -10,27 +10,27 @@ using StardewValley;
 using StardewValley.BellsAndWhistles;
 using StardewValley.Menus;
 using StardewValley.Pathfinding;
-using ThaleTheGreat.SurfingFestival.Framework;
-using ThaleTheGreat.SurfingFestival.Patches;
+using ThaleMagnus.SurfingFestival.Framework;
+using ThaleMagnus.SurfingFestival.Patches;
 using xTile;
 using xTile.Layers;
 using xTile.Tiles;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.SurfingFestival
+namespace ThaleMagnus.SurfingFestival
 {
     public class Mod : StardewModdingAPI.Mod
     {
         public static Mod Instance { get; private set; } = null!;
 
         public const int SurfSpeed = 8;
-        public const string ShopId = "ThaleTheGreat.SurfingFestival_Shop";
-        public const string TrophyId = "ThaleTheGreat.SurfingFestival_SurfingTrophy";
-        public const string InvitationMailId = "ThaleTheGreat.SurfingFestival_Invitation";
-        private const string InvitationYearKey = "ThaleTheGreat.SurfingFestival/InvitationYear";
-        private const string BonfireAction = "ThaleTheGreat.SurfingFestival_Bonfire";
-        private const string SecretOfferingAction = "ThaleTheGreat.SurfingFestival_SecretOffering";
-        internal const string HostMessageKey = "Strings\\StringsFromCSFiles:ThaleTheGreat.SurfingFestival.HostMessage";
+        public const string ShopId = "ThaleMagnus.SurfingFestival_Shop";
+        public const string TrophyId = "ThaleMagnus.SurfingFestival_SurfingTrophy";
+        public const string InvitationMailId = "ThaleMagnus.SurfingFestival_Invitation";
+        private const string InvitationYearKey = "ThaleMagnus.SurfingFestival/InvitationYear";
+        private const string BonfireAction = "ThaleMagnus.SurfingFestival_Bonfire";
+        private const string SecretOfferingAction = "ThaleMagnus.SurfingFestival_SecretOffering";
+        internal const string HostMessageKey = "Strings\\StringsFromCSFiles:ThaleMagnus.SurfingFestival.HostMessage";
 
         internal static BonfireState PlayerDidBonfire = BonfireState.NotDone;
         public static List<string> Racers = new();
@@ -121,7 +121,7 @@ namespace ThaleTheGreat.SurfingFestival
             {
                 e.Edit(asset =>
                 {
-                    asset.AsDictionary<string, string>().Data["ThaleTheGreat.SurfingFestival.HostMessage"] =
+                    asset.AsDictionary<string, string>().Data["ThaleMagnus.SurfingFestival.HostMessage"] =
                         $"$q -1 null#{I18n.Race_Start_Question()}#$r -1 0 yes#{I18n.Race_Start_Yes()}#$r -1 0 no#{I18n.Race_Start_No()}";
                 });
             }
@@ -1240,7 +1240,7 @@ namespace ThaleTheGreat.SurfingFestival
                     who.removeItemFromInventory(item);
                     Mod.PlayerDidBonfire |= BonfireState.Shorts;
                     if (Game1.getCharacterFromName("Lewis") is NPC lewis)
-                        Game1.activeClickableMenu = new DialogueBox(new Dialogue(lewis, "ThaleTheGreat.SurfingFestival_BonfireShorts", I18n.Dialog_Shorts()));
+                        Game1.activeClickableMenu = new DialogueBox(new Dialogue(lewis, "ThaleMagnus.SurfingFestival_BonfireShorts", I18n.Dialog_Shorts()));
                     else
                         Game1.drawObjectDialogue(I18n.Dialog_Shorts());
                     Game1.playSound("fireball");
@@ -1281,7 +1281,7 @@ namespace ThaleTheGreat.SurfingFestival
 
         private bool OnSecretOfferingAction(GameLocation location, string[] args, Farmer farmer, Point position)
         {
-            if (farmer != Game1.player || farmer.hasOrWillReceiveMail("ThaleTheGreat.SurfingFestival_Offering"))
+            if (farmer != Game1.player || farmer.hasOrWillReceiveMail("ThaleMagnus.SurfingFestival_Offering"))
                 return true;
 
             Response[] answers =
@@ -1297,7 +1297,7 @@ namespace ThaleTheGreat.SurfingFestival
 
                 if (who.Money >= 100000)
                 {
-                    who.mailReceived.Add("ThaleTheGreat.SurfingFestival_Offering");
+                    who.mailReceived.Add("ThaleMagnus.SurfingFestival_Offering");
                     Game1.drawObjectDialogue(I18n.Secret_Purchased());
                 }
                 else
@@ -1520,7 +1520,7 @@ namespace ThaleTheGreat.SurfingFestival
                 if (!racerName.StartsWith("farmer"))
                     Mod.RacerState[racerName].AddedSpeed += 1;
                 // Farmer's do if they paid the secret offering
-                else if (GetFarmerByRacerName(racerName)?.hasOrWillReceiveMail("ThaleTheGreat.SurfingFestival_Offering") == true)
+                else if (GetFarmerByRacerName(racerName)?.hasOrWillReceiveMail("ThaleMagnus.SurfingFestival_Offering") == true)
                     Mod.RacerState[racerName].AddedSpeed += 2;
             }
 
@@ -1592,9 +1592,9 @@ namespace ThaleTheGreat.SurfingFestival
         {
             if (Mod.RaceWinner == "farmer" + Utility.getFarmerNumberFromFarmer(Game1.player))
             {
-                if (!Game1.player.mailReceived.Contains("ThaleTheGreat.SurfingFestival_Winner"))
+                if (!Game1.player.mailReceived.Contains("ThaleMagnus.SurfingFestival_Winner"))
                 {
-                    Game1.player.mailReceived.Add("ThaleTheGreat.SurfingFestival_Winner");
+                    Game1.player.mailReceived.Add("ThaleMagnus.SurfingFestival_Winner");
                     Game1.player.addItemByMenuIfNecessary(ItemRegistry.Create<SObject>($"(BC){TrophyId}"));
                 }
 

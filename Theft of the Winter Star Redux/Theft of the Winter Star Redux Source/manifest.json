@@ -1,9 +1,9 @@
 {
     "Name": "(TTG) Theft of the Winter Star Redux",
-    "Author": "ThaleTheGreat",
-    "Version": "1.1.1",
+    "Author": "ThaleMagnus",
+    "Version": "1.1.2",
     "Description": "Adds a winter dungeon quest before the Feast of the Winter Star and the late-game Tempus Globe reward.",
-    "UniqueID": "ThaleTheGreat.TheftOfTheWinterStar",
+    "UniqueID": "ThaleMagnus.TheftOfTheWinterStar",
     "EntryDll": "TheftOfTheWinterStar.dll",
     "MinimumApiVersion": "4.5.2",
     "MinimumGameVersion": "1.6.15",

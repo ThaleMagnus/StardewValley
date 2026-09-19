@@ -6,7 +6,7 @@ using SpaceShared;
 using StardewModdingAPI;
 using StardewValley;
 
-namespace ThaleTheGreat.SurfingFestival.Patches
+namespace ThaleMagnus.SurfingFestival.Patches
 {
     /// <summary>Applies Harmony patches to <see cref="Event"/>.</summary>
     [SuppressMessage("ReSharper", "InconsistentNaming", Justification = "The parameter is named for Harmony's patch contract.")]

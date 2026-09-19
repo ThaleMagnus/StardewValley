@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 internal sealed record AlternativeCoreToolTierRegistration(
     string OwnerModId,

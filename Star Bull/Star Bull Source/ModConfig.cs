@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.StarBull;
+namespace ThaleMagnus.StarBull;
 
 internal sealed class ModConfig
 {

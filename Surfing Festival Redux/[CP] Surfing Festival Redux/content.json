@@ -3,77 +3,77 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardBrown",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardBrown",
             "FromFile": "assets/surfboard-brown.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardCool",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardCool",
             "FromFile": "assets/surfboard-cool.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardHibiscus",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardHibiscus",
             "FromFile": "assets/surfboard-hibiscus.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardRed",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardRed",
             "FromFile": "assets/surfboard-red.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardStripe",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardStripe",
             "FromFile": "assets/surfboard-stripe.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfboardWhite",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfboardWhite",
             "FromFile": "assets/surfboard-white.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfingTrophy",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfingTrophy",
             "FromFile": "assets/surfing-trophy.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelBlack",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelBlack",
             "FromFile": "assets/snorkel-black.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelBlue",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelBlue",
             "FromFile": "assets/snorkel-blue.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelGreen",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelGreen",
             "FromFile": "assets/snorkel-green.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelOrange",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelOrange",
             "FromFile": "assets/snorkel-orange.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelPink",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelPink",
             "FromFile": "assets/snorkel-pink.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SnorkelRed",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SnorkelRed",
             "FromFile": "assets/snorkel-red.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/CheapAmulet",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/CheapAmulet",
             "FromFile": "assets/cheap-amulet.png"
         },
         {
             "Action": "EditImage",
-            "Target": "Mods/ThaleTheGreat/SurfingFestival/SurfingTrophy",
+            "Target": "Mods/ThaleMagnus/SurfingFestival/SurfingTrophy",
             "FromFile": "assets/surfing-trophy-animated.png",
             "FromArea": {
                 "X": 0,
@@ -94,7 +94,7 @@
             "Action": "EditData",
             "Target": "Data/BigCraftables",
             "Entries": {
-                "ThaleTheGreat.SurfingFestival_BrownSurfboard": {
+                "ThaleMagnus.SurfingFestival_BrownSurfboard": {
                     "Name": "Brown Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-brown.name}}",
                     "Description": "{{i18n:craftables.surfboard-brown.description}}",
@@ -102,14 +102,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardBrown",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardBrown",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_CoolSurfboard": {
+                "ThaleMagnus.SurfingFestival_CoolSurfboard": {
                     "Name": "Cool Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-cool.name}}",
                     "Description": "{{i18n:craftables.surfboard-cool.description}}",
@@ -117,14 +117,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardCool",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardCool",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_HibiscusSurfboard": {
+                "ThaleMagnus.SurfingFestival_HibiscusSurfboard": {
                     "Name": "Hibiscus Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-hibiscus.name}}",
                     "Description": "{{i18n:craftables.surfboard-hibiscus.description}}",
@@ -132,14 +132,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardHibiscus",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardHibiscus",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_RedSurfboard": {
+                "ThaleMagnus.SurfingFestival_RedSurfboard": {
                     "Name": "Red Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-red.name}}",
                     "Description": "{{i18n:craftables.surfboard-red.description}}",
@@ -147,14 +147,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardRed",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardRed",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_StripeSurfboard": {
+                "ThaleMagnus.SurfingFestival_StripeSurfboard": {
                     "Name": "Stripe Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-stripe.name}}",
                     "Description": "{{i18n:craftables.surfboard-stripe.description}}",
@@ -162,14 +162,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardStripe",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardStripe",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_WhiteSurfboard": {
+                "ThaleMagnus.SurfingFestival_WhiteSurfboard": {
                     "Name": "White Surfboard (Scarecrow)",
                     "DisplayName": "{{i18n:craftables.surfboard-white.name}}",
                     "Description": "{{i18n:craftables.surfboard-white.description}}",
@@ -177,14 +177,14 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfboardWhite",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfboardWhite",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "crow_scare",
                         "crow_scare_radius_9"
                     ]
                 },
-                "ThaleTheGreat.SurfingFestival_SurfingTrophy": {
+                "ThaleMagnus.SurfingFestival_SurfingTrophy": {
                     "Name": "Surfing Trophy",
                     "DisplayName": "{{i18n:craftables.surfing-trophy.name}}",
                     "Description": "{{i18n:craftables.surfing-trophy.description}}",
@@ -192,7 +192,7 @@
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/SurfingTrophy",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/SurfingTrophy",
                     "SpriteIndex": 0
                 }
             }
@@ -201,7 +201,7 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "ThaleTheGreat.SurfingFestival_CheapAmulet": {
+                "ThaleMagnus.SurfingFestival_CheapAmulet": {
                     "Name": "Cheap Amulet?",
                     "DisplayName": "{{i18n:items.cheap-amulet.name}}",
                     "Description": "{{i18n:items.cheap-amulet.description}}",
@@ -210,7 +210,7 @@
                     "Price": 50,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Texture": "Mods/ThaleTheGreat/SurfingFestival/CheapAmulet",
+                    "Texture": "Mods/ThaleMagnus/SurfingFestival/CheapAmulet",
                     "SpriteIndex": 0,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
@@ -221,95 +221,95 @@
             "Action": "EditData",
             "Target": "Data/Hats",
             "Entries": {
-                "ThaleTheGreat.SurfingFestival_BlackSnorkelMask": "Black Snorkel Mask/{{i18n:hats.snorkel-mask-black.description}}/true/true//{{i18n:hats.snorkel-mask-black.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelBlack",
-                "ThaleTheGreat.SurfingFestival_BlueSnorkelMask": "Blue Snorkel Mask/{{i18n:hats.snorkel-mask-blue.description}}/true/true//{{i18n:hats.snorkel-mask-blue.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelBlue",
-                "ThaleTheGreat.SurfingFestival_GreenSnorkelMask": "Green Snorkel Mask/{{i18n:hats.snorkel-mask-green.description}}/true/true//{{i18n:hats.snorkel-mask-green.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelGreen",
-                "ThaleTheGreat.SurfingFestival_OrangeSnorkelMask": "Orange Snorkel Mask/{{i18n:hats.snorkel-mask-orange.description}}/true/true//{{i18n:hats.snorkel-mask-orange.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelOrange",
-                "ThaleTheGreat.SurfingFestival_PinkSnorkelMask": "Pink Snorkel Mask/{{i18n:hats.snorkel-mask-pink.description}}/true/true//{{i18n:hats.snorkel-mask-pink.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelPink",
-                "ThaleTheGreat.SurfingFestival_RedSnorkelMask": "Red Snorkel Mask/{{i18n:hats.snorkel-mask-red.description}}/true/true//{{i18n:hats.snorkel-mask-red.name}}/0/Mods\\ThaleTheGreat\\SurfingFestival\\SnorkelRed"
+                "ThaleMagnus.SurfingFestival_BlackSnorkelMask": "Black Snorkel Mask/{{i18n:hats.snorkel-mask-black.description}}/true/true//{{i18n:hats.snorkel-mask-black.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelBlack",
+                "ThaleMagnus.SurfingFestival_BlueSnorkelMask": "Blue Snorkel Mask/{{i18n:hats.snorkel-mask-blue.description}}/true/true//{{i18n:hats.snorkel-mask-blue.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelBlue",
+                "ThaleMagnus.SurfingFestival_GreenSnorkelMask": "Green Snorkel Mask/{{i18n:hats.snorkel-mask-green.description}}/true/true//{{i18n:hats.snorkel-mask-green.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelGreen",
+                "ThaleMagnus.SurfingFestival_OrangeSnorkelMask": "Orange Snorkel Mask/{{i18n:hats.snorkel-mask-orange.description}}/true/true//{{i18n:hats.snorkel-mask-orange.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelOrange",
+                "ThaleMagnus.SurfingFestival_PinkSnorkelMask": "Pink Snorkel Mask/{{i18n:hats.snorkel-mask-pink.description}}/true/true//{{i18n:hats.snorkel-mask-pink.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelPink",
+                "ThaleMagnus.SurfingFestival_RedSnorkelMask": "Red Snorkel Mask/{{i18n:hats.snorkel-mask-red.description}}/true/true//{{i18n:hats.snorkel-mask-red.name}}/0/Mods\\ThaleMagnus\\SurfingFestival\\SnorkelRed"
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
-                "ThaleTheGreat.SurfingFestival_Shop": {
+                "ThaleMagnus.SurfingFestival_Shop": {
                     "Items": [
                         {
                             "Id": "CheapAmulet",
-                            "ItemId": "(O)ThaleTheGreat.SurfingFestival_CheapAmulet",
+                            "ItemId": "(O)ThaleMagnus.SurfingFestival_CheapAmulet",
                             "Price": 50,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "BrownSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_BrownSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_BrownSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "CoolSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_CoolSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_CoolSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "HibiscusSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_HibiscusSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_HibiscusSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "RedSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_RedSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_RedSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "StripeSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_StripeSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_StripeSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "WhiteSurfboard",
-                            "ItemId": "(BC)ThaleTheGreat.SurfingFestival_WhiteSurfboard",
+                            "ItemId": "(BC)ThaleMagnus.SurfingFestival_WhiteSurfboard",
                             "Price": 2500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "BlackSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_BlackSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_BlackSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "BlueSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_BlueSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_BlueSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "GreenSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_GreenSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_GreenSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "OrangeSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_OrangeSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_OrangeSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "PinkSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_PinkSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_PinkSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         },
                         {
                             "Id": "RedSnorkelMask",
-                            "ItemId": "(H)ThaleTheGreat.SurfingFestival_RedSnorkelMask",
+                            "ItemId": "(H)ThaleMagnus.SurfingFestival_RedSnorkelMask",
                             "Price": 500,
                             "ApplyProfitMargins": false
                         }
@@ -321,7 +321,7 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "ThaleTheGreat.SurfingFestival_Invitation": "{{i18n:SurfingFestival.text}}"
+                "ThaleMagnus.SurfingFestival_Invitation": "{{i18n:SurfingFestival.text}}"
             }
         }
     ]

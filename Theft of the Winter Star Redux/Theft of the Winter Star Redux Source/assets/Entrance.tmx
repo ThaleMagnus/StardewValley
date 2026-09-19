@@ -281,7 +281,7 @@
  <objectgroup id="4" name="Buildings">
   <object id="1" name="TileData" x="112" y="80" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_LockedDoor"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_LockedDoor"/>
     <property name="UnlockAction" value="Warp 9 12 FrostDungeon.Branch1"/>
     <property name="UnlockId" value="Entrance"/>
    </properties>

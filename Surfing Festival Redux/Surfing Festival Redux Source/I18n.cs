@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.SurfingFestival
+namespace ThaleMagnus.SurfingFestival
 {
     public static class I18n
     {

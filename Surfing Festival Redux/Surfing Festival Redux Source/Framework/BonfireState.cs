@@ -1,6 +1,6 @@
 using System;
 
-namespace ThaleTheGreat.SurfingFestival.Framework
+namespace ThaleMagnus.SurfingFestival.Framework
 {
     [Flags]
     internal enum BonfireState

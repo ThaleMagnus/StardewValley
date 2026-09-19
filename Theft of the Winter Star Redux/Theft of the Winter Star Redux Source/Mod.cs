@@ -22,8 +22,8 @@ using StardewValley.Projectiles;
 using StardewValley.TerrainFeatures;
 using StardewValley.Tools;
 
-using ThaleTheGreat.TheftOfTheWinterStar.Framework;
-using ThaleTheGreat.TheftOfTheWinterStar.Patches;
+using ThaleMagnus.TheftOfTheWinterStar.Framework;
+using ThaleMagnus.TheftOfTheWinterStar.Patches;
 
 using xTile;
 using xTile.Layers;
@@ -31,7 +31,7 @@ using xTile.Tiles;
 
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.TheftOfTheWinterStar
+namespace ThaleMagnus.TheftOfTheWinterStar
 {
     /// <summary>The mod entry class.</summary>
     public class Mod : StardewModdingAPI.Mod
@@ -40,22 +40,22 @@ namespace ThaleTheGreat.TheftOfTheWinterStar
         ** Fields
         *********/
         private const int CurrentSaveDataVersion = 2;
-        private const string LegacyEventId = "ThaleTheGreat.TheftOfTheWinterStar_Intro";
-        private const string EventIdPrefix = "ThaleTheGreat.TheftOfTheWinterStar_Intro.Year";
-        private const string SaveDataKey = "ThaleTheGreat.TheftOfTheWinterStar.SaveData";
-        public const string FestiveBigKeyAId = "ThaleTheGreat.TheftOfTheWinterStar_FestiveBigKeyA";
-        public const string FestiveBigKeyBId = "ThaleTheGreat.TheftOfTheWinterStar_FestiveBigKeyB";
-        public const string FestiveKeyId = "ThaleTheGreat.TheftOfTheWinterStar_FestiveKey";
-        public const string FrostyStardropPieceId = "ThaleTheGreat.TheftOfTheWinterStar_FrostyStardropPiece";
-        public const string TempusGlobeId = "ThaleTheGreat.TheftOfTheWinterStar_TempusGlobe";
-        public const string FestiveScepterId = "ThaleTheGreat.TheftOfTheWinterStar_FestiveScepter";
-        private const string LockFlagPrefix = "ThaleTheGreat.TheftOfTheWinterStar_Lock.";
-        private const string LockedDoorAction = "ThaleTheGreat.TheftOfTheWinterStar_LockedDoor";
-        private const string ActivateArenaAction = "ThaleTheGreat.TheftOfTheWinterStar_ActivateArena";
-        private const string ItemPuzzleAction = "ThaleTheGreat.TheftOfTheWinterStar_ItemPuzzle";
-        private const string BossKeyHalfAction = "ThaleTheGreat.TheftOfTheWinterStar_BossKeyHalf";
-        private const string MovableAction = "ThaleTheGreat.TheftOfTheWinterStar_Movable";
-        private const string BossPresentAction = "ThaleTheGreat.TheftOfTheWinterStar_BossPresent";
+        private const string LegacyEventId = "ThaleMagnus.TheftOfTheWinterStar_Intro";
+        private const string EventIdPrefix = "ThaleMagnus.TheftOfTheWinterStar_Intro.Year";
+        private const string SaveDataKey = "ThaleMagnus.TheftOfTheWinterStar.SaveData";
+        public const string FestiveBigKeyAId = "ThaleMagnus.TheftOfTheWinterStar_FestiveBigKeyA";
+        public const string FestiveBigKeyBId = "ThaleMagnus.TheftOfTheWinterStar_FestiveBigKeyB";
+        public const string FestiveKeyId = "ThaleMagnus.TheftOfTheWinterStar_FestiveKey";
+        public const string FrostyStardropPieceId = "ThaleMagnus.TheftOfTheWinterStar_FrostyStardropPiece";
+        public const string TempusGlobeId = "ThaleMagnus.TheftOfTheWinterStar_TempusGlobe";
+        public const string FestiveScepterId = "ThaleMagnus.TheftOfTheWinterStar_FestiveScepter";
+        private const string LockFlagPrefix = "ThaleMagnus.TheftOfTheWinterStar_Lock.";
+        private const string LockedDoorAction = "ThaleMagnus.TheftOfTheWinterStar_LockedDoor";
+        private const string ActivateArenaAction = "ThaleMagnus.TheftOfTheWinterStar_ActivateArena";
+        private const string ItemPuzzleAction = "ThaleMagnus.TheftOfTheWinterStar_ItemPuzzle";
+        private const string BossKeyHalfAction = "ThaleMagnus.TheftOfTheWinterStar_BossKeyHalf";
+        private const string MovableAction = "ThaleMagnus.TheftOfTheWinterStar_Movable";
+        private const string BossPresentAction = "ThaleMagnus.TheftOfTheWinterStar_BossPresent";
 
         private const string RewardBonus1Piece = "Bonus1Piece";
         private const string RewardBonus2Piece = "Bonus2Piece";

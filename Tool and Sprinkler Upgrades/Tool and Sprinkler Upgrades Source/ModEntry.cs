@@ -13,7 +13,7 @@ using StardewValley.Objects;
 using StardewValley.Tools;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 public sealed class ModEntry : Mod
 {
@@ -1378,7 +1378,7 @@ public sealed class ModEntry : Mod
         IWalletToolsApi? api = null;
         try
         {
-            api = Helper.ModRegistry.GetApi<IWalletToolsApi>("ThaleTheGreat.WalletTools");
+            api = Helper.ModRegistry.GetApi<IWalletToolsApi>("ThaleMagnus.WalletTools");
         }
         catch (Exception ex)
         {
@@ -1397,7 +1397,7 @@ public sealed class ModEntry : Mod
 
     private object? GetWalletToolsModInstance(IWalletToolsApi? api)
     {
-        object? modInfo = Helper.ModRegistry.Get("ThaleTheGreat.WalletTools");
+        object? modInfo = Helper.ModRegistry.Get("ThaleMagnus.WalletTools");
         object? mod = modInfo != null ? GetMemberValue(modInfo, "Mod") : null;
         if (mod != null)
             return mod;

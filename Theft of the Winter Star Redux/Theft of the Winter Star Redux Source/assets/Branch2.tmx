@@ -303,12 +303,12 @@
   </object>
   <object id="5" name="TileData" x="64" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_BossKeyHalf A"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_BossKeyHalf A"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="240" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="ThaleTheGreat.TheftOfTheWinterStar_BossKeyHalf B"/>
+    <property name="Action" value="ThaleMagnus.TheftOfTheWinterStar_BossKeyHalf B"/>
    </properties>
   </object>
  </objectgroup>

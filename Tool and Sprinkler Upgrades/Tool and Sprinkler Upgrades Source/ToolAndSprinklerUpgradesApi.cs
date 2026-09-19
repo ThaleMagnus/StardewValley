@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ToolAndSprinklerUpgrades;
+namespace ThaleMagnus.ToolAndSprinklerUpgrades;
 
 public sealed class ToolAndSprinklerUpgradesApi : IToolAndSprinklerUpgradesApi
 {

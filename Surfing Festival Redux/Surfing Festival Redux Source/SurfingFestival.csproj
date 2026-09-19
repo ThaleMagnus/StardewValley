@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>SurfingFestival</AssemblyName>
-    <RootNamespace>ThaleTheGreat.SurfingFestival</RootNamespace>
+    <RootNamespace>ThaleMagnus.SurfingFestival</RootNamespace>
     <Version>1.1.2</Version>
     <ModFolderName>Surfing Festival Redux</ModFolderName>
     <EnableModDeploy>true</EnableModDeploy>

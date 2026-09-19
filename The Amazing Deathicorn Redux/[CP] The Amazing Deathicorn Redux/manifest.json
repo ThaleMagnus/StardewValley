@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) The Amazing Deathicorn Redux",
-  "Author": "ThaleTheGreat",
-  "Version": "2.1.0",
+  "Author": "ThaleMagnus",
+  "Version": "2.1.1",
   "Description": "Content Patcher asset layer for The Amazing Deathicorn Redux.",
-  "UniqueID": "ThaleTheGreat.TheAmazingDeathicornRedux.CP",
+  "UniqueID": "ThaleMagnus.TheAmazingDeathicornRedux.CP",
   "UpdateKeys": [
     "Nexus:42786"
   ],
@@ -12,7 +12,7 @@
   },
   "Dependencies": [
     {
-      "UniqueID": "ThaleTheGreat.TheAmazingDeathicornRedux",
+      "UniqueID": "ThaleMagnus.TheAmazingDeathicornRedux",
       "IsRequired": false
     }
   ]

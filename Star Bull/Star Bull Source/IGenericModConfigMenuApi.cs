@@ -2,7 +2,7 @@ using StardewModdingAPI;
 using System;
 
 #nullable disable
-namespace ThaleTheGreat.StarBull;
+namespace ThaleMagnus.StarBull;
 
 public interface IGenericModConfigMenuApi
 {

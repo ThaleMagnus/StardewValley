@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.TheftOfTheWinterStar.Framework
+namespace ThaleMagnus.TheftOfTheWinterStar.Framework
 {
     internal enum ArenaStage
     {

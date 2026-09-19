@@ -4,11 +4,11 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
-namespace ThaleTheGreat.SaloonCover;
+namespace ThaleMagnus.SaloonCover;
 
 internal sealed class ModEntry : Mod
 {
-    private const string PaidKey = "ThaleTheGreat.SaloonCover/PaidDay";
+    private const string PaidKey = "ThaleMagnus.SaloonCover/PaidDay";
     private const string BouncerName = "SaloonCoverBouncer";
 
     private ModConfig Config = new();
