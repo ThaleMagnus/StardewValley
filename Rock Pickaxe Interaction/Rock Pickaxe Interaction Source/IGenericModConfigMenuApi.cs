@@ -1,7 +1,7 @@
 using System;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.RockPickaxeInteraction;
+namespace ThaleMagnus.RockPickaxeInteraction;
 
 public interface IGenericModConfigMenuApi
 {

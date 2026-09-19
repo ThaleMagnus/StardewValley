@@ -13,23 +13,23 @@ using StardewValley.GameData.Powers;
 using StardewValley.Menus;
 using StardewValley.Tools;
 
-namespace ThaleTheGreat.RoadKill;
+namespace ThaleMagnus.RoadKill;
 
 public sealed class ModEntry : Mod
 {
     private const string AnimalHusbandryModId = "DIGUS.ANIMALHUSBANDRYMOD";
     private const string TractorModId = "Pathoschild.TractorMod";
-    private const string WalletToolsId = "ThaleTheGreat.WalletTools";
-    private const string WalletToolsForAnimalHusbandryId = "ThaleTheGreat.WalletToolsForAnimalHusbandry";
-    private const string WalletToolsForTractorModId = "ThaleTheGreat.WalletToolsForTractorMod";
+    private const string WalletToolsId = "ThaleMagnus.WalletTools";
+    private const string WalletToolsForAnimalHusbandryId = "ThaleMagnus.WalletToolsForAnimalHusbandry";
+    private const string WalletToolsForTractorModId = "ThaleMagnus.WalletToolsForTractorMod";
     private const string TractorManagerTypeName = "Pathoschild.Stardew.TractorMod.Framework.TractorManager";
-    private const string WalletTractorModEntryTypeName = "ThaleTheGreat.WalletToolsForTractorMod.ModEntry";
-    private const string WalletAnimalHusbandryModEntryTypeName = "ThaleTheGreat.WalletToolsForAnimalHusbandry.ModEntry";
+    private const string WalletTractorModEntryTypeName = "ThaleMagnus.WalletToolsForTractorMod.ModEntry";
+    private const string WalletAnimalHusbandryModEntryTypeName = "ThaleMagnus.WalletToolsForAnimalHusbandry.ModEntry";
     private const string MeatToolItemId = "DIGUS.ANIMALHUSBANDRYMOD.MeatCleaver";
     private const string MeatToolQualifiedItemId = "(T)DIGUS.ANIMALHUSBANDRYMOD.MeatCleaver";
     private const string MeatToolModDataKey = "DIGUS.ANIMALHUSBANDRYMOD/MeatCleaver";
     private const string WalletMeatToolKind = "AnimalHusbandryMeatTool";
-    private const string WalletMeatToolPowerId = "ThaleTheGreat.WalletTools_AnimalHusbandryMeatTool";
+    private const string WalletMeatToolPowerId = "ThaleMagnus.WalletTools_AnimalHusbandryMeatTool";
     private const string TractorDataKey = "Pathoschild.TractorMod";
     private const int IconSize = 64;
 

@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework.Objects
+namespace ThaleMagnus.PyromancersJourney.Framework.Objects
 {
     internal class Floor : BaseObject
     {

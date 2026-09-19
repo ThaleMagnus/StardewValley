@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>RockPickaxeInteraction</AssemblyName>
-    <RootNamespace>ThaleTheGreat.RockPickaxeInteraction</RootNamespace>
+    <RootNamespace>ThaleMagnus.RockPickaxeInteraction</RootNamespace>
     <Version>2.1.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ModFolderName>Rock Pickaxe Interaction</ModFolderName>

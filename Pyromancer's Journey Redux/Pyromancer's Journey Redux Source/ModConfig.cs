@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.PyromancersJourney
+namespace ThaleMagnus.PyromancersJourney
 {
     public class ModConfig
     {

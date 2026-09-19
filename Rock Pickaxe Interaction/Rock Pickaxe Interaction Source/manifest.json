@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Rock Pickaxe Interaction",
-  "Author": "ThaleTheGreat",
-  "Version": "2.1.1",
+  "Author": "ThaleMagnus",
+  "Version": "2.1.2",
   "Description": "Lets the player interact with Rock using a pickaxe, with configurable friendship effects.",
-  "UniqueID": "ThaleTheGreat.RockPickaxeInteraction",
+  "UniqueID": "ThaleMagnus.RockPickaxeInteraction",
   "EntryDll": "RockPickaxeInteraction.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

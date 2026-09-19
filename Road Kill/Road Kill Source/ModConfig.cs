@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.RoadKill;
+namespace ThaleMagnus.RoadKill;
 
 public sealed class ModConfig
 {

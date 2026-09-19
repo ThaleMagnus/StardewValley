@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework
+namespace ThaleMagnus.PyromancersJourney.Framework
 {
     internal class RectangleF
     {

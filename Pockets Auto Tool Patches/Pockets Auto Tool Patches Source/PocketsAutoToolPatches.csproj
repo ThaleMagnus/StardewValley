@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>PocketsAutoToolPatches</AssemblyName>
-    <RootNamespace>ThaleTheGreat.PocketsAutoToolPatches</RootNamespace>
+    <RootNamespace>ThaleMagnus.PocketsAutoToolPatches</RootNamespace>
     <Version>1.0.1</Version>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>

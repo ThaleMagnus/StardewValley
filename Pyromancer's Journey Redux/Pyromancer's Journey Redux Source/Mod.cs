@@ -1,7 +1,7 @@
 using System.Linq;
 using Microsoft.Xna.Framework;
-using ThaleTheGreat.PyromancersJourney.Framework;
-using ThaleTheGreat.PyromancersJourney.Integrations;
+using ThaleMagnus.PyromancersJourney.Framework;
+using ThaleMagnus.PyromancersJourney.Integrations;
 using SpaceShared;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -9,13 +9,13 @@ using StardewValley;
 using StardewValley.Locations;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.PyromancersJourney
+namespace ThaleMagnus.PyromancersJourney
 {
     public class Mod : StardewModdingAPI.Mod
     {
-        private const string ArcadeTileAction = "ThaleTheGreat.PyromancersJourney_FireArcadeGame";
-        private const string CompletionMailFlag = "ThaleTheGreat.PyromancersJourney_Beaten";
-        private const string PrizeMailFlag = "ThaleTheGreat.PyromancersJourney_PrizeClaimed";
+        private const string ArcadeTileAction = "ThaleMagnus.PyromancersJourney_FireArcadeGame";
+        private const string CompletionMailFlag = "ThaleMagnus.PyromancersJourney_Beaten";
+        private const string PrizeMailFlag = "ThaleMagnus.PyromancersJourney_PrizeClaimed";
 
         public static Mod Instance { get; private set; } = null!;
         public ModConfig Config { get; private set; } = new();

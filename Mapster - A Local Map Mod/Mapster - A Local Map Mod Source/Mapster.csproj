@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>false</ImplicitUsings>
     <AssemblyName>Mapster</AssemblyName>
-    <RootNamespace>ThaleTheGreat.Mapster</RootNamespace>
+    <RootNamespace>ThaleMagnus.Mapster</RootNamespace>
     <ModFolderName>Mapster - A Local Map Mod</ModFolderName>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   

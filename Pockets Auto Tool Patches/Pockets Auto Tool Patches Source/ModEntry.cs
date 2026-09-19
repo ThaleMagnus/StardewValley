@@ -13,7 +13,7 @@ using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
 using StardewValley.Tools;
 
-namespace ThaleTheGreat.PocketsAutoToolPatches;
+namespace ThaleMagnus.PocketsAutoToolPatches;
 
 internal sealed class ModEntry : Mod
 {

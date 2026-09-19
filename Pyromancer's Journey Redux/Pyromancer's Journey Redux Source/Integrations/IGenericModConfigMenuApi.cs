@@ -1,7 +1,7 @@
 using System;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.PyromancersJourney.Integrations
+namespace ThaleMagnus.PyromancersJourney.Integrations
 {
     public interface IGenericModConfigMenuApi
     {

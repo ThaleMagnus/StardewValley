@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.PyromancersJourney.Framework.Projectiles;
+using ThaleMagnus.PyromancersJourney.Framework.Projectiles;
 using StardewValley;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework.Objects
+namespace ThaleMagnus.PyromancersJourney.Framework.Objects
 {
     internal class GolemEnemy : Enemy
     {

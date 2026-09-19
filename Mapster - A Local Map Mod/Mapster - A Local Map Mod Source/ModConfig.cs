@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.Mapster
+namespace ThaleMagnus.Mapster
 {
     public sealed class ModConfig
     {

@@ -2,10 +2,10 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using ThaleTheGreat.PyromancersJourney.Framework.Projectiles;
+using ThaleMagnus.PyromancersJourney.Framework.Projectiles;
 using StardewValley;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework.Objects
+namespace ThaleMagnus.PyromancersJourney.Framework.Objects
 {
     internal class Player : Character
     {

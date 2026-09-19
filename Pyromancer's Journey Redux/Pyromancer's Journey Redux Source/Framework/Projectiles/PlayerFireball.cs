@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.PyromancersJourney.Framework.Objects;
+using ThaleMagnus.PyromancersJourney.Framework.Objects;
 using StardewValley;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework.Projectiles
+namespace ThaleMagnus.PyromancersJourney.Framework.Projectiles
 {
     internal class PlayerFireball : BaseProjectile
     {

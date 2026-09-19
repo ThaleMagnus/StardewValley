@@ -4,11 +4,11 @@ using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Tools;
 
-namespace ThaleTheGreat.RockPickaxeInteraction;
+namespace ThaleMagnus.RockPickaxeInteraction;
 
 internal sealed class ModEntry : Mod
 {
-    private const string UsedKey = "ThaleTheGreat.RockPickaxeInteraction/UsedDay";
+    private const string UsedKey = "ThaleMagnus.RockPickaxeInteraction/UsedDay";
     private ModConfig Config = new();
 
     public override void Entry(IModHelper helper)

@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.Buildings;
 using StardewValley.Locations;
 
-namespace ThaleTheGreat.ItRubsTheMayoIn;
+namespace ThaleMagnus.ItRubsTheMayoIn;
 
 internal sealed class ModEntry : Mod
 {

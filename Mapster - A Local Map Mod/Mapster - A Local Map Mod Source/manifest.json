@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Mapster - A Local Map Mod",
-  "Author": "ThaleTheGreat",
-  "Version": "1.7.1",
+  "Author": "ThaleMagnus",
+  "Version": "1.7.2",
   "Description": "Adds an in-game local map preview with a dropdown for loading any installed location.",
-  "UniqueID": "ThaleTheGreat.Mapster",
+  "UniqueID": "ThaleMagnus.Mapster",
   "EntryDll": "Mapster.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

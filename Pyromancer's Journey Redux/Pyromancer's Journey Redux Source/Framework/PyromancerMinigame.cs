@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Input;
 using StardewValley;
 using StardewValley.Minigames;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework
+namespace ThaleMagnus.PyromancersJourney.Framework
 {
     internal class PyromancerMinigame : IMinigame, IDisposable
     {

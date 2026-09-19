@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.PyromancersJourney.Framework
+namespace ThaleMagnus.PyromancersJourney.Framework
 {
     internal enum FloorTile
     {

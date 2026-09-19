@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ItRubsTheMayoIn;
+namespace ThaleMagnus.ItRubsTheMayoIn;
 
 internal sealed class Config
 {

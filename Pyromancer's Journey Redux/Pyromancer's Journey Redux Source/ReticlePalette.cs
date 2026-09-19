@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 
-namespace ThaleTheGreat.PyromancersJourney
+namespace ThaleMagnus.PyromancersJourney
 {
     internal static class ReticlePalette
     {

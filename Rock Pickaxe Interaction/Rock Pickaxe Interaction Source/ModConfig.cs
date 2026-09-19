@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.RockPickaxeInteraction;
+namespace ThaleMagnus.RockPickaxeInteraction;
 
 internal sealed class ModConfig
 {

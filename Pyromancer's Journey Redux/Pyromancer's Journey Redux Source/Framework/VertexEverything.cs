@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework
+namespace ThaleMagnus.PyromancersJourney.Framework
 {
     internal struct VertexEverything : IVertexType
     {

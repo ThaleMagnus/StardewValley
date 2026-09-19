@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>PyromancersJourney</AssemblyName>
-    <RootNamespace>ThaleTheGreat.PyromancersJourney</RootNamespace>
+    <RootNamespace>ThaleMagnus.PyromancersJourney</RootNamespace>
     <Version>1.0.2</Version>
     <ModFolderName>Pyromancer's Journey Redux</ModFolderName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

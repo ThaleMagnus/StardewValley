@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Non Destructive NPCs Redux",
-  "Author": "ThaleTheGreat",
-  "Version": "2.2.1",
+  "Author": "ThaleMagnus",
+  "Version": "2.2.2",
   "Description": "NPCs no longer destroy placed objects in their paths.",
-  "UniqueID": "ThaleTheGreat.NonDestructiveNPCsRedux",
+  "UniqueID": "ThaleMagnus.NonDestructiveNPCsRedux",
   "EntryDll": "NonDestructiveNPCsRedux.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

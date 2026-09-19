@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework.Objects
+namespace ThaleMagnus.PyromancersJourney.Framework.Objects
 {
     internal class Enemy : Character
     {

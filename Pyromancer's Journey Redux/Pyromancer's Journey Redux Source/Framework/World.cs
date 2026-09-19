@@ -5,11 +5,11 @@ using System.IO;
 using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.PyromancersJourney.Framework.Objects;
-using ThaleTheGreat.PyromancersJourney.Framework.Projectiles;
+using ThaleMagnus.PyromancersJourney.Framework.Objects;
+using ThaleMagnus.PyromancersJourney.Framework.Projectiles;
 using StardewValley;
 
-namespace ThaleTheGreat.PyromancersJourney.Framework
+namespace ThaleMagnus.PyromancersJourney.Framework
 {
     internal class World : IDisposable
     {

@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>ItRubsTheMayoIn</AssemblyName>
-    <RootNamespace>ThaleTheGreat.ItRubsTheMayoIn</RootNamespace>
+    <RootNamespace>ThaleMagnus.ItRubsTheMayoIn</RootNamespace>
     <ModFolderName>It Rubs The Mayo In</ModFolderName>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   

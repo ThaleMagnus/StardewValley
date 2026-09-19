@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.PyromancersJourney.Framework.Objects
+namespace ThaleMagnus.PyromancersJourney.Framework.Objects
 {
     internal enum GolemAnimState
     {
