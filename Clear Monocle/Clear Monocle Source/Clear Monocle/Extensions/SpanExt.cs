@@ -257,10 +257,4 @@ internal static class SpanExt {
     internal static ReadOnlyPinnedSpan<byte> AsBytes<T>(this ReadOnlyPinnedSpan<T> span) where T : unmanaged =>
         span.Cast<T, byte>();
 
-#if !SHIPPING
-    internal static Span<float> Elements(this Span<Float4> span) => span.Cast<Float4, float>();
-    internal static ReadOnlySpan<float> Elements(this ReadOnlySpan<Float4> span) => span.Cast<Float4, float>();
-    internal static PinnedSpan<float> Elements(this PinnedSpan<Float4> span) => span.Cast<Float4, float>();
-    internal static ReadOnlyPinnedSpan<float> Elements(this ReadOnlyPinnedSpan<Float4> span) => span.Cast<Float4, float>();
-#endif
 }
