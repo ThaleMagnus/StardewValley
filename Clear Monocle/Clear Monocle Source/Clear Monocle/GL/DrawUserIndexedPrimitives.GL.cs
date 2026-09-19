@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Harmonize;
+using ThaleMagnus.ClearMonocle.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 internal static class DrawUserIndexedPrimitives {
 
 }

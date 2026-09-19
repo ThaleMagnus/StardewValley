@@ -1,13 +1,13 @@
 ﻿using CommunityToolkit.HighPerformance;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.OpenGL;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 using OGL = MonoGame.OpenGL.GL;
 

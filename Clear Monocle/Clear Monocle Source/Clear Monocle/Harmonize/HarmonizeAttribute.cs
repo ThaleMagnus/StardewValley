@@ -1,12 +1,12 @@
 ﻿using JetBrains.Annotations;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Reflection;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize;
+namespace ThaleMagnus.ClearMonocle.Harmonize;
 
 [MeansImplicitUse(ImplicitUseTargetFlags.WithMembers)]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

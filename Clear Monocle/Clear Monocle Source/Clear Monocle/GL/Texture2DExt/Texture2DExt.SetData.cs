@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using MonoGame.OpenGL;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Harmonize.Patches;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Harmonize.Patches;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class Texture2DExt {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

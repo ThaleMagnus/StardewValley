@@ -4,7 +4,7 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class SteamHelper {
 	private static readonly bool IsSteamBuild =

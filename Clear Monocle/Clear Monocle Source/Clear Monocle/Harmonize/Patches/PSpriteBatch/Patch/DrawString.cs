@@ -1,8 +1,8 @@
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Configuration;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
 
 internal class DrawString {
     private static bool ShouldBypass(XSpriteBatch batch) {

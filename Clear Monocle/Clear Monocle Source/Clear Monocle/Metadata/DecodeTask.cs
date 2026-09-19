@@ -1,12 +1,12 @@
-﻿using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Tasking;
+﻿using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Tasking;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal static class DecodeTask {
     private static readonly TaskFactory Factory = new(ThreadedTaskScheduler.Instance);

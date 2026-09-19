@@ -1,13 +1,13 @@
 ﻿#if false
 using FastExpressionCompiler.LightExpression;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static class GLTexture {
 	private static readonly Type TextureType = typeof(Texture);

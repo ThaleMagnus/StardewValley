@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ThaleTheGreat.ClearMonocle.Integrations;
+namespace ThaleMagnus.ClearMonocle.Integrations;
 
 internal static class RadianceCompatibility {
     private const string RadianceUniqueId = "phuicmt.SDVRadiance";

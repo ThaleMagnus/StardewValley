@@ -2,7 +2,7 @@
 // ReSharper disable MemberHidesStaticFromOuterClass
 // ReSharper disable AccessToStaticMemberViaDerivedType
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 internal static unsafe partial class XxHash3 {
     private static class ScalarImpl {

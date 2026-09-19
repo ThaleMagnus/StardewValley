@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewValley;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class ShadowedText {
     private static bool LongWords => Game1.content.GetCurrentLanguage() switch {

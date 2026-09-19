@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.HighPerformance;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 internal static partial class XxHash3 {
     [StructLayout(LayoutKind.Auto)]

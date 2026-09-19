@@ -1,7 +1,7 @@
 ﻿using StardewModdingAPI;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize;
+namespace ThaleMagnus.ClearMonocle.Harmonize;
 
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
 internal abstract class HarmonizeConditionalAttribute : Attribute {

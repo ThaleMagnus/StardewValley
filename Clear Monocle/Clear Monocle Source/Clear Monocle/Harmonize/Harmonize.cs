@@ -2,10 +2,10 @@ using HarmonyLib;
 using LinqFasterer;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize;
+namespace ThaleMagnus.ClearMonocle.Harmonize;
 
 internal static class Harmonize {
     private const BindingFlags InstanceFlags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public;

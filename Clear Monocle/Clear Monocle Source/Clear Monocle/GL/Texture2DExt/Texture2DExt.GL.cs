@@ -1,8 +1,8 @@
 ﻿using HarmonyLib;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.OpenGL;
-using ThaleTheGreat.ClearMonocle.Harmonize;
-using ThaleTheGreat.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
+using ThaleMagnus.ClearMonocle.Harmonize;
+using ThaleMagnus.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,9 +10,9 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.GL.GLExt.Delegates;
+using static ThaleMagnus.ClearMonocle.GL.GLExt.Delegates;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class Texture2DExt {
     internal static volatile bool Working = true;

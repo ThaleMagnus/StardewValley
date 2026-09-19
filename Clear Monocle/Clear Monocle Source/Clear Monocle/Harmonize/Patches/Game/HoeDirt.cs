@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewValley;
 using StardewValley.Locations;
 using StardewValley.Monsters;
 using StardewValley.TerrainFeatures;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class HoeDirt {
     private static XSpriteBatch DirtBatch = new(DrawState.Device);

@@ -4,7 +4,7 @@ using System.Runtime.Intrinsics.X86;
 // ReSharper disable MemberHidesStaticFromOuterClass
 // ReSharper disable AccessToStaticMemberViaDerivedType
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 internal static unsafe partial class XxHash3 {
     private static partial class Sse2Impl {

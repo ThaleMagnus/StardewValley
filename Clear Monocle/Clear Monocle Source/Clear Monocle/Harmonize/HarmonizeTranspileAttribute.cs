@@ -1,8 +1,8 @@
 ﻿using JetBrains.Annotations;
 using System;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize;
+namespace ThaleMagnus.ClearMonocle.Harmonize;
 
 [MeansImplicitUse(ImplicitUseTargetFlags.WithMembers)]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

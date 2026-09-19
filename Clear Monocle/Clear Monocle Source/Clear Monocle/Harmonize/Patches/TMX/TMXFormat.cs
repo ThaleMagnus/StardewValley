@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.TMX;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.TMX;
 
 /*
 internal static class TMXFormat {

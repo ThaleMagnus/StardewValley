@@ -1,12 +1,12 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types.Reflection;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types.Reflection;
 using System;
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class ColorChanger {
     private static readonly VariableStaticAccessor<XColor[]?>? ColorChangerBuffer = ReflectionExt.GetTypeExt("StardewValley.ColorChanger")?.GetStaticVariable("_buffer")?.GetStaticAccessor<XColor[]?>();

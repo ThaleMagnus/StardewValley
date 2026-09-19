@@ -1,12 +1,12 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Caching;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Hashing;
-using ThaleTheGreat.ClearMonocle.Mitigations.PyTK;
-using ThaleTheGreat.ClearMonocle.Resample;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Interlocking;
+using ThaleMagnus.ClearMonocle.Caching;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Hashing;
+using ThaleMagnus.ClearMonocle.Mitigations.PyTK;
+using ThaleMagnus.ClearMonocle.Resample;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Interlocking;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -15,9 +15,9 @@ using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using SpriteDictionary = System.Collections.Generic.Dictionary<ulong, ThaleTheGreat.ClearMonocle.ManagedSpriteInstance>;
+using SpriteDictionary = System.Collections.Generic.Dictionary<ulong, ThaleMagnus.ClearMonocle.ManagedSpriteInstance>;
 
-namespace ThaleTheGreat.ClearMonocle.Metadata;
+namespace ThaleMagnus.ClearMonocle.Metadata;
 
 // TODO : This needs a Finalize thread dispatcher, and needs to remove cached data for it from the ResidentCache.
 internal sealed class Texture2DMeta : IDisposable {

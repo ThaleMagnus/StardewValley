@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class Texture2DExt {
     internal sealed class Texture2DOpenGlMeta : IDisposable {

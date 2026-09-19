@@ -4,7 +4,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class Texture2DExt {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

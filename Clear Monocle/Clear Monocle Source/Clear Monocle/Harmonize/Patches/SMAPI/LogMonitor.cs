@@ -1,15 +1,15 @@
 #if (!SHIPPING && !RELEASE) || LOG_MONITOR
 
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.SMAPI;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.SMAPI;
 
 internal static class LogMonitor {
     private static readonly HashSet<string> SilencedMods = new();

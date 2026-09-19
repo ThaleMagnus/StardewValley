@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Configuration;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.PSpriteBatch;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.PSpriteBatch;
 
 internal static class Begin {
     [Harmonize("Begin", fixation: Harmonize.Fixation.Postfix, priority: Harmonize.PriorityLevel.Last)]

@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.GL;
+﻿namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class GraphicsDeviceExt {
 

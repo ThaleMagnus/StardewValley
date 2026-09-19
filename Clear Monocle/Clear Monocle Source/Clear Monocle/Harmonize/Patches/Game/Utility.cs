@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class Utility {
 

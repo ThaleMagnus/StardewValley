@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.GL;
+﻿namespace ThaleMagnus.ClearMonocle.GL;
 
 // https://registry.khronos.org/OpenGL-Refpages/gl4/html/glPixelStore.xhtml
 internal enum PixelStoreName : uint {

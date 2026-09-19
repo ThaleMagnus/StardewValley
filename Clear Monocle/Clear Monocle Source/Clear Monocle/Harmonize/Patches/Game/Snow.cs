@@ -2,13 +2,13 @@
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Configuration.Preview;
-using ThaleTheGreat.ClearMonocle.Core;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Pooling;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Configuration.Preview;
+using ThaleMagnus.ClearMonocle.Core;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Pooling;
 using StardewValley;
 using StardewValley.Locations;
 using System;
@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class Snow {
     private static readonly XColor SnowColor = new(255, 250, 250);

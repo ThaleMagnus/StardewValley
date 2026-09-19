@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Metadata;
+namespace ThaleMagnus.ClearMonocle.Metadata;
 
 [Flags]
 internal enum ReportOnceErrors : uint {

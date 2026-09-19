@@ -1,12 +1,12 @@
 using CommunityToolkit.HighPerformance;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Reflection;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Reflection;
 using StardewValley;
 using System;
 using System.Collections.Concurrent;
@@ -15,9 +15,9 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches;
 
 [SuppressMessage("Code Quality", "IDE0051:Remove unused private members", Justification = "Harmony")]
 [SuppressMessage("Style", "IDE0060:Remove unused parameter", Justification = "Harmony")]

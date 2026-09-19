@@ -3,9 +3,9 @@
 using LinqFasterer;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.OpenGL;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Mitigations.PyTK;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Mitigations.PyTK;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -23,7 +23,7 @@ using Console = System.Console;
 using GLEnum = System.UInt32;
 using IntPtr = System.IntPtr;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static unsafe class GLExt {
     // ReSharper disable UnusedMember.Global

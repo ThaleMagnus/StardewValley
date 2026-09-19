@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
 using StardewValley;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Mods.CustomNPCFixes;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Mods.CustomNPCFixes;
 
 internal static class PCustomNPCFixes {
     [Harmonize(

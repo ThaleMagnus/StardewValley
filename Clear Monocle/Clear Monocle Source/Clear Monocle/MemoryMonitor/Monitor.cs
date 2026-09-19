@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Caching;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Caching;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Runtime;
@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using ThreadState = System.Threading.ThreadState;
 
-namespace ThaleTheGreat.ClearMonocle.MemoryMonitor;
+namespace ThaleMagnus.ClearMonocle.MemoryMonitor;
 
 internal sealed class Monitor {
     private readonly Thread MemoryPressureThread;

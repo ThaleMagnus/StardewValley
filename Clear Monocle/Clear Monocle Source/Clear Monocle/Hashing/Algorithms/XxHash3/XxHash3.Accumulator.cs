@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 internal static unsafe partial class XxHash3 {
     [StructLayout(LayoutKind.Sequential, Pack = 0x10, Size = 0x40)]

@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Hashing;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Hashing;
 using System;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Xml;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.TMX;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.TMX;
 
 internal static class TMXParser {
     #region By Path

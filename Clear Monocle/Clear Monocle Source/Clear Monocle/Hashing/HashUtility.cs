@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.HighPerformance;
 using MonoGame.Framework.Utilities;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 
 using System;
 using System.Buffers;
@@ -9,7 +9,7 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing;
+namespace ThaleMagnus.ClearMonocle.Hashing;
 
 internal static partial class HashUtility {
     internal static class Constants {

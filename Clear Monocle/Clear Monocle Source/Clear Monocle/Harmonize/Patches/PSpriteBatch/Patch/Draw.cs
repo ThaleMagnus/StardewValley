@@ -1,13 +1,13 @@
 // #define DO_UNNEEDED_PATCHES
 
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Core;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Core;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.PSpriteBatch.Patch;
 
 [SuppressMessage("Code Quality", "IDE0051:Remove unused private members", Justification = "Harmony")]
 [SuppressMessage("Style", "IDE0060:Remove unused parameter", Justification = "Harmony")]
@@ -30,11 +30,11 @@ internal static class Draw {
 	 * those mods would then alter the arguments _again_, causing issues.
 	 * 
 	 * Previously, the logic would be like this:
-	 * Draw -> OTHERMOD.Draw -> ThaleTheGreat.ClearMonocle.Draw -> DrawMoreArguments -> OTHERMOD.DrawMoreArguments -> ThaleTheGreat.ClearMonocle.DrawMoreArguments
+	 * Draw -> OTHERMOD.Draw -> ThaleMagnus.ClearMonocle.Draw -> DrawMoreArguments -> OTHERMOD.DrawMoreArguments -> ThaleMagnus.ClearMonocle.DrawMoreArguments
 	 * 
 	 * It is now:
 	 * 
-	 * Draw -> ThaleTheGreat.ClearMonocle.Draw -> DrawMoreArguments -> OTHERMOD.DrawMoreArguments -> ThaleTheGreat.ClearMonocle.DrawMoreArguments
+	 * Draw -> ThaleMagnus.ClearMonocle.Draw -> DrawMoreArguments -> OTHERMOD.DrawMoreArguments -> ThaleMagnus.ClearMonocle.DrawMoreArguments
 	 * 
 	 */
 

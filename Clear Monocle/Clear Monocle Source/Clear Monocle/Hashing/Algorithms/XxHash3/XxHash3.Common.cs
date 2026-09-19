@@ -1,4 +1,4 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Buffers.Binary;
 using System.Runtime.CompilerServices;
@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.Arm;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 internal static unsafe partial class XxHash3 {
     private const MethodImplOptions Inline =

@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Interlocking;
+﻿using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Interlocking;
 using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.ClearMonocle.MemoryMonitor;
+namespace ThaleMagnus.ClearMonocle.MemoryMonitor;
 internal sealed class Manager {
     private static readonly InterlockedBool Purging = false;
     private static IPurgeable[] PurgeablesArrayInternal = Array.Empty<IPurgeable>();

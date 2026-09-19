@@ -1,12 +1,12 @@
 ﻿using CommunityToolkit.HighPerformance;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 using System;
 using System.Buffers;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing;
+namespace ThaleMagnus.ClearMonocle.Hashing;
 
 internal static partial class HashUtility {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

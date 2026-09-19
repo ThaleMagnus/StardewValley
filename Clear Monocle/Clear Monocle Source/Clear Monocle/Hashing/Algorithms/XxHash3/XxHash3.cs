@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Buffers.Binary;
 using System.Numerics;
@@ -10,7 +10,7 @@ using System.Runtime.Intrinsics;
 using System.Runtime.Intrinsics.Arm;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.Hashing.Algorithms;
+namespace ThaleMagnus.ClearMonocle.Hashing.Algorithms;
 
 // https://github.com/Crauzer/XXHash3.NET/tree/main/XXHash3.NET
 internal static unsafe partial class XxHash3 {

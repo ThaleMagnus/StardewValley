@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reflection;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize;
+namespace ThaleMagnus.ClearMonocle.Harmonize;
 
 internal abstract class HarmonizeFinalizeCatcherFixedAttribute : HarmonizeAttribute {
     internal readonly Type Exception;

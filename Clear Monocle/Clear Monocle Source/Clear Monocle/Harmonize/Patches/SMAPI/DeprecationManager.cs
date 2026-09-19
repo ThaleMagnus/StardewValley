@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.SMAPI;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.SMAPI;
 
 internal static class DeprecationManager {
     private static readonly object DeprecationManagerLock = new();

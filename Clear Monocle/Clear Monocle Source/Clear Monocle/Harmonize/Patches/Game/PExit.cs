@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
 using System.Diagnostics;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class PExit {
     [Harmonize(

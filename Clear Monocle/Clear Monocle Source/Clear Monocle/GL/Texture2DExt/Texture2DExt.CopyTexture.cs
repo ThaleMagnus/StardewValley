@@ -1,12 +1,12 @@
 ﻿using MonoGame.OpenGL;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Harmonize.Patches;
-using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Harmonize.Patches;
+using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.GL;
+namespace ThaleMagnus.ClearMonocle.GL;
 
 internal static partial class Texture2DExt {
     internal static bool CopyTexture(

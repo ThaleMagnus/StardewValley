@@ -1,13 +1,13 @@
 ﻿using FastExpressionCompiler.LightExpression;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Mitigations.PyTK;
+namespace ThaleMagnus.ClearMonocle.Mitigations.PyTK;
 
 internal static class Textures {
     private static readonly Type? MappedTexture2DType = ReflectionExt.GetTypeExt("PyTK.Types.MappedTexture2D");

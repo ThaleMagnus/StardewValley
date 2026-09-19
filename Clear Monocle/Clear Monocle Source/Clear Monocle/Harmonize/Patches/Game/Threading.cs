@@ -1,17 +1,17 @@
 ﻿using HarmonyLib;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
+namespace ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
 
 internal static class Threading {
     private static readonly Func<List<Action>> ThreadingActionsGet =

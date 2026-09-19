@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System.Diagnostics;
 
-namespace ThaleTheGreat.ClearMonocle.Metadata;
+namespace ThaleMagnus.ClearMonocle.Metadata;
 
 internal static class ReportOnceValidations {
     [Conditional("DEBUG")]

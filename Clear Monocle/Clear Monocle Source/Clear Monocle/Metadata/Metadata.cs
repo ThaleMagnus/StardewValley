@@ -1,4 +1,4 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Metadata;
+namespace ThaleMagnus.ClearMonocle.Metadata;
 
 internal static class Metadata {
     private readonly struct CacheElement {
