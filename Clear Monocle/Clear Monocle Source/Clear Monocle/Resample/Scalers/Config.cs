@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers;
 
 internal abstract class Config : IEquatable<Config> {
     internal readonly Vector2B Wrapped;

@@ -1,7 +1,7 @@
 using System;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers;
 
 internal interface IScaler {
     Config CreateConfig(

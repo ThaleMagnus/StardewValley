@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Resample;
+﻿namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal enum CompressionFormat {
     BGRA,

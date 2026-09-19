@@ -1,8 +1,8 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Encoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Encoder;
 
 internal static class StbBlockEncoder {
     internal static bool Encode(

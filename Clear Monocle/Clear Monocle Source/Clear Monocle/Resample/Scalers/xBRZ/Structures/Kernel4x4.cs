@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 
 /*
 		input kernel area naming convention:

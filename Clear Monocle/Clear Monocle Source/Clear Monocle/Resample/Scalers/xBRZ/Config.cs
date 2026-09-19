@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System.Runtime.CompilerServices;
 
 // TODO : Handle X or Y-only scaling, since the game has a lot of 1xY and Xx1 sprites - 1D textures.
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ;
 
 internal sealed class Config : Resample.Scalers.LuminanceConfig {
     internal const int MaxScale = 6;

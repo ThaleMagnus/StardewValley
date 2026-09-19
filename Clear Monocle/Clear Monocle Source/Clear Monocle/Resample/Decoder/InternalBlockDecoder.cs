@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.InteropServices;
-using static ThaleTheGreat.ClearMonocle.Resample.Decoder.BlockDecoderCommon;
+using static ThaleMagnus.ClearMonocle.Resample.Decoder.BlockDecoderCommon;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Decoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Decoder;
 
 internal static class InternalBlockDecoder {
     // https://www.khronos.org/opengl/wiki/S3_Texture_Compression

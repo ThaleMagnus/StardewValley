@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ;
+﻿namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ;
 
 internal sealed class ScalerInfo : IScalerInfo {
     internal static readonly ScalerInfo Instance = new();

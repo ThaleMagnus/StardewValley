@@ -1,12 +1,12 @@
 ﻿using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Passes;
+namespace ThaleMagnus.ClearMonocle.Resample.Passes;
 
 internal static class Padding {
     private static readonly Color16 PadConstant = Color16.Zero;

@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.IO;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Decoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Decoder;
 
 internal static class GraphicsBlockDecoder {
     internal static Span<byte> Decode(ReadOnlySpan<byte> data, Vector2I size, SurfaceFormat format) {

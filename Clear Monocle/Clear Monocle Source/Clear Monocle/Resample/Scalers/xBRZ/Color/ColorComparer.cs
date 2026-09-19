@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Colors.ColorHelpers;
+using static ThaleMagnus.ClearMonocle.Colors.ColorHelpers;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Color;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Color;
 
 internal sealed class ColorComparer {
     private readonly Config Configuration;

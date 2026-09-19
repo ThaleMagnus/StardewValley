@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 /// <summary>
 /// A Texture2D that represents a texture being used to decode block-compressed data

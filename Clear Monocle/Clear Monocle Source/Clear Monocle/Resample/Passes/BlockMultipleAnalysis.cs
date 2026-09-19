@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Passes;
+namespace ThaleMagnus.ClearMonocle.Resample.Passes;
 
 internal static class BlockMultipleAnalysis {
     private static bool BlockTest(ReadOnlySpan<Color8> data, Bounds textureBounds, Bounds spriteBounds, int stride, int block) {

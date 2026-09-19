@@ -1,10 +1,10 @@
 ﻿using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 
 [ImmutableObject(true)]
 [StructLayout(LayoutKind.Sequential, Size = (3 * 3 * sizeof(ulong)))]

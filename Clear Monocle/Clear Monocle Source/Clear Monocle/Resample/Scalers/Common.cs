@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Colors;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Colors;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
-using static ThaleTheGreat.ClearMonocle.Colors.ColorHelpers;
+using static ThaleMagnus.ClearMonocle.Colors.ColorHelpers;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers;
 
 internal static class Common {
     internal static uint ColorDistance(

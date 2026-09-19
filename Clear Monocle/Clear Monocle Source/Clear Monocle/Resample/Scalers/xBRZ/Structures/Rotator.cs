@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 
 internal static class Rotator {
     internal const int MaxRotations = 4; // Number of 90 degree rotations

@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.IO;
 using System.Reflection;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Decoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Decoder;
 
 internal static class MonoBlockDecoder {
     private static readonly Type? DxtUtil = typeof(XTexture2D).Assembly.GetType("Microsoft.Xna.Framework.Graphics.DxtUtil");

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal static class TextureDecode {
     private static readonly DecodeDelegate[] PreferredDecoders = new DecodeDelegate[] {

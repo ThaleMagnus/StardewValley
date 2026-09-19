@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers;
 
 internal abstract class LuminanceConfig : Config {
     internal readonly double LuminanceWeight;

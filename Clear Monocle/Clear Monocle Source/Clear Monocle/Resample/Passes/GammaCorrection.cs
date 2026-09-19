@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Colors;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Colors;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Passes;
+namespace ThaleMagnus.ClearMonocle.Resample.Passes;
 
 internal static class GammaCorrection {
     private static readonly ColorSpace ColorSpace = ColorSpace.sRGB_Precise;

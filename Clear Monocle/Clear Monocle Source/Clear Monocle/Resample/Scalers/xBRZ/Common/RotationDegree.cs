@@ -1,5 +1,5 @@
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Common;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Common;
 
 // clockwise
 internal enum RotationDegree : byte {

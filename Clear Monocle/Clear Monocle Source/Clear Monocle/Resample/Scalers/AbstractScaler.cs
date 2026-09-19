@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Colors;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Colors;
+using ThaleMagnus.ClearMonocle.Types;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers;
 
 internal abstract class AbstractScaler<TConfig, TScale> where TConfig : Config where TScale : struct, IScale {
     protected readonly uint ScaleMultiplier;

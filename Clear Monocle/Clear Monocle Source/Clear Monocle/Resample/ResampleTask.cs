@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Tasking;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Tasking;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal static class ResampleTask {
     private static readonly TaskFactory<ManagedSpriteInstance> Factory = new(ThreadedTaskScheduler.Instance);

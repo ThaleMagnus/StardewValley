@@ -1,15 +1,15 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Blend;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Color;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Common;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Scalers;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Blend;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Color;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Common;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Scalers;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ;
 
 using PreprocessType = Byte;
 

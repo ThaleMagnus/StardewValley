@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
+﻿using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 
 internal abstract class AbstractScaler {
     internal readonly int Scale;

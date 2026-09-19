@@ -1,6 +1,6 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Encoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Encoder;
 
 internal static class BlockEncoderCommon {
     internal static TextureFormat GetBestTextureFormat(bool hasAlpha, bool isPunchthroughAlpha, bool isMasky) =>

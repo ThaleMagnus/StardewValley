@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Common;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Common;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 
 //access matrix area, top-left at position "out" for image with given width
 [StructLayout(LayoutKind.Auto)]

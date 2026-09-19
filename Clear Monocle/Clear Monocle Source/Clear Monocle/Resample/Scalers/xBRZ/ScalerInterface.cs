@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ;
 
 internal sealed partial class Scaler {
     internal sealed class ScalerInterface : IScaler {

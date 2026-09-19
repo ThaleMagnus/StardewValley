@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Structures;
+﻿using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Structures;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Scalers;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Scalers;
 
 internal static class ScaleSize {
     [DoesNotReturn]

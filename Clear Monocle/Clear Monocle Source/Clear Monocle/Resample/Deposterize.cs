@@ -1,13 +1,13 @@
-﻿using ThaleTheGreat.ClearMonocle.Colors;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
+﻿using ThaleMagnus.ClearMonocle.Colors;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Colors.ColorHelpers;
+using static ThaleMagnus.ClearMonocle.Colors.ColorHelpers;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 // Temporary code lifted from the PPSSPP project, deposterize.h
 internal static class Deposterize {

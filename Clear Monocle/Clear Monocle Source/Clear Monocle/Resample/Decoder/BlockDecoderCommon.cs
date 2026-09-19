@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Decoder;
+namespace ThaleMagnus.ClearMonocle.Resample.Decoder;
 
 internal static class BlockDecoderCommon {
     [DebuggerDisplay("[{X}, {Y}}")]

@@ -1,6 +1,6 @@
-﻿using ThaleTheGreat.ClearMonocle.Resample.Scalers;
+﻿using ThaleMagnus.ClearMonocle.Resample.Scalers;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal interface IScalerInfo {
     Scaler Scaler { get; }

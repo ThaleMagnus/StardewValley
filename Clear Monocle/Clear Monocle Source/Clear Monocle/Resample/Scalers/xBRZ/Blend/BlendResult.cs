@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Blend;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Blend;
 
 internal ref struct BlendResult {
     internal BlendType F = 0;

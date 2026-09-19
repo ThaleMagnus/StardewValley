@@ -1,7 +1,7 @@
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Resample;
+namespace ThaleMagnus.ClearMonocle.Resample;
 
 internal static class Recolor {
     internal static Span<T> Enhance<T>(Span<T> data, Vector2I size) where T : unmanaged {

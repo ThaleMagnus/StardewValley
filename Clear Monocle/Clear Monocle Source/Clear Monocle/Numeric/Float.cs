@@ -1,6 +1,6 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 
-namespace ThaleTheGreat.ClearMonocle.Numeric;
+namespace ThaleMagnus.ClearMonocle.Numeric;
 
 internal static class Float {
     internal static class Half {

@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Common;
+﻿using ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Common;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Resample.Scalers.xBRZ.Blend;
+namespace ThaleMagnus.ClearMonocle.Resample.Scalers.xBRZ.Blend;
 
 using PreprocessType = Byte;
 
