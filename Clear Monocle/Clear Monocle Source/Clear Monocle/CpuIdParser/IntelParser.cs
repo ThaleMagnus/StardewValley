@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.CpuIdParser;
+namespace ThaleMagnus.ClearMonocle.CpuIdParser;
 
 // https://en.wikichip.org/wiki/intel/frequency_behavior
 // https://en.wikichip.org/w/index.php?title=intel/frequency_behavior&oldid=97206

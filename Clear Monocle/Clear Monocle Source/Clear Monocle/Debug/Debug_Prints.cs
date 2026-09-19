@@ -1,13 +1,13 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Hashing;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Hashing;
 using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Runtime;
+using static ThaleMagnus.ClearMonocle.Runtime;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class Debug {
     private readonly record struct TraceOnceElement(string File, int Line);

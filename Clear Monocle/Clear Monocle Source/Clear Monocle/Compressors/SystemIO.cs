@@ -1,13 +1,13 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 using IOC = System.IO.Compression;
 
-namespace ThaleTheGreat.ClearMonocle.Compressors;
+namespace ThaleMagnus.ClearMonocle.Compressors;
 
 //[HarmonizeFinalizeCatcher<IOC.DeflateStream, DllNotFoundException>(critical: false)]
 internal static class SystemIo {

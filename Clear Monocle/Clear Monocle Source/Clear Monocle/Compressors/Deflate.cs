@@ -2,13 +2,13 @@
 using Ionic.Zlib;
 using JetBrains.Annotations;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Compressors;
+namespace ThaleMagnus.ClearMonocle.Compressors;
 
 //[HarmonizeFinalizeCatcher<ZlibStream, DllNotFoundException>(critical: false)]
 internal static class Deflate {

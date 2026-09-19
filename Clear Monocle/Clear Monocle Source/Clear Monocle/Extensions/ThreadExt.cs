@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class ThreadExt {
     internal static Thread Run(ThreadStart start, bool background = false, string? name = null) {

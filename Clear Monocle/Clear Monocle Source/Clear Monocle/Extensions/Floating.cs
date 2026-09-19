@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Floating {
     [MethodImpl(Runtime.MethodImpl.Inline)]

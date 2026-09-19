@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class SizesExt {
     private const MethodImplOptions Aggressive =

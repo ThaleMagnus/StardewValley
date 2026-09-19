@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Runtime.Versioning;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 [SupportedOSPlatform("windows")]
 internal static class DirectoryExtWindows {

@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.CpuIdParser;
+namespace ThaleMagnus.ClearMonocle.CpuIdParser;
 
 internal sealed class AmdParser {
     [MethodImpl(Runtime.MethodImpl.RunOnce)]

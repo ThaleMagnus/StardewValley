@@ -1,12 +1,12 @@
 ﻿using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Colors;
+namespace ThaleMagnus.ClearMonocle.Colors;
 
 internal static class ColorHelpers {
     [Pure, MustUseReturnValue, MethodImpl(Runtime.MethodImpl.Inline)]

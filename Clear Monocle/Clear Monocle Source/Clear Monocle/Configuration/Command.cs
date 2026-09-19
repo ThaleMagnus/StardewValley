@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration;
+namespace ThaleMagnus.ClearMonocle.Configuration;
 
 internal static class Command {
     private static Serialize.Category Root => Serialize.Root;

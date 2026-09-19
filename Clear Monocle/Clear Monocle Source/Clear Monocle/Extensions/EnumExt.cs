@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 // ReSharper disable SuspiciousTypeConversion.Global
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 /// <summary>
 /// Enumerator Extensions

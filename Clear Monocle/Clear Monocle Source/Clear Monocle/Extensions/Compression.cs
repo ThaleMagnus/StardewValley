@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Compression {
     internal enum Algorithm {

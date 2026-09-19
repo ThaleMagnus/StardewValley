@@ -1,8 +1,8 @@
-global using SMConfig = ThaleTheGreat.ClearMonocle.Configuration.Config;
+global using SMConfig = ThaleMagnus.ClearMonocle.Configuration.Config;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Resample;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Resample;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
@@ -10,10 +10,10 @@ using System.IO;
 using System.Runtime;
 using System.Text.RegularExpressions;
 
-using Root = ThaleTheGreat.ClearMonocle;
+using Root = ThaleMagnus.ClearMonocle;
 // ReSharper disable MemberHidesStaticFromOuterClass
 
-namespace ThaleTheGreat.ClearMonocle.Configuration;
+namespace ThaleMagnus.ClearMonocle.Configuration;
 
 internal static class Config {
     internal const string ModuleName = "ClearMonocle";

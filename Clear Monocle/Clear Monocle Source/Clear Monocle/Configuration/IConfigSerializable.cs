@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration;
+namespace ThaleMagnus.ClearMonocle.Configuration;
 
 internal interface IConfigSerializable {
     bool TrySerialize([NotNullWhen(true)] out string serialized);

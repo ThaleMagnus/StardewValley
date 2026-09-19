@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Statistics {
     internal static unsafe double StandardDeviation(int* data, int length, int startIndex = 0, int count = 0) {

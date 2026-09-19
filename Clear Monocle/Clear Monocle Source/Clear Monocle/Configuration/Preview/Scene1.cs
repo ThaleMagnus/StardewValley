@@ -1,7 +1,7 @@
 ﻿// #define WITH_HD_PORTRAITS_SUPPORT
 
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewValley;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal sealed class Scene1 : Scene {
     //private static readonly Lazy<XTexture2D> FishTexture = new(() => StardewValley.Game1.content.Load<XTexture2D>(@"Maps\springobjects"));

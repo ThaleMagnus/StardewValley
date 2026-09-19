@@ -1,9 +1,9 @@
 ﻿using StardewValley;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using SMHarmonize = ThaleTheGreat.ClearMonocle.Harmonize;
+using SMHarmonize = ThaleMagnus.ClearMonocle.Harmonize;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal static class PrecipitationPatches {
     private static PrecipitationType Precipitation => PrecipitationOverride ?? Scene.Current?.Precipitation ?? PrecipitationType.None;

@@ -1,12 +1,12 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Core;
+namespace ThaleMagnus.ClearMonocle.Core;
 
 internal static partial class OnDrawImpl {
     [MethodImpl(Runtime.MethodImpl.Inline)]

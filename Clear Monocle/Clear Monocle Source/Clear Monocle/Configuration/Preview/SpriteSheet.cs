@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal class SpriteSheet : MetaTexture {
     internal readonly Vector2I Size;

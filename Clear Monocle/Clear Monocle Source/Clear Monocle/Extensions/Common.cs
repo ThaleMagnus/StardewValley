@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Types;
 
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Common {
     [MethodImpl(Runtime.MethodImpl.Inline)]

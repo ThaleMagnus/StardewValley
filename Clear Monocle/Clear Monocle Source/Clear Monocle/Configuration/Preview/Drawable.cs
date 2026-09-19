@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Hashing;
-using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Hashing;
+using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 [StructLayout(LayoutKind.Auto)]
 internal readonly struct Drawable {

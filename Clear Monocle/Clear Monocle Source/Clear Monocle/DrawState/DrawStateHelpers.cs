@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class DrawState {
     [Conditional("DEBUG")]

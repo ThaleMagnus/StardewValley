@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class MemoryStreamExt {
     internal static byte[] GetArray(this MemoryStream stream) {

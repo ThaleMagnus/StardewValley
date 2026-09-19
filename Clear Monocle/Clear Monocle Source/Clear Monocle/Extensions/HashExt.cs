@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Hashing;
+﻿using ThaleMagnus.ClearMonocle.Hashing;
 using System;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class HashExt {
     [MethodImpl(Runtime.MethodImpl.Inline)]

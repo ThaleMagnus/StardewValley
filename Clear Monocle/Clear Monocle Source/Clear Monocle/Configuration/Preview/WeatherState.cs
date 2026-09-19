@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using StardewValley;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game.Snow;
+using static ThaleMagnus.ClearMonocle.Harmonize.Patches.Game.Snow;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 [StructLayout(LayoutKind.Auto)]
 internal readonly struct WeatherState : IDisposable {

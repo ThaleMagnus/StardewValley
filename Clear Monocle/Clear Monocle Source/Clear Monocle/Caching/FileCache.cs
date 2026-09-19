@@ -1,11 +1,11 @@
 using CommunityToolkit.HighPerformance;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Hashing;
-using ThaleTheGreat.ClearMonocle.Resample;
-using ThaleTheGreat.ClearMonocle.Tasking;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Hashing;
+using ThaleMagnus.ClearMonocle.Resample;
+using ThaleMagnus.ClearMonocle.Tasking;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics.CodeAnalysis;
@@ -16,7 +16,7 @@ using System.Security;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Caching;
+namespace ThaleMagnus.ClearMonocle.Caching;
 
 internal static class FileCache {
     private const string TextureCacheName = "TextureCache";

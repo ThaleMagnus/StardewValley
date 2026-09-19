@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration;
+namespace ThaleMagnus.ClearMonocle.Configuration;
 
 internal static class Attributes {
     internal abstract class ConfigAttribute : Attribute { };

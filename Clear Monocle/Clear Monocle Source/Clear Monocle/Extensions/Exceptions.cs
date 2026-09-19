@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-using static ThaleTheGreat.ClearMonocle.Runtime;
+using static ThaleMagnus.ClearMonocle.Runtime;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Exceptions {
     [Conditional("DEBUG"), DebuggerStepThrough, DebuggerHidden]

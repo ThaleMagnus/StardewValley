@@ -1,13 +1,13 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+﻿using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using static ThaleTheGreat.ClearMonocle.Runtime;
+using static ThaleMagnus.ClearMonocle.Runtime;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class Collections {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

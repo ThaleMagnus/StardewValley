@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class DirectoryExt {
     internal static bool CompressDirectory(string path, bool force = false) {

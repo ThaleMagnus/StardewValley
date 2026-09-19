@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.CpuIdParser;
+namespace ThaleMagnus.ClearMonocle.CpuIdParser;
 internal sealed class GenericParser {
     [MethodImpl(Runtime.MethodImpl.RunOnce)]
     [SuppressMessage("ReSharper", "StringLiteralTypo")]

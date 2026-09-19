@@ -1,16 +1,16 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Harmonize;
-using ThaleTheGreat.ClearMonocle.Harmonize.Patches.Game;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Exceptions;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Harmonize;
+using ThaleMagnus.ClearMonocle.Harmonize.Patches.Game;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Exceptions;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using static ThaleTheGreat.ClearMonocle.Harmonize.Harmonize;
+using static ThaleMagnus.ClearMonocle.Harmonize.Harmonize;
 using static StardewValley.BellsAndWhistles.PlayerStatusList;
 
-namespace ThaleTheGreat.ClearMonocle.Core;
+namespace ThaleMagnus.ClearMonocle.Core;
 
 internal static partial class OnDrawImpl {
 

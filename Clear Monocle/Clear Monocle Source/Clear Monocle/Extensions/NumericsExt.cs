@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 
 using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class NumericsExt {
     [MethodImpl(Runtime.MethodImpl.Inline)]

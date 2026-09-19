@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 using System;
 using System.Collections.Concurrent;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+namespace ThaleMagnus.ClearMonocle.Extensions.Reflection;
 
 internal static partial class ReflectionExt {
     [MethodImpl(Runtime.MethodImpl.Inline)]

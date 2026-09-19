@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal abstract class MetaTexture : IDisposable {
     internal readonly XTexture2D Texture;

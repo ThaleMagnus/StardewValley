@@ -1,16 +1,16 @@
 ﻿using CommunityToolkit.HighPerformance;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using StardewValley;
 using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using SMDrawState = ThaleTheGreat.ClearMonocle.DrawState;
+using SMDrawState = ThaleMagnus.ClearMonocle.DrawState;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal abstract class Scene : IDisposable {
     internal static Scene? Current = null;

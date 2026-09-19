@@ -1,13 +1,13 @@
 ﻿using FastExpressionCompiler.LightExpression;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Types.Reflection;
+using ThaleMagnus.ClearMonocle.Types.Reflection;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+namespace ThaleMagnus.ClearMonocle.Extensions.Reflection;
 
 internal static partial class ReflectionExt {
     private const BindingFlags DefaultLookup = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public;

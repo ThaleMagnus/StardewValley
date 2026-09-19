@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class AssemblyExt {
     internal static Assembly? GetAssembly(string assemblyName) =>

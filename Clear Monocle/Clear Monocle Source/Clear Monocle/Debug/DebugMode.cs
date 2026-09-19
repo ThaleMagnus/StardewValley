@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewValley;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class Debug {
     internal static class Mode {

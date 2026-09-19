@@ -1,9 +1,9 @@
 using GenericModConfigMenu;
 using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Configuration.Preview;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Configuration.Preview;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using System;
@@ -14,9 +14,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
-using SMMetadata = ThaleTheGreat.ClearMonocle.Metadata.Metadata;
+using SMMetadata = ThaleMagnus.ClearMonocle.Metadata.Metadata;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.ConfigMenu;
+namespace ThaleMagnus.ClearMonocle.Configuration.ConfigMenu;
 
 internal static class Setup {
     private const int DefaultPreviewHeight = 400;
@@ -463,30 +463,30 @@ internal static class Setup {
 
     private static void OnValueChange(string fieldId, object value) {
         switch (fieldId) {
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config.Enabled":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config.Enabled":
                 PreviewOverride.Enabled = (bool)value;
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+DrawState.SetLinear":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+DrawState.SetLinear":
                 PreviewOverride.SetLinear = (bool)value;
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+DrawState.SetLinearUnresampled":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+DrawState.SetLinearUnresampled":
                 PreviewOverride.SetLinearUnresampled = (bool)value;
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+Resample.Enabled":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+Resample.Enabled":
                 PreviewOverride.ResampleEnabled = (bool)value;
-                break;            case "ThaleTheGreat.ClearMonocle.Configuration.Config+Resample.EnabledSprites":
+                break;            case "ThaleMagnus.ClearMonocle.Configuration.Config+Resample.EnabledSprites":
                 PreviewOverride.ResampleSprites = (bool)value;
                 SMMetadata.FlushValidations();
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+Resample.EnabledPortraits":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+Resample.EnabledPortraits":
                 PreviewOverride.ResamplePortraits = (bool)value;
                 SMMetadata.FlushValidations();
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+Resample.EnabledLargeText":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+Resample.EnabledLargeText":
                 PreviewOverride.ResampleLargeText = (bool)value;
                 SMMetadata.FlushValidations();
                 break;
-            case "ThaleTheGreat.ClearMonocle.Configuration.Config+Resample.EnabledSmallText":
+            case "ThaleMagnus.ClearMonocle.Configuration.Config+Resample.EnabledSmallText":
                 PreviewOverride.ResampleSmallText = (bool)value;
                 SMMetadata.FlushValidations();
                 break;            default:

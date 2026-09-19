@@ -1,6 +1,6 @@
-﻿using ThaleTheGreat.ClearMonocle.Types;
+﻿using ThaleMagnus.ClearMonocle.Types;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 internal class BasicTexture : MetaTexture {
     internal Vector2I Size => new(Texture.Width, Texture.Height);

@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Colors;
+﻿namespace ThaleMagnus.ClearMonocle.Colors;
 
 internal static class ColorConstant {
     internal static class Shift {

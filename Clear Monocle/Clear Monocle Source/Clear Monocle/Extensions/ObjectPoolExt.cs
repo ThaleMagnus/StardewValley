@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Types.Pooling;
+﻿using ThaleMagnus.ClearMonocle.Types.Pooling;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class ObjectPoolExt {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

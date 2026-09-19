@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Types.Fixed;
+﻿using ThaleMagnus.ClearMonocle.Types.Fixed;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class MathExt {
     #region Min

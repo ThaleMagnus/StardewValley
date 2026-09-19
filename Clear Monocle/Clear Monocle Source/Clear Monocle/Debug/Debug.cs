@@ -1,12 +1,12 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
-using static ThaleTheGreat.ClearMonocle.Runtime;
+using static ThaleMagnus.ClearMonocle.Runtime;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class Debug {
     private static class Color {

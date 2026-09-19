@@ -2,15 +2,15 @@ using JetBrains.Annotations;
 using CommunityToolkit.HighPerformance;
 #if !SHIPPING
 #endif
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Fixed;
-using ThaleTheGreat.ClearMonocle.Types.Spans;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Fixed;
+using ThaleMagnus.ClearMonocle.Types.Spans;
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class SpanExt {
     [Pure]

@@ -1,12 +1,12 @@
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using StardewModdingAPI;
 using System;
 using System.Diagnostics;
 using System.Reflection;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class Debug {
     [DebuggerStepThrough, DebuggerHidden]

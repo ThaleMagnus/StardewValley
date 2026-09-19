@@ -2,7 +2,7 @@
 using StardewValley;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Configuration.Preview;
+namespace ThaleMagnus.ClearMonocle.Configuration.Preview;
 
 // https://github.com/tlitookilakin/HDPortraits/blob/415ede4348c79161afa78db9f843165d05da3cb1/HDPortraits/IHDPortraitsAPI.cs
 public interface IHDPortraitsAPI {

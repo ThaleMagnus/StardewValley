@@ -1,11 +1,11 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Types.MemoryCache;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Caching;
+namespace ThaleMagnus.ClearMonocle.Caching;
 
 /// <summary>
 /// Used to cache original texture data so it doesn't need to perform blocking fetches as often

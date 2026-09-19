@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Extensions.Simd;
+﻿namespace ThaleMagnus.ClearMonocle.Extensions.Simd;
 
 internal static class Support {
     internal const bool Enabled = true;

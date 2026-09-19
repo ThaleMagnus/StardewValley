@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace ThaleTheGreat.ClearMonocle.Extensions;
+namespace ThaleMagnus.ClearMonocle.Extensions;
 
 internal static class WeakReferenceExt {
     internal static bool TryGet<T>(this WeakReference<T>? weakRef, [NotNullWhen(true)] out T? value) where T : class {
