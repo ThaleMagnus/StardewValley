@@ -5,7 +5,7 @@
     <LangVersion>Latest</LangVersion>
     <Nullable>enable</Nullable>
     <AssemblyName>InstantToolUpgradeRedux</AssemblyName>
-    <RootNamespace>ThaleTheGreat.InstantToolUpgradeRedux</RootNamespace>
+    <RootNamespace>ThaleMagnus.InstantToolUpgradeRedux</RootNamespace>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ModFolderName>Instant Tool Upgrade Redux</ModFolderName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

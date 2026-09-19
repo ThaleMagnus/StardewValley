@@ -1,35 +1,35 @@
-namespace ThaleTheGreat.Gatherers.Framework;
+namespace ThaleMagnus.Gatherers.Framework;
 
 internal static class ModConstants
 {
-    internal const string ModId = "ThaleTheGreat.Gatherers";
+    internal const string ModId = "ThaleMagnus.Gatherers";
     internal const string ExpandedStorageModId = "furyx639.ExpandedStorage";
 
-    internal const string HarvestStatueItemId = "ThaleTheGreat.Gatherers_HarvestStatue";
-    internal const string HarvestStatueQualifiedId = "(BC)ThaleTheGreat.Gatherers_HarvestStatue";
-    internal const string ParrotPotItemId = "ThaleTheGreat.Gatherers_ParrotPot";
-    internal const string ParrotPotQualifiedId = "(BC)ThaleTheGreat.Gatherers_ParrotPot";
+    internal const string HarvestStatueItemId = "ThaleMagnus.Gatherers_HarvestStatue";
+    internal const string HarvestStatueQualifiedId = "(BC)ThaleMagnus.Gatherers_HarvestStatue";
+    internal const string ParrotPotItemId = "ThaleMagnus.Gatherers_ParrotPot";
+    internal const string ParrotPotQualifiedId = "(BC)ThaleMagnus.Gatherers_ParrotPot";
 
     internal const string HarvestStatueRecipeKey = "HarvestStatueRecipe";
     internal const string PreviousCombinedHarvestStatueRecipeKey = "Harvest Statue";
     internal const string HarvestStatueMailKey = "WizardHarvestStatueRecipe";
     internal const string IslandTraderShopId = "IslandTrade";
-    internal const string ParrotPotShopEntryId = "ThaleTheGreat.Gatherers_ParrotPot";
+    internal const string ParrotPotShopEntryId = "ThaleMagnus.Gatherers_ParrotPot";
 
-    internal const string StorageKindField = "ThaleTheGreat.Gatherers/StorageKind";
+    internal const string StorageKindField = "ThaleMagnus.Gatherers/StorageKind";
     internal const string ExpandedStorageEnabledField = "furyx639.ExpandedStorage/Enabled";
     internal const string ExpandedStorageFramesField = "furyx639.ExpandedStorage/Frames";
     internal const string ExpandedStoragePlayerColorField = "furyx639.ExpandedStorage/PlayerColor";
     internal const string ExpandedStorageOpenSoundField = "furyx639.ExpandedStorage/OpenSound";
     internal const string ExpandedStoragePlaceSoundField = "furyx639.ExpandedStorage/PlaceSound";
 
-    internal const string HarvestStatueFlag = "ThaleTheGreat.Gatherers/HarvestStatue";
-    internal const string ParrotPotFlag = "ThaleTheGreat.Gatherers/ParrotPot";
-    internal const string AteCropsFlag = "ThaleTheGreat.Gatherers/AteCrops";
-    internal const string HasSpawnedFlag = "ThaleTheGreat.Gatherers/HasSpawned";
-    internal const string HarvestedTodayFlag = "ThaleTheGreat.Gatherers/HarvestedToday";
-    internal const string HarvestedTilesFlag = "ThaleTheGreat.Gatherers/HarvestedTiles";
-    internal const string StorageCapacityFlag = "ThaleTheGreat.Gatherers/StorageCapacity";
+    internal const string HarvestStatueFlag = "ThaleMagnus.Gatherers/HarvestStatue";
+    internal const string ParrotPotFlag = "ThaleMagnus.Gatherers/ParrotPot";
+    internal const string AteCropsFlag = "ThaleMagnus.Gatherers/AteCrops";
+    internal const string HasSpawnedFlag = "ThaleMagnus.Gatherers/HasSpawned";
+    internal const string HarvestedTodayFlag = "ThaleMagnus.Gatherers/HarvestedToday";
+    internal const string HarvestedTilesFlag = "ThaleMagnus.Gatherers/HarvestedTiles";
+    internal const string StorageCapacityFlag = "ThaleMagnus.Gatherers/StorageCapacity";
     internal const string AutomateStoreItemsFlag = "Pathoschild.Automate/StoreItems";
     internal const string AutomateTakeItemsFlag = "Pathoschild.Automate/TakeItems";
     internal const string AutomateDisabledValue = "Disabled";

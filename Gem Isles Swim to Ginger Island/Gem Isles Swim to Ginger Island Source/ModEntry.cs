@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Diagnostics.CodeAnalysis;
 using xTile;
 
-namespace ThaleTheGreat.GemIslesSwimToGingerIsland
+namespace ThaleMagnus.GemIslesSwimToGingerIsland
 {
     public class ModEntry : Mod
     {

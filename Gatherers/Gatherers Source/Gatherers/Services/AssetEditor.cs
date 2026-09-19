@@ -3,9 +3,9 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley.GameData.BigCraftables;
 using StardewValley.GameData.Shops;
-using ThaleTheGreat.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Framework;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal sealed class AssetEditor
 {
@@ -18,25 +18,25 @@ internal sealed class AssetEditor
 
     internal void OnAssetRequested(object? sender, AssetRequestedEventArgs e)
     {
-        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleTheGreat.Gatherers/HarvestStatueEmpty"))
+        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleMagnus.Gatherers/HarvestStatueEmpty"))
         {
             e.LoadFromModFile<Texture2D>("assets/Harvest Statue/empty.png", AssetLoadPriority.Exclusive);
             return;
         }
 
-        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleTheGreat.Gatherers/HarvestStatueFilled"))
+        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleMagnus.Gatherers/HarvestStatueFilled"))
         {
             e.LoadFromModFile<Texture2D>("assets/Harvest Statue/filled.png", AssetLoadPriority.Exclusive);
             return;
         }
 
-        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleTheGreat.Gatherers/ParrotPotEmpty"))
+        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleMagnus.Gatherers/ParrotPotEmpty"))
         {
             e.LoadFromModFile<Texture2D>("assets/Parrot Pot/empty.png", AssetLoadPriority.Exclusive);
             return;
         }
 
-        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleTheGreat.Gatherers/ParrotPotFilled"))
+        if (e.NameWithoutLocale.IsEquivalentTo("Mods/ThaleMagnus.Gatherers/ParrotPotFilled"))
         {
             e.LoadFromModFile<Texture2D>("assets/Parrot Pot/filled.png", AssetLoadPriority.Exclusive);
             return;
@@ -56,7 +56,7 @@ internal sealed class AssetEditor
                     Fragility = 0,
                     CanBePlacedOutdoors = false,
                     CanBePlacedIndoors = true,
-                    Texture = "Mods/ThaleTheGreat.Gatherers/HarvestStatueEmpty",
+                    Texture = "Mods/ThaleMagnus.Gatherers/HarvestStatueEmpty",
                     SpriteIndex = 0,
                     ContextTags = new List<string> { "gatherers_harvest_statue" },
                     CustomFields = CreateStorageCustomFields(GathererKind.HarvestStatue)
@@ -71,7 +71,7 @@ internal sealed class AssetEditor
                     Fragility = 0,
                     CanBePlacedOutdoors = true,
                     CanBePlacedIndoors = false,
-                    Texture = "Mods/ThaleTheGreat.Gatherers/ParrotPotEmpty",
+                    Texture = "Mods/ThaleMagnus.Gatherers/ParrotPotEmpty",
                     SpriteIndex = 0,
                     ContextTags = new List<string> { "gatherers_parrot_pot" },
                     CustomFields = CreateStorageCustomFields(GathererKind.ParrotPot)

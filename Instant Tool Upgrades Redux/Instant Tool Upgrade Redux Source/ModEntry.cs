@@ -8,7 +8,7 @@ using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.GameData.Tools;
 
-namespace ThaleTheGreat.InstantToolUpgradeRedux;
+namespace ThaleMagnus.InstantToolUpgradeRedux;
 
 public sealed class ModEntry : Mod
 {

@@ -2,10 +2,10 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
-using ThaleTheGreat.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Framework;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal sealed class GathererService
 {

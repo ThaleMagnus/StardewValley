@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Gatherers",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.1",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.2",
   "Description": "Combines Greenhouse Gatherers and Island Gatherers for Stardew Valley 1.6.",
-  "UniqueID": "ThaleTheGreat.Gatherers",
+  "UniqueID": "ThaleMagnus.Gatherers",
   "EntryDll": "Gatherers.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

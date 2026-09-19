@@ -1,7 +1,7 @@
 using StardewValley;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal static class ItemFactory
 {

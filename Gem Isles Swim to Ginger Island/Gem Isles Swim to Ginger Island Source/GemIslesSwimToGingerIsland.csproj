@@ -3,7 +3,7 @@
     <Version>1.0.2</Version>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>GemIslesSwimToGingerIsland</AssemblyName>
-    <RootNamespace>ThaleTheGreat.GemIslesSwimToGingerIsland</RootNamespace>
+    <RootNamespace>ThaleMagnus.GemIslesSwimToGingerIsland</RootNamespace>
     <ModFolderName>Gem Isles Swim to Ginger Island</ModFolderName>
     <EnableHarmony>false</EnableHarmony>
     <Platforms>AnyCPU;x64</Platforms>

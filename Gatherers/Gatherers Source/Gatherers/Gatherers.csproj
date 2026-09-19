@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>Gatherers</AssemblyName>
-    <RootNamespace>ThaleTheGreat.Gatherers</RootNamespace>
+    <RootNamespace>ThaleMagnus.Gatherers</RootNamespace>
     <EnableHarmony>true</EnableHarmony>
     <EnableModDeploy>false</EnableModDeploy>
     <EnableModZip>false</EnableModZip>

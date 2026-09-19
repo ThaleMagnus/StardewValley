@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) GMCM Advanced Search",
-  "Author": "ThaleTheGreat",
-  "Version": "1.5.2",
+  "Author": "ThaleMagnus",
+  "Version": "1.5.3",
   "Description": "Search GMCM config options by author, mod name, UniqueID, Nexus ID, option label, tooltip, field ID, and config key.",
-  "UniqueID": "ThaleTheGreat.GMCMAdvancedSearch",
+  "UniqueID": "ThaleMagnus.GMCMAdvancedSearch",
   "EntryDll": "GMCMAdvancedSearch.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

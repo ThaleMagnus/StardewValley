@@ -4,10 +4,10 @@ using StardewValley;
 using StardewValley.Buildings;
 using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Services;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Automate;
+namespace ThaleMagnus.Gatherers.Automate;
 
 public sealed class GatherersAutomationFactory : IAutomationFactory
 {

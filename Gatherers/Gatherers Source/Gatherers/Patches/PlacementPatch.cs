@@ -1,11 +1,11 @@
 using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Framework;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Services;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Patches;
+namespace ThaleMagnus.Gatherers.Patches;
 
 internal static class PlacementPatch
 {

@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.Gatherers.Framework;
+namespace ThaleMagnus.Gatherers.Framework;
 
 public sealed class ModConfig
 {

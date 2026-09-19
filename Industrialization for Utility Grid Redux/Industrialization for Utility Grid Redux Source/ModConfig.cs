@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.IndustrializationForUtilityGridRedux;
+namespace ThaleMagnus.IndustrializationForUtilityGridRedux;
 
 internal sealed class ModConfig
 {

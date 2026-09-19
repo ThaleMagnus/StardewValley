@@ -1,7 +1,7 @@
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Services;
 
-namespace ThaleTheGreat.Gatherers.Patches;
+namespace ThaleMagnus.Gatherers.Patches;
 
 internal static class ChestCapacityPatch
 {

@@ -1,8 +1,8 @@
 using Pathoschild.Stardew.Automate;
 using StardewModdingAPI;
-using ThaleTheGreat.Gatherers.Automate;
+using ThaleMagnus.Gatherers.Automate;
 
-namespace ThaleTheGreat.Gatherers.Integration;
+namespace ThaleMagnus.Gatherers.Integration;
 
 internal sealed class AutomateIntegration
 {

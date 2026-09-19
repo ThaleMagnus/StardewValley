@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Industrialization for Utility Grid Redux",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.3",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.4",
   "Description": "Adds Industrialization Machines to Utility Grid Redux.",
-  "UniqueID": "ThaleTheGreat.IndustrializationForUtilityGridRedux",
+  "UniqueID": "ThaleMagnus.IndustrializationForUtilityGridRedux",
   "EntryDll": "IndustrializationForUtilityGridRedux.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
@@ -11,7 +11,7 @@
   ],
   "Dependencies": [
     {
-      "UniqueID": "ThaleTheGreat.UtilityGridRedux",
+      "UniqueID": "ThaleMagnus.UtilityGridRedux",
       "IsRequired": true
     },
     {

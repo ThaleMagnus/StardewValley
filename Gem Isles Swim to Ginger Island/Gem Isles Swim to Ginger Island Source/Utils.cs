@@ -17,7 +17,7 @@ using xTile.Layers;
 using xTile.Tiles;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.GemIslesSwimToGingerIsland
+namespace ThaleMagnus.GemIslesSwimToGingerIsland
 {
     internal class Utils
     {

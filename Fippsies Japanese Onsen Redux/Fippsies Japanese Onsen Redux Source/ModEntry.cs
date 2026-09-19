@@ -13,15 +13,15 @@ using xTile.Layers;
 using xTile.ObjectModel;
 using xTile.Tiles;
 
-namespace ThaleTheGreat.FippsiesJapaneseOnsenRedux;
+namespace ThaleMagnus.FippsiesJapaneseOnsenRedux;
 
 internal sealed class ModEntry : Mod
 {
     private const string BigBuildingId = "Fippsie.Onsen";
     private const string SmallBuildingId = "Fippsie.SmallOnsen";
 
-    private const string BigExteriorTexture = "Mods/ThaleTheGreat.FippsiesJapaneseOnsenRedux/BigOnsenExterior";
-    private const string SmallExteriorTexture = "Mods/ThaleTheGreat.FippsiesJapaneseOnsenRedux/SmallOnsenExterior";
+    private const string BigExteriorTexture = "Mods/ThaleMagnus.FippsiesJapaneseOnsenRedux/BigOnsenExterior";
+    private const string SmallExteriorTexture = "Mods/ThaleMagnus.FippsiesJapaneseOnsenRedux/SmallOnsenExterior";
 
     private const string BigIndoorMapName = "FippsiesJapaneseOnsenRedux_BigOnsen";
     private const string SmallIndoorMapName = "FippsiesJapaneseOnsenRedux_SmallOnsen";

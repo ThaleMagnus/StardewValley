@@ -1,208 +1,208 @@
 {
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Brick": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_Brick",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Brick": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_Brick",
     "DisplayName": "{{i18n:item.brick.name}}",
     "Description": "{{i18n:item.brick.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 6,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 0,
     "Edibility": -300,
     "ContextTags": [
       "item_brick"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumBar": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumBar": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumBar",
     "DisplayName": "{{i18n:item.chromium-bar.name}}",
     "Description": "{{i18n:item.chromium-bar.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 1500,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 1,
     "Edibility": -300,
     "ContextTags": [
       "item_chromiumbar"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumCompound": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumCompound",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumCompound": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumCompound",
     "DisplayName": "{{i18n:item.chromium-compound.name}}",
     "Description": "{{i18n:item.chromium-compound.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 750,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 2,
     "Edibility": -300,
     "ContextTags": [
       "item_chromiumcompound"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedCopper": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedCopper",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedCopper": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedCopper",
     "DisplayName": "{{i18n:item.pulverized-copper.name}}",
     "Description": "{{i18n:item.pulverized-copper.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 20,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 3,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizedcopper"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedGold": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedGold",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedGold": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedGold",
     "DisplayName": "{{i18n:item.pulverized-gold.name}}",
     "Description": "{{i18n:item.pulverized-gold.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 100,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 4,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizedgold"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIridium": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIridium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIridium": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIridium",
     "DisplayName": "{{i18n:item.pulverized-iridium.name}}",
     "Description": "{{i18n:item.pulverized-iridium.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 450,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 5,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizediridium"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIron": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIron",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIron": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIron",
     "DisplayName": "{{i18n:item.pulverized-iron.name}}",
     "Description": "{{i18n:item.pulverized-iron.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 45,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 6,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizediron"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
     "DisplayName": "{{i18n:item.pulverized-prismatic-shard.name}}",
     "Description": "{{i18n:item.pulverized-prismatic-shard.description}}",
     "Type": "Basic",
     "Category": -8,
     "Price": 90,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 7,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizedprismaticshard"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedQuartz": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedQuartz",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedQuartz": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedQuartz",
     "DisplayName": "{{i18n:item.pulverized-quartz.name}}",
     "Description": "{{i18n:item.pulverized-quartz.description}}",
     "Type": "Basic",
     "Category": -8,
     "Price": 20,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 8,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizedquartz"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal",
     "DisplayName": "{{i18n:item.pulverized-radioactive-metal.name}}",
     "Description": "{{i18n:item.pulverized-radioactive-metal.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 600,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 9,
     "Edibility": -300,
     "ContextTags": [
       "item_pulverizedradioactivemetal"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SmeltedFairyStone": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_SmeltedFairyStone",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SmeltedFairyStone": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_SmeltedFairyStone",
     "DisplayName": "{{i18n:item.smelted-fairy-stone.name}}",
     "Description": "{{i18n:item.smelted-fairy-stone.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 500,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 10,
     "Edibility": -300,
     "ContextTags": [
       "item_smeltedfairystone"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Ash": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "DisplayName": "{{i18n:item.ash.name}}",
     "Description": "{{i18n:item.ash.description}}",
     "Type": "Basic",
     "Category": -20,
     "Price": 1,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 11,
     "Edibility": -300,
     "ContextTags": [
       "item_ash"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_DepletedUranium": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_DepletedUranium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_DepletedUranium": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_DepletedUranium",
     "DisplayName": "{{i18n:item.depleted-uranium.name}}",
     "Description": "{{i18n:item.depleted-uranium.description}}",
     "Type": "Basic",
     "Category": -20,
     "Price": 1,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 12,
     "Edibility": -300,
     "ContextTags": [
       "item_depleteduranium"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_HeavyOil": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_HeavyOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_HeavyOil": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_HeavyOil",
     "DisplayName": "{{i18n:item.heavy-oil.name}}",
     "Description": "{{i18n:item.heavy-oil.description}}",
     "Type": "Basic",
     "Category": -8,
     "Price": 1000,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 13,
     "Edibility": -300,
     "ContextTags": [
       "item_heavyoil"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_LightOil": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_LightOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_LightOil": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_LightOil",
     "DisplayName": "{{i18n:item.light-oil.name}}",
     "Description": "{{i18n:item.light-oil.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 1500,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 14,
     "Edibility": -300,
     "ContextTags": [
@@ -210,14 +210,14 @@
     ],
     "CategoryTextOverride": "{{i18n:category.fuel}}"
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedHeavyOil": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedHeavyOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedHeavyOil": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedHeavyOil",
     "DisplayName": "{{i18n:item.refined-heavy-oil.name}}",
     "Description": "{{i18n:item.refined-heavy-oil.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 2000,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 15,
     "Edibility": -300,
     "ContextTags": [
@@ -225,14 +225,14 @@
     ],
     "CategoryTextOverride": "{{i18n:category.fuel}}"
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedLightOil": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedLightOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedLightOil": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedLightOil",
     "DisplayName": "{{i18n:item.refined-light-oil.name}}",
     "Description": "{{i18n:item.refined-light-oil.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 3000,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 16,
     "Edibility": -300,
     "ContextTags": [
@@ -240,28 +240,28 @@
     ],
     "CategoryTextOverride": "{{i18n:category.fuel}}"
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedUranium": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedUranium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedUranium": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedUranium",
     "DisplayName": "{{i18n:item.refined-uranium.name}}",
     "Description": "{{i18n:item.refined-uranium.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 6000,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 17,
     "Edibility": -300,
     "ContextTags": [
       "item_refineduranium"
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SolidFuel": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_SolidFuel",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SolidFuel": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_SolidFuel",
     "DisplayName": "{{i18n:item.solid-fuel.name}}",
     "Description": "{{i18n:item.solid-fuel.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 200,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 18,
     "Edibility": -300,
     "ContextTags": [
@@ -269,14 +269,14 @@
     ],
     "CategoryTextOverride": "{{i18n:category.fuel}}"
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PrismaticBar": {
-    "Name": "ThaleTheGreat.IndustrializationForUtilityGridRedux_PrismaticBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PrismaticBar": {
+    "Name": "ThaleMagnus.IndustrializationForUtilityGridRedux_PrismaticBar",
     "DisplayName": "{{i18n:item.prismatic-bar.name}}",
     "Description": "{{i18n:item.prismatic-bar.description}}",
     "Type": "Basic",
     "Category": -15,
     "Price": 2000,
-    "Texture": "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects",
+    "Texture": "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects",
     "SpriteIndex": 1,
     "Edibility": -300,
     "ContextTags": [

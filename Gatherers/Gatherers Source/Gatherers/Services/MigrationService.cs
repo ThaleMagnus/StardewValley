@@ -1,14 +1,14 @@
 using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Framework;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal static class MigrationService
 {
-    private const string CombinedConvertedFlag = "ThaleTheGreat.Gatherers/HasConvertedLegacyGatherers";
+    private const string CombinedConvertedFlag = "ThaleMagnus.Gatherers/HasConvertedLegacyGatherers";
 
     internal static void Run()
     {

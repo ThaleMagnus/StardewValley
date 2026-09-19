@@ -1,7 +1,7 @@
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Services;
 
-namespace ThaleTheGreat.Gatherers.Api;
+namespace ThaleMagnus.Gatherers.Api;
 
 public sealed class GatherersApi : IGatherersApi
 {

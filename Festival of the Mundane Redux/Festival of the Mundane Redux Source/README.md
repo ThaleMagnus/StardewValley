@@ -8,7 +8,7 @@ During the festival, the Sewer map is replaced with a festival version containin
 
 Original mod concept, writing, festival map, minigame, and core implementation by **MouseyPounds and Mr. Podunkian**.
 
-Redux update by **ThaleTheGreat**.
+Redux update by **ThaleMagnus**.
 
 This Redux is primarily intended as a compatibility and maintenance update, not a full redesign of the original festival.
 

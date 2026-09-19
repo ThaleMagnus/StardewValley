@@ -9,7 +9,7 @@ using StardewValley;
 using StardewValley.GameData.Machines;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.IndustrializationForUtilityGridRedux;
+namespace ThaleMagnus.IndustrializationForUtilityGridRedux;
 
 public static class MachineLogic
 {

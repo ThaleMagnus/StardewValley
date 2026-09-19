@@ -11,12 +11,12 @@ using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 
-namespace ThaleTheGreat.IndustrializationForUtilityGridRedux;
+namespace ThaleMagnus.IndustrializationForUtilityGridRedux;
 
 public sealed class ModEntry : Mod
 {
-    private const string ObjectTextureAsset = "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/Objects";
-    private const string BigCraftableTextureAsset = "Mods/ThaleTheGreat.IndustrializationForUtilityGridRedux/BigCraftables";
+    private const string ObjectTextureAsset = "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/Objects";
+    private const string BigCraftableTextureAsset = "Mods/ThaleMagnus.IndustrializationForUtilityGridRedux/BigCraftables";
     private const int MinProducedAmount = 1;
     private const int MaxProducedAmount = 2500;
     private const int MinConsumedAmount = 1;
@@ -119,8 +119,8 @@ public sealed class ModEntry : Mod
         if (recipeNames.Length == 0)
             return;
 
-        string iconRecipe = recipeNames.Contains("ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace", StringComparer.OrdinalIgnoreCase)
-            ? "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace"
+        string iconRecipe = recipeNames.Contains("ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace", StringComparer.OrdinalIgnoreCase)
+            ? "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace"
             : recipeNames[0];
 
         this.ExcludeBetterCraftingMachineRuleRecipes(recipeNames);
@@ -134,7 +134,7 @@ public sealed class ModEntry : Mod
     {
         Assembly? utilityGridAssembly = AppDomain.CurrentDomain.GetAssemblies()
             .FirstOrDefault(assembly => string.Equals(assembly.GetName().Name, "UtilityGridRedux", StringComparison.OrdinalIgnoreCase));
-        Type? modEntryType = utilityGridAssembly?.GetType("ThaleTheGreat.UtilityGridRedux.ModEntry");
+        Type? modEntryType = utilityGridAssembly?.GetType("ThaleMagnus.UtilityGridRedux.ModEntry");
         MethodInfo? method = modEntryType?.GetMethod("ExcludeBetterCraftingMachineRecipes", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
         if (method is null)
             return;
@@ -187,8 +187,8 @@ public sealed class ModEntry : Mod
             return;
         }
 
-        Type? modEntryType = utilityGridAssembly.GetType("ThaleTheGreat.UtilityGridRedux.ModEntry");
-        Type? ruleType = utilityGridAssembly.GetType("ThaleTheGreat.UtilityGridRedux.UtilityObjectRule");
+        Type? modEntryType = utilityGridAssembly.GetType("ThaleMagnus.UtilityGridRedux.ModEntry");
+        Type? ruleType = utilityGridAssembly.GetType("ThaleMagnus.UtilityGridRedux.UtilityObjectRule");
         FieldInfo? rulesField = modEntryType?.GetField("ObjectRules", BindingFlags.Static | BindingFlags.NonPublic);
         if (modEntryType is null || ruleType is null || rulesField?.GetValue(null) is not IDictionary objectRules)
         {
@@ -786,7 +786,7 @@ public sealed class ModEntry : Mod
     {
         Assembly? utilityGridAssembly = AppDomain.CurrentDomain.GetAssemblies()
             .FirstOrDefault(assembly => string.Equals(assembly.GetName().Name, "UtilityGridRedux", StringComparison.OrdinalIgnoreCase));
-        Type? modEntryType = utilityGridAssembly?.GetType("ThaleTheGreat.UtilityGridRedux.ModEntry");
+        Type? modEntryType = utilityGridAssembly?.GetType("ThaleMagnus.UtilityGridRedux.ModEntry");
         return modEntryType?.GetMethod("IsObjectRuleKeyDisabled", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
     }
 

@@ -7,14 +7,14 @@ using StardewValley;
 using StardewValley.Characters;
 using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
-using ThaleTheGreat.Gatherers.Api;
-using ThaleTheGreat.Gatherers.Framework;
-using ThaleTheGreat.Gatherers.Integration;
-using ThaleTheGreat.Gatherers.Patches;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Api;
+using ThaleMagnus.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Integration;
+using ThaleMagnus.Gatherers.Patches;
+using ThaleMagnus.Gatherers.Services;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers;
+namespace ThaleMagnus.Gatherers;
 
 public sealed class ModEntry : Mod
 {

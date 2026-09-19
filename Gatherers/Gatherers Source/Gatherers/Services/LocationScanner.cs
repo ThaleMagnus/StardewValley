@@ -1,7 +1,7 @@
 using StardewValley;
 using StardewValley.Buildings;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal static class LocationScanner
 {

@@ -1,6 +1,6 @@
 using StardewValley.Objects;
 
-namespace ThaleTheGreat.GatherersAutomateIntegration.Integration;
+namespace ThaleMagnus.GatherersAutomateIntegration.Integration;
 
 public interface IGatherersApi
 {

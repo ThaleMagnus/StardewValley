@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.GemIslesSwimToGingerIsland
+namespace ThaleMagnus.GemIslesSwimToGingerIsland
 {
     internal static class EmbeddedIslesMapData
     {

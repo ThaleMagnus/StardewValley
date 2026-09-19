@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>GatherersAutomateIntegration</AssemblyName>
-    <RootNamespace>ThaleTheGreat.GatherersAutomateIntegration</RootNamespace>
+    <RootNamespace>ThaleMagnus.GatherersAutomateIntegration</RootNamespace>
     <EnableModDeploy>false</EnableModDeploy>
     <EnableModZip>false</EnableModZip>
     <LangVersion>latest</LangVersion>

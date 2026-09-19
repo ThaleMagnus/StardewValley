@@ -1,5 +1,5 @@
 {
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_1_PulverizedCopper": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_1_PulverizedCopper": {
     "OutputIdentifier": "(O)334",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -10,7 +10,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_2_PulverizedIron": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_2_PulverizedIron": {
     "OutputIdentifier": "(O)335",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -21,7 +21,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_3_PulverizedGold": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_3_PulverizedGold": {
     "OutputIdentifier": "(O)336",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -32,7 +32,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_4_PulverizedIridium": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_4_PulverizedIridium": {
     "OutputIdentifier": "(O)337",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -43,7 +43,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_5_PulverizedQuartz": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_5_PulverizedQuartz": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -54,8 +54,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_6_ChromiumCompound": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_6_ChromiumCompound": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumBar",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -65,8 +65,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_7_74": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PrismaticBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_7_74": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PrismaticBar",
     "OutputStack": 5,
     "OutputMaxStack": 5,
     "OutputQuality": 0,
@@ -76,7 +76,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_8_PulverizedRadioactiveMetal": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_8_PulverizedRadioactiveMetal": {
     "OutputIdentifier": "(O)910",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -87,7 +87,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AlternatorEFurnace_9_PulverizedPrismaticShard": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AlternatorEFurnace_9_PulverizedPrismaticShard": {
     "OutputIdentifier": "(O)74",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -98,8 +98,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CeramicKiln_1_330": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Brick",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_CeramicKiln_1_330": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Brick",
     "OutputStack": 20,
     "OutputMaxStack": 20,
     "OutputQuality": 0,
@@ -109,7 +109,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionGenerator_1_382": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_CombustionGenerator_1_382": {
     "OutputIdentifier": "(O)787",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -120,7 +120,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionGenerator_2_768": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_CombustionGenerator_2_768": {
     "OutputIdentifier": "(O)787",
     "OutputStack": 3,
     "OutputMaxStack": 3,
@@ -131,7 +131,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_JojaColaGenerator_1_167": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_JojaColaGenerator_1_167": {
     "OutputIdentifier": "(O)787",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -142,7 +142,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_1_PulverizedCopper": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_1_PulverizedCopper": {
     "OutputIdentifier": "(O)334",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -153,7 +153,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_2_PulverizedIron": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_2_PulverizedIron": {
     "OutputIdentifier": "(O)335",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -164,7 +164,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_3_PulverizedGold": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_3_PulverizedGold": {
     "OutputIdentifier": "(O)336",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -175,7 +175,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_4_PulverizedIridium": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_4_PulverizedIridium": {
     "OutputIdentifier": "(O)337",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -186,7 +186,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_5_PulverizedQuartz": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_5_PulverizedQuartz": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -197,7 +197,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_6_PulverizedRadioactiveMetal": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_6_PulverizedRadioactiveMetal": {
     "OutputIdentifier": "(O)910",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -208,7 +208,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_7_378": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_7_378": {
     "OutputIdentifier": "(O)334",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -219,7 +219,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_8_380": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_8_380": {
     "OutputIdentifier": "(O)335",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -230,7 +230,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_9_384": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_9_384": {
     "OutputIdentifier": "(O)336",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -241,7 +241,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_10_386": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_10_386": {
     "OutputIdentifier": "(O)337",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -252,7 +252,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_11_80": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_11_80": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -263,7 +263,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_12_82": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_12_82": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 3,
     "OutputMaxStack": 3,
@@ -274,8 +274,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_13_ChromiumCompound": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_13_ChromiumCompound": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumBar",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -285,8 +285,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_14_74": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PrismaticBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_14_74": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PrismaticBar",
     "OutputStack": 5,
     "OutputMaxStack": 5,
     "OutputQuality": 0,
@@ -296,7 +296,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_15_909": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_15_909": {
     "OutputIdentifier": "(O)910",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -307,7 +307,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricFurnace_16_PulverizedPrismaticShard": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricFurnace_16_PulverizedPrismaticShard": {
     "OutputIdentifier": "(O)74",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -318,7 +318,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_1_PulverizedCopper": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_1_PulverizedCopper": {
     "OutputIdentifier": "(O)334",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -329,7 +329,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_2_PulverizedIron": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_2_PulverizedIron": {
     "OutputIdentifier": "(O)335",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -340,7 +340,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_3_PulverizedGold": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_3_PulverizedGold": {
     "OutputIdentifier": "(O)336",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -351,7 +351,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_4_PulverizedIridium": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_4_PulverizedIridium": {
     "OutputIdentifier": "(O)337",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -362,7 +362,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_5_PulverizedRadioactiveMetal": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_5_PulverizedRadioactiveMetal": {
     "OutputIdentifier": "(O)909",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -373,7 +373,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_6_PulverizedQuartz": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_6_PulverizedQuartz": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -384,7 +384,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_7_378": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_7_378": {
     "OutputIdentifier": "(O)334",
     "OutputStack": 2,
     "OutputMaxStack": 2,
@@ -395,7 +395,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_8_380": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_8_380": {
     "OutputIdentifier": "(O)335",
     "OutputStack": 2,
     "OutputMaxStack": 2,
@@ -406,7 +406,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_9_384": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_9_384": {
     "OutputIdentifier": "(O)336",
     "OutputStack": 2,
     "OutputMaxStack": 2,
@@ -417,7 +417,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_10_386": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_10_386": {
     "OutputIdentifier": "(O)337",
     "OutputStack": 2,
     "OutputMaxStack": 2,
@@ -428,7 +428,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_11_80": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_11_80": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 2,
     "OutputMaxStack": 2,
@@ -439,7 +439,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_12_82": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_12_82": {
     "OutputIdentifier": "(O)338",
     "OutputStack": 6,
     "OutputMaxStack": 6,
@@ -450,8 +450,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_13_ChromiumCompound": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_13_ChromiumCompound": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumBar",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -461,8 +461,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_14_74": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PrismaticBar",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_14_74": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PrismaticBar",
     "OutputStack": 5,
     "OutputMaxStack": 5,
     "OutputQuality": 0,
@@ -472,7 +472,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_15_909": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_15_909": {
     "OutputIdentifier": "(O)910",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -483,7 +483,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChromiumFurnace_16_PulverizedPrismaticShard": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChromiumFurnace_16_PulverizedPrismaticShard": {
     "OutputIdentifier": "(O)74",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -494,8 +494,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_1_378": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedCopper",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_1_378": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedCopper",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -505,8 +505,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_2_380": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIron",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_2_380": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIron",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -516,8 +516,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_3_384": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedGold",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_3_384": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedGold",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -527,8 +527,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_4_386": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIridium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_4_386": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIridium",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -538,8 +538,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_5_909": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_5_909": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedRadioactiveMetal",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -549,8 +549,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_6_80": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedQuartz",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_6_80": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedQuartz",
     "OutputStack": 2,
     "OutputMaxStack": 2,
     "OutputQuality": 0,
@@ -560,8 +560,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_7_82": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedQuartz",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_7_82": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedQuartz",
     "OutputStack": 6,
     "OutputMaxStack": 6,
     "OutputQuality": 0,
@@ -571,8 +571,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_Pulverizer_8_74": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_Pulverizer_8_74": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
     "OutputStack": 20,
     "OutputMaxStack": 20,
     "OutputQuality": 0,
@@ -582,7 +582,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_1_72": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_1_72": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -603,7 +603,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_2_68": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_2_68": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -624,7 +624,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_3_66": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_3_66": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -645,7 +645,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_4_62": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_4_62": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -666,7 +666,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_5_70": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_5_70": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -687,7 +687,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_6_64": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_6_64": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -708,7 +708,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_7_60": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_7_60": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -729,7 +729,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GemPolisher_8_74": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GemPolisher_8_74": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -750,7 +750,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_1_578": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_1_578": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -771,7 +771,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_2_577": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_2_577": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -792,7 +792,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_3_562": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_3_562": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -813,7 +813,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_4_564": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_4_564": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -834,7 +834,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_5_565": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_5_565": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -855,7 +855,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_6_541": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_6_541": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -876,7 +876,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_7_538": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_7_538": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -897,7 +897,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_8_540": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_8_540": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -918,7 +918,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_9_570": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_9_570": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -939,7 +939,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_10_539": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_10_539": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -960,7 +960,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_11_542": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_11_542": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -981,7 +981,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_12_566": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_12_566": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1002,7 +1002,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_13_543": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_13_543": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1023,7 +1023,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_14_544": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_14_544": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1044,7 +1044,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_15_545": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_15_545": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1065,7 +1065,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_16_546": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_16_546": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1086,7 +1086,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_17_561": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_17_561": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1107,7 +1107,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_18_569": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_18_569": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1128,7 +1128,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_19_547": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_19_547": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1149,7 +1149,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_20_573": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_20_573": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1170,7 +1170,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_21_549": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_21_549": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1191,7 +1191,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_22_548": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_22_548": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1212,7 +1212,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_23_563": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_23_563": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1233,7 +1233,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_24_550": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_24_550": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1254,7 +1254,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_25_554": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_25_554": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1275,7 +1275,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_26_571": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_26_571": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1296,7 +1296,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_27_551": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_27_551": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1317,7 +1317,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_28_552": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_28_552": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1338,7 +1338,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_29_567": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_29_567": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1359,7 +1359,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_30_574": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_30_574": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1380,7 +1380,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_31_555": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_31_555": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1401,7 +1401,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_32_553": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_32_553": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1422,7 +1422,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_33_575": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_33_575": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1443,7 +1443,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_34_560": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_34_560": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1464,7 +1464,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_35_556": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_35_556": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1485,7 +1485,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_36_557": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_36_557": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1506,7 +1506,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_37_559": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_37_559": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1527,7 +1527,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_38_568": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_38_568": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1548,7 +1548,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_39_576": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_39_576": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1569,7 +1569,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_40_572": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_40_572": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1590,7 +1590,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_41_558": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_41_558": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1611,7 +1611,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_42_84": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_42_84": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1632,7 +1632,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_MineralWasher_43_86": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_MineralWasher_43_86": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1653,7 +1653,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayBin_1_771": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_HayBin_1_771": {
     "OutputIdentifier": "(O)178",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -1664,7 +1664,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_1_472": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_1_472": {
     "OutputIdentifier": "(O)24",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1675,7 +1675,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_2_474": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_2_474": {
     "OutputIdentifier": "(O)190",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1686,7 +1686,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_3_475": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_3_475": {
     "OutputIdentifier": "(O)192",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -1697,7 +1697,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_4_473": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_4_473": {
     "OutputIdentifier": "(O)188",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1708,7 +1708,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_5_476": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_5_476": {
     "OutputIdentifier": "(O)248",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1719,7 +1719,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_6_477": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_6_477": {
     "OutputIdentifier": "(O)250",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1730,7 +1730,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_7_478": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_7_478": {
     "OutputIdentifier": "(O)252",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1741,7 +1741,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_8_745": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_8_745": {
     "OutputIdentifier": "(O)400",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -1752,7 +1752,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_9_481": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_9_481": {
     "OutputIdentifier": "(O)258",
     "OutputStack": 24,
     "OutputMaxStack": 30,
@@ -1763,7 +1763,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_10_487": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_10_487": {
     "OutputIdentifier": "(O)270",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1774,7 +1774,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_11_302": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_11_302": {
     "OutputIdentifier": "(O)304",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1785,7 +1785,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_12_482": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_12_482": {
     "OutputIdentifier": "(O)260",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -1796,7 +1796,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_13_479": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_13_479": {
     "OutputIdentifier": "(O)254",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1807,7 +1807,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_14_484": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_14_484": {
     "OutputIdentifier": "(O)264",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1818,7 +1818,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_15_485": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_15_485": {
     "OutputIdentifier": "(O)266",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1829,7 +1829,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_16_486": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_16_486": {
     "OutputIdentifier": "(O)268",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1840,7 +1840,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_17_480": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_17_480": {
     "OutputIdentifier": "(O)256",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -1851,7 +1851,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_18_299": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_18_299": {
     "OutputIdentifier": "(O)300",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1862,7 +1862,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_19_489": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_19_489": {
     "OutputIdentifier": "(O)274",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1873,7 +1873,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_20_494": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_20_494": {
     "OutputIdentifier": "(O)284",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1884,7 +1884,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_21_483": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_21_483": {
     "OutputIdentifier": "(O)262",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1895,7 +1895,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_22_491": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_22_491": {
     "OutputIdentifier": "(O)278",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1906,7 +1906,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_23_493": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_23_493": {
     "OutputIdentifier": "(O)282",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -1917,7 +1917,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_24_488": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_24_488": {
     "OutputIdentifier": "(O)272",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1928,7 +1928,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_25_301": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_25_301": {
     "OutputIdentifier": "(O)398",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1939,7 +1939,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_26_490": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_26_490": {
     "OutputIdentifier": "(O)276",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1950,7 +1950,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_27_492": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_27_492": {
     "OutputIdentifier": "(O)280",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1961,7 +1961,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_28_499": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_28_499": {
     "OutputIdentifier": "(O)454",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1972,7 +1972,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_29_347": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_29_347": {
     "OutputIdentifier": "(O)417",
     "OutputStack": 24,
     "OutputMaxStack": 24,
@@ -1983,7 +1983,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_30_770": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_30_770": {
     "OutputIdentifier": "(O)771",
     "OutputStack": 100,
     "OutputMaxStack": 100,
@@ -1994,7 +1994,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_31_273": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_31_273": {
     "OutputIdentifier": "(O)271",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -2005,7 +2005,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_32_830": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_32_830": {
     "OutputIdentifier": "(O)831",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -2016,7 +2016,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_GardenCloche_33_833": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_GardenCloche_33_833": {
     "OutputIdentifier": "(O)832",
     "OutputStack": 24,
     "OutputMaxStack": 28,
@@ -2027,7 +2027,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_1_472": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_1_472": {
     "OutputIdentifier": "(O)24",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2038,7 +2038,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_2_474": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_2_474": {
     "OutputIdentifier": "(O)190",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2049,7 +2049,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_3_475": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_3_475": {
     "OutputIdentifier": "(O)192",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2060,7 +2060,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_4_473": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_4_473": {
     "OutputIdentifier": "(O)188",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2071,7 +2071,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_5_476": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_5_476": {
     "OutputIdentifier": "(O)248",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2082,7 +2082,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_6_477": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_6_477": {
     "OutputIdentifier": "(O)250",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2093,7 +2093,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_7_478": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_7_478": {
     "OutputIdentifier": "(O)252",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2104,7 +2104,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_8_745": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_8_745": {
     "OutputIdentifier": "(O)400",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2115,7 +2115,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_9_481": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_9_481": {
     "OutputIdentifier": "(O)258",
     "OutputStack": 480,
     "OutputMaxStack": 30,
@@ -2126,7 +2126,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_10_487": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_10_487": {
     "OutputIdentifier": "(O)270",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2137,7 +2137,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_11_302": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_11_302": {
     "OutputIdentifier": "(O)304",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2148,7 +2148,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_12_482": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_12_482": {
     "OutputIdentifier": "(O)260",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2159,7 +2159,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_13_479": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_13_479": {
     "OutputIdentifier": "(O)254",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2170,7 +2170,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_14_484": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_14_484": {
     "OutputIdentifier": "(O)264",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2181,7 +2181,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_15_485": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_15_485": {
     "OutputIdentifier": "(O)266",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2192,7 +2192,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_16_486": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_16_486": {
     "OutputIdentifier": "(O)268",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2203,7 +2203,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_17_480": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_17_480": {
     "OutputIdentifier": "(O)256",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2214,7 +2214,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_18_299": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_18_299": {
     "OutputIdentifier": "(O)300",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2225,7 +2225,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_19_489": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_19_489": {
     "OutputIdentifier": "(O)274",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2236,7 +2236,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_20_494": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_20_494": {
     "OutputIdentifier": "(O)284",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2247,7 +2247,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_21_483": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_21_483": {
     "OutputIdentifier": "(O)262",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2258,7 +2258,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_22_491": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_22_491": {
     "OutputIdentifier": "(O)278",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2269,7 +2269,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_23_493": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_23_493": {
     "OutputIdentifier": "(O)282",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2280,7 +2280,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_24_488": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_24_488": {
     "OutputIdentifier": "(O)272",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2291,7 +2291,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_25_301": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_25_301": {
     "OutputIdentifier": "(O)398",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2302,7 +2302,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_26_490": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_26_490": {
     "OutputIdentifier": "(O)276",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2313,7 +2313,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_27_492": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_27_492": {
     "OutputIdentifier": "(O)280",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2324,7 +2324,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_28_499": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_28_499": {
     "OutputIdentifier": "(O)454",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2335,7 +2335,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_29_347": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_29_347": {
     "OutputIdentifier": "(O)417",
     "OutputStack": 480,
     "OutputMaxStack": 480,
@@ -2346,7 +2346,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_30_770": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_30_770": {
     "OutputIdentifier": "(O)771",
     "OutputStack": 100,
     "OutputMaxStack": 100,
@@ -2357,7 +2357,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_31_273": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_31_273": {
     "OutputIdentifier": "(O)271",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2368,7 +2368,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_32_830": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_32_830": {
     "OutputIdentifier": "(O)831",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2379,7 +2379,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SuperGardenCloche_33_833": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SuperGardenCloche_33_833": {
     "OutputIdentifier": "(O)832",
     "OutputStack": 480,
     "OutputMaxStack": 28,
@@ -2390,8 +2390,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_1_334": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedCopper",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_1_334": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedCopper",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2401,8 +2401,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_2_335": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIron",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_2_335": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIron",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2412,8 +2412,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_3_336": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedGold",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_3_336": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedGold",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2423,8 +2423,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_4_337": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedIridium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_4_337": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedIridium",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2434,8 +2434,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_5_338": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedQuartz",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_5_338": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedQuartz",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2445,8 +2445,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_6_74": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_6_74": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_PulverizedPrismaticShard",
     "OutputStack": 20,
     "OutputMaxStack": 20,
     "OutputQuality": 0,
@@ -2456,7 +2456,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_7_390": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_7_390": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2488,7 +2488,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_8_382": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_8_382": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2521,7 +2521,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_9_378": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_9_378": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2554,7 +2554,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_10_380": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_10_380": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2587,7 +2587,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_11_384": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_11_384": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2620,7 +2620,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RockCrusher_12_386": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RockCrusher_12_386": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2653,7 +2653,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AutoMiner_1_787": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AutoMiner_1_787": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2730,7 +2730,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CombustionMiner_1_382": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_CombustionMiner_1_382": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2760,7 +2760,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_HayRehydrator_1_178": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_HayRehydrator_1_178": {
     "OutputIdentifier": "(O)771",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -2771,7 +2771,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche_1_309": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_TreeCloche_1_309": {
     "OutputIdentifier": "(O)388",
     "OutputStack": 48,
     "OutputMaxStack": 96,
@@ -2782,7 +2782,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche_2_310": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_TreeCloche_2_310": {
     "OutputIdentifier": "(O)388",
     "OutputStack": 48,
     "OutputMaxStack": 96,
@@ -2793,7 +2793,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche_3_311": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_TreeCloche_3_311": {
     "OutputIdentifier": "(O)388",
     "OutputStack": 48,
     "OutputMaxStack": 96,
@@ -2804,7 +2804,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_TreeCloche_4_292": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_TreeCloche_4_292": {
     "OutputIdentifier": "(O)709",
     "OutputStack": 10,
     "OutputMaxStack": 10,
@@ -2815,7 +2815,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PreservativePress_1_79": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PreservativePress_1_79": {
     "OutputIdentifier": "(O)344",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2826,7 +2826,7 @@
     "OutputPriceMultiplier": 3.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PreservativePress_2_75": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PreservativePress_2_75": {
     "OutputIdentifier": "(O)342",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2837,7 +2837,7 @@
     "OutputPriceMultiplier": 3.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_PreservativePress_3_812": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_PreservativePress_3_812": {
     "OutputIdentifier": "(O)447",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2861,7 +2861,7 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_1_262": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_1_262": {
     "OutputIdentifier": "(O)346",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2872,7 +2872,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_2_304": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_2_304": {
     "OutputIdentifier": "(O)303",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2883,7 +2883,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_3_340": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_3_340": {
     "OutputIdentifier": "(O)459",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2894,7 +2894,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_4_433": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_4_433": {
     "OutputIdentifier": "(O)395",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2905,7 +2905,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_5_815": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_5_815": {
     "OutputIdentifier": "(O)614",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2916,7 +2916,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_6_79": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_6_79": {
     "OutputIdentifier": "(O)348",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2927,7 +2927,7 @@
     "OutputPriceMultiplier": 4.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_IndustrialDistillery_7_75": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_IndustrialDistillery_7_75": {
     "OutputIdentifier": "(O)350",
     "OutputStack": 5,
     "OutputMaxStack": 5,
@@ -2938,8 +2938,8 @@
     "OutputPriceMultiplier": 3.38,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_1_SolidFuel": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_1_SolidFuel": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2949,8 +2949,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_2_Coal": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_2_Coal": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2960,8 +2960,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_3_RefinedLightOil": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_3_RefinedLightOil": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2971,8 +2971,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_4_RefinedHeavyOil": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_4_RefinedHeavyOil": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2982,8 +2982,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_5_768": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_5_768": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -2993,8 +2993,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ElectricGenerator_6_787": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Ash",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ElectricGenerator_6_787": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Ash",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3004,7 +3004,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_BatteryCharger_1_NoInput": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_BatteryCharger_1_NoInput": {
     "OutputIdentifier": "(O)787",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -3015,8 +3015,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_NuclearGenerator_1_910": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_DepletedUranium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_NuclearGenerator_1_910": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_DepletedUranium",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3026,8 +3026,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_NuclearGenerator_2_RefinedUranium": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_DepletedUranium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_NuclearGenerator_2_RefinedUranium": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_DepletedUranium",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3037,8 +3037,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_1_910": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedUranium",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_1_910": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedUranium",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3048,8 +3048,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_2_382": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_SolidFuel",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_2_382": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_SolidFuel",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3059,8 +3059,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_3_HeavyOil": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedHeavyOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_3_HeavyOil": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedHeavyOil",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3070,8 +3070,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_4_LightOil": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_RefinedLightOil",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_ChemicalProcessingMachine_4_LightOil": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_RefinedLightOil",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3081,7 +3081,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_OilDrill_1_NoInput": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_OilDrill_1_NoInput": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -3092,18 +3092,18 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": [
       {
-        "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_LightOil",
+        "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_LightOil",
         "OutputStack": 1,
         "OutputProbability": 0.5
       },
       {
-        "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_HeavyOil",
+        "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_HeavyOil",
         "OutputStack": 1,
         "OutputProbability": 0.5
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_SolarGenerator_1_NoInput": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_SolarGenerator_1_NoInput": {
     "OutputIdentifier": "(O)787",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -3114,8 +3114,8 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RecyclingMachine_1_Ash": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Brick",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RecyclingMachine_1_Ash": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Brick",
     "OutputStack": 1,
     "OutputMaxStack": 1,
     "OutputQuality": 0,
@@ -3125,7 +3125,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_RecyclingMachine_2_DepletedUranium": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_RecyclingMachine_2_DepletedUranium": {
     "OutputIdentifier": "(O)909",
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -3136,7 +3136,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AutoMiner_2_NoInput": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AutoMiner_2_NoInput": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,
@@ -3213,8 +3213,8 @@
       }
     ]
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_CeramicKiln_2_NoInput": {
-    "OutputIdentifier": "(O)ThaleTheGreat.IndustrializationForUtilityGridRedux_Brick",
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_CeramicKiln_2_NoInput": {
+    "OutputIdentifier": "(O)ThaleMagnus.IndustrializationForUtilityGridRedux_Brick",
     "OutputStack": 20,
     "OutputMaxStack": 20,
     "OutputQuality": 0,
@@ -3224,7 +3224,7 @@
     "OutputPriceMultiplier": 1.0,
     "AdditionalOutputs": []
   },
-  "ThaleTheGreat.IndustrializationForUtilityGridRedux_AutoMiner_3_NoInput": {
+  "ThaleMagnus.IndustrializationForUtilityGridRedux_AutoMiner_3_NoInput": {
     "OutputIdentifier": null,
     "OutputStack": 1,
     "OutputMaxStack": 1,

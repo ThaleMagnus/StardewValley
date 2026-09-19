@@ -1,7 +1,7 @@
 using System;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.InstantToolUpgradeRedux;
+namespace ThaleMagnus.InstantToolUpgradeRedux;
 
 public interface IGenericModConfigMenuApi
 {

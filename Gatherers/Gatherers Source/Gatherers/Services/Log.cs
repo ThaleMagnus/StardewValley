@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal static class Log
 {

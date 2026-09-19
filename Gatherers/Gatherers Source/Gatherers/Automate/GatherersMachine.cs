@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.Objects;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Automate;
+namespace ThaleMagnus.Gatherers.Automate;
 
 public sealed class GatherersMachine : IMachine
 {
@@ -12,7 +12,7 @@ public sealed class GatherersMachine : IMachine
 
     public GameLocation Location { get; }
     public Rectangle TileArea { get; }
-    public string MachineTypeID { get; } = "ThaleTheGreat.Gatherers/GathererStorage";
+    public string MachineTypeID { get; } = "ThaleMagnus.Gatherers/GathererStorage";
 
     public GatherersMachine(Chest chest, GameLocation location, in Vector2 tile)
     {

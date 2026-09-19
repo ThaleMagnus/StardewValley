@@ -5,10 +5,10 @@ using StardewValley.Characters;
 using StardewValley.GameData.Crops;
 using StardewValley.Objects;
 using StardewValley.TerrainFeatures;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Services;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.Gatherers.Patches;
+namespace ThaleMagnus.Gatherers.Patches;
 
 internal static class CropHarvestPatch
 {

@@ -2,9 +2,9 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Services;
 
-namespace ThaleTheGreat.Gatherers.Patches;
+namespace ThaleMagnus.Gatherers.Patches;
 
 internal static class ChestDrawPatch
 {
@@ -17,8 +17,8 @@ internal static class ChestDrawPatch
 
         bool filled = __instance.Items.Any(item => item is not null);
         string asset = isHarvestStatue
-            ? filled ? "Mods/ThaleTheGreat.Gatherers/HarvestStatueFilled" : "Mods/ThaleTheGreat.Gatherers/HarvestStatueEmpty"
-            : filled ? "Mods/ThaleTheGreat.Gatherers/ParrotPotFilled" : "Mods/ThaleTheGreat.Gatherers/ParrotPotEmpty";
+            ? filled ? "Mods/ThaleMagnus.Gatherers/HarvestStatueFilled" : "Mods/ThaleMagnus.Gatherers/HarvestStatueEmpty"
+            : filled ? "Mods/ThaleMagnus.Gatherers/ParrotPotFilled" : "Mods/ThaleMagnus.Gatherers/ParrotPotEmpty";
 
         float drawX = x;
         float drawY = y;

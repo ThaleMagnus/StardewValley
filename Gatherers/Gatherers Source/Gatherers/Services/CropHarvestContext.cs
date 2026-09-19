@@ -1,6 +1,6 @@
 using StardewValley.Objects;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 internal static class CropHarvestContext
 {

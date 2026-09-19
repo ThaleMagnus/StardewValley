@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.InstantToolUpgradeRedux;
+namespace ThaleMagnus.InstantToolUpgradeRedux;
 
 internal sealed class ModConfig
 {

@@ -1,10 +1,10 @@
 using Pathoschild.Stardew.Automate;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using ThaleTheGreat.GatherersAutomateIntegration.Automate;
-using ThaleTheGreat.GatherersAutomateIntegration.Integration;
+using ThaleMagnus.GatherersAutomateIntegration.Automate;
+using ThaleMagnus.GatherersAutomateIntegration.Integration;
 
-namespace ThaleTheGreat.GatherersAutomateIntegration;
+namespace ThaleMagnus.GatherersAutomateIntegration;
 
 public sealed class ModEntry : Mod
 {
@@ -17,7 +17,7 @@ public sealed class ModEntry : Mod
     {
         try
         {
-            IGatherersApi? gatherers = Helper.ModRegistry.GetApi<IGatherersApi>("ThaleTheGreat.Gatherers");
+            IGatherersApi? gatherers = Helper.ModRegistry.GetApi<IGatherersApi>("ThaleMagnus.Gatherers");
             if (gatherers is null)
             {
                 Monitor.Log("Gatherers did not provide its API. The Automate integration was not registered.", LogLevel.Error);

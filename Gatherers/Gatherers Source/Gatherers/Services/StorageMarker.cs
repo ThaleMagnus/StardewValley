@@ -1,8 +1,8 @@
 using System.Globalization;
 using StardewValley.Objects;
-using ThaleTheGreat.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Framework;
 
-namespace ThaleTheGreat.Gatherers.Services;
+namespace ThaleMagnus.Gatherers.Services;
 
 public static class StorageMarker
 {

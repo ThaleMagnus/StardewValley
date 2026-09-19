@@ -1,10 +1,10 @@
 using StardewModdingAPI;
 using StardewValley;
 using System.Globalization;
-using ThaleTheGreat.Gatherers.Framework;
-using ThaleTheGreat.Gatherers.Services;
+using ThaleMagnus.Gatherers.Framework;
+using ThaleMagnus.Gatherers.Services;
 
-namespace ThaleTheGreat.Gatherers.Integration;
+namespace ThaleMagnus.Gatherers.Integration;
 
 public sealed class GmcmIntegration
 {

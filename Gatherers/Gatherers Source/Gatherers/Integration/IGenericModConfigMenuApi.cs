@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.Gatherers.Integration;
+namespace ThaleMagnus.Gatherers.Integration;
 
 public interface IGenericModConfigMenuApi
 {
