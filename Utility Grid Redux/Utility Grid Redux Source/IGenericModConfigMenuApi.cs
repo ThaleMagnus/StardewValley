@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.UtilityGridRedux;
+namespace ThaleMagnus.UtilityGridRedux;
 
 public interface IGenericModConfigMenuApi
 {

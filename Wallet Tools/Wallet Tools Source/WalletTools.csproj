@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <AssemblyName>WalletTools</AssemblyName>
-    <RootNamespace>ThaleTheGreat.WalletTools</RootNamespace>
+    <RootNamespace>ThaleMagnus.WalletTools</RootNamespace>
     <Version>3.3.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ModFolderName>Wallet Tools</ModFolderName>

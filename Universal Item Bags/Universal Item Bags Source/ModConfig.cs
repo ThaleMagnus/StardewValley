@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.UniversalItemBags;
+namespace ThaleMagnus.UniversalItemBags;
 
 public enum UniversalBagSize
 {

@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Universal UI Recolor for More Stats",
-  "Author": "ThaleTheGreat",
-  "Version": "2.2.1",
+  "Author": "ThaleMagnus",
+  "Version": "2.2.2",
   "Description": "Universal UI Recolor for More Stats.",
-  "UniqueID": "ThaleTheGreat.UniversalUIMoreStats",
+  "UniqueID": "ThaleMagnus.UniversalUIMoreStats",
   "EntryDll": "UniversalUIMoreStats.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

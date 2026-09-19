@@ -6,9 +6,9 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.GameData.Powers;
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForFashionSense;
+namespace ThaleMagnus.WalletToolsForFashionSense;
 
 internal sealed class FashionSenseMirrorModule : WalletModule
 {
@@ -17,8 +17,8 @@ internal sealed class FashionSenseMirrorModule : WalletModule
     private const string HandMirrorQualifiedItemId = "(T)PeacefulEnd.FashionSense_HandMirror";
     private const string HandMirrorModDataKey = "FashionSense.Tools.HandMirror";
     private const string HandMirrorTexturePath = "FashionSense/Textures/HandMirror";
-    private const string WalletFlagKey = "ThaleTheGreat.WalletTools/HasFashionSenseMirror";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_FashionSenseMirror";
+    private const string WalletFlagKey = "ThaleMagnus.WalletTools/HasFashionSenseMirror";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_FashionSenseMirror";
 
     private FashionSenseMirrorConfig Config = new();
     private bool SuppressInventoryConversion;

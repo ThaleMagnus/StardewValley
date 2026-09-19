@@ -3,7 +3,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
-namespace ThaleTheGreat.UtilityGridRedux;
+namespace ThaleMagnus.UtilityGridRedux;
 
 internal enum GridKind
 {

@@ -25,26 +25,26 @@ using xTile.Dimensions;
 using Object = StardewValley.Object;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 public sealed class ModEntry : Mod
 {
     private const string SaveDataKey = "WalletTools.ToolStates";
-    private const string FlagPrefix = "ThaleTheGreat.WalletTools/Has";
-    private const string PowerPrefix = "ThaleTheGreat.WalletTools_";
+    private const string FlagPrefix = "ThaleMagnus.WalletTools/Has";
+    private const string PowerPrefix = "ThaleMagnus.WalletTools_";
     private const string ToolTexturePath = "TileSheets/tools";
-    private const string PowerCategoryIconTexturePath = "Mods/ThaleTheGreat.WalletTools/Powers";
-    private const string RuntimeToolMarker = "ThaleTheGreat.WalletTools/RuntimeTool";
-    private const string RuntimeToolKindMarker = "ThaleTheGreat.WalletTools/RuntimeToolKind";
-    private const string OvernightExposureMarker = "ThaleTheGreat.WalletTools/OvernightExposure";
-    private const string OvernightExposureKindMarker = "ThaleTheGreat.WalletTools/OvernightExposureKind";
-    private const string MenuVirtualToolMarker = "ThaleTheGreat.WalletTools/MenuVirtualTool";
-    private const string MenuVirtualToolKindMarker = "ThaleTheGreat.WalletTools/MenuVirtualToolKind";
-    private const string MenuVirtualToolPurposeMarker = "ThaleTheGreat.WalletTools/MenuVirtualToolPurpose";
-    private const string OwnerPlayerIdMarker = "ThaleTheGreat.WalletTools/OwnerPlayerId";
+    private const string PowerCategoryIconTexturePath = "Mods/ThaleMagnus.WalletTools/Powers";
+    private const string RuntimeToolMarker = "ThaleMagnus.WalletTools/RuntimeTool";
+    private const string RuntimeToolKindMarker = "ThaleMagnus.WalletTools/RuntimeToolKind";
+    private const string OvernightExposureMarker = "ThaleMagnus.WalletTools/OvernightExposure";
+    private const string OvernightExposureKindMarker = "ThaleMagnus.WalletTools/OvernightExposureKind";
+    private const string MenuVirtualToolMarker = "ThaleMagnus.WalletTools/MenuVirtualTool";
+    private const string MenuVirtualToolKindMarker = "ThaleMagnus.WalletTools/MenuVirtualToolKind";
+    private const string MenuVirtualToolPurposeMarker = "ThaleMagnus.WalletTools/MenuVirtualToolPurpose";
+    private const string OwnerPlayerIdMarker = "ThaleMagnus.WalletTools/OwnerPlayerId";
     private const string ItemExtensionsClumpIdKey = "mistyspring.ItemExtensions/CustomClumpId";
-    private const string LegacyNooksBridgeUniqueId = "ThaleTheGreat.WalletToolsForNooksAndCrannies";
-    private const string LegacyVariousCoalBridgeUniqueId = "ThaleTheGreat.WalletToolsForVariousCoalOresAndExtras";
+    private const string LegacyNooksBridgeUniqueId = "ThaleMagnus.WalletToolsForNooksAndCrannies";
+    private const string LegacyVariousCoalBridgeUniqueId = "ThaleMagnus.WalletToolsForVariousCoalOresAndExtras";
     private const string NooksResourcePrefix = "Wildflour.NooksCrannies_";
     private const string VariousCoalResourcePrefix = "6135.VariousCoalOresExtras_";
 
@@ -178,17 +178,17 @@ public sealed class ModEntry : Mod
 
     private void CreateIntegratedModules()
     {
-        IntegratedModules.Add(new ThaleTheGreat.WalletAutoPetter.WalletAutoPetterModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletScepter.WalletScepterModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletAutoPetter.WalletAutoPetterModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletScepter.WalletScepterModule(this));
         IntegratedModules.Add(new HorseFluteModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForTimelessPocketWatch.TimelessPocketWatchModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForFashionSense.FashionSenseMirrorModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForAnimalHusbandry.AnimalHusbandryModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForCoinCollectorRedux.CoinCollectorReduxModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForNatureInTheValley.NatureInTheValleyModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForSwordAndSorcery.SwordAndSorceryModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForToolUpgradeBundles.ToolUpgradeBundlesModule(this));
-        IntegratedModules.Add(new ThaleTheGreat.WalletToolsForTractorMod.TractorModModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForTimelessPocketWatch.TimelessPocketWatchModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForFashionSense.FashionSenseMirrorModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForAnimalHusbandry.AnimalHusbandryModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForCoinCollectorRedux.CoinCollectorReduxModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForNatureInTheValley.NatureInTheValleyModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForSwordAndSorcery.SwordAndSorceryModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForToolUpgradeBundles.ToolUpgradeBundlesModule(this));
+        IntegratedModules.Add(new ThaleMagnus.WalletToolsForTractorMod.TractorModModule(this));
 
     }
 
@@ -4619,7 +4619,7 @@ internal sealed class WalletToolState
 
         foreach (KeyValuePair<string, string> pair in tool.modData.Pairs)
         {
-            if (pair.Key == "ThaleTheGreat.WalletTools/RuntimeTool" || pair.Key == "ThaleTheGreat.WalletTools/RuntimeToolKind" || pair.Key == "ThaleTheGreat.WalletTools/OvernightExposure" || pair.Key == "ThaleTheGreat.WalletTools/OvernightExposureKind")
+            if (pair.Key == "ThaleMagnus.WalletTools/RuntimeTool" || pair.Key == "ThaleMagnus.WalletTools/RuntimeToolKind" || pair.Key == "ThaleMagnus.WalletTools/OvernightExposure" || pair.Key == "ThaleMagnus.WalletTools/OvernightExposureKind")
                 continue;
 
             state.ModData[pair.Key] = pair.Value;
@@ -4802,7 +4802,7 @@ internal sealed class WalletToolState
                 SetIntMember(tool, UpgradeLevel, "UpgradeLevel", "upgradeLevel");
                 foreach (KeyValuePair<string, string> pair in ModData)
                 {
-                    if (pair.Key == "ThaleTheGreat.WalletTools/RuntimeTool" || pair.Key == "ThaleTheGreat.WalletTools/RuntimeToolKind" || pair.Key == "ThaleTheGreat.WalletTools/OvernightExposure" || pair.Key == "ThaleTheGreat.WalletTools/OvernightExposureKind")
+                    if (pair.Key == "ThaleMagnus.WalletTools/RuntimeTool" || pair.Key == "ThaleMagnus.WalletTools/RuntimeToolKind" || pair.Key == "ThaleMagnus.WalletTools/OvernightExposure" || pair.Key == "ThaleMagnus.WalletTools/OvernightExposureKind")
                         continue;
 
                     tool.modData[pair.Key] = pair.Value;

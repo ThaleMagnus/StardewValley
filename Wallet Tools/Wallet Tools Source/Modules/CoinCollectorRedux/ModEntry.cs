@@ -13,28 +13,28 @@ using StardewValley;
 using StardewValley.GameData.Powers;
 using Object = StardewValley.Object;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForCoinCollectorRedux;
+namespace ThaleMagnus.WalletToolsForCoinCollectorRedux;
 
 internal sealed class CoinCollectorReduxModule : WalletModule
 {
     internal const string ModuleKey = "CoinCollectorRedux";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForCoinCollectorRedux";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForCoinCollectorRedux";
 
-    internal CoinCollectorReduxModule(ThaleTheGreat.WalletTools.ModEntry host)
-        : base(host, ModuleKey, "module.coin-collector-redux.name", LegacyUniqueId, "ThaleTheGreat.CoinCollectorRedux")
+    internal CoinCollectorReduxModule(ThaleMagnus.WalletTools.ModEntry host)
+        : base(host, ModuleKey, "module.coin-collector-redux.name", LegacyUniqueId, "ThaleMagnus.CoinCollectorRedux")
     {
     }
-    private const string DetectorId = "ThaleTheGreat.CoinCollectorRedux_MetalDetector";
-    private const string DetectorQualifiedId = "(O)ThaleTheGreat.CoinCollectorRedux_MetalDetector";
-    private const string DetectorWeaponId = "ThaleTheGreat.CoinCollectorRedux_MetalDetectorWeapon";
-    private const string DetectorWeaponQualifiedId = "(W)ThaleTheGreat.CoinCollectorRedux_MetalDetectorWeapon";
-    private const string DetectorModDataKey = "ThaleTheGreat.CoinCollectorRedux/MetalDetectorItem";
-    private const string DetectorTexturePath = "ThaleTheGreat.CoinCollectorRedux/MetalDetector";
-    private const string HasDetectorFlag = "ThaleTheGreat.WalletToolsForCoinCollectorRedux/HasMetalDetector";
-    private const string StoredDetectorStateKey = "ThaleTheGreat.WalletToolsForCoinCollectorRedux/MetalDetectorState";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_CoinCollectorReduxMetalDetector";
+    private const string DetectorId = "ThaleMagnus.CoinCollectorRedux_MetalDetector";
+    private const string DetectorQualifiedId = "(O)ThaleMagnus.CoinCollectorRedux_MetalDetector";
+    private const string DetectorWeaponId = "ThaleMagnus.CoinCollectorRedux_MetalDetectorWeapon";
+    private const string DetectorWeaponQualifiedId = "(W)ThaleMagnus.CoinCollectorRedux_MetalDetectorWeapon";
+    private const string DetectorModDataKey = "ThaleMagnus.CoinCollectorRedux/MetalDetectorItem";
+    private const string DetectorTexturePath = "ThaleMagnus.CoinCollectorRedux/MetalDetector";
+    private const string HasDetectorFlag = "ThaleMagnus.WalletToolsForCoinCollectorRedux/HasMetalDetector";
+    private const string StoredDetectorStateKey = "ThaleMagnus.WalletToolsForCoinCollectorRedux/MetalDetectorState";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_CoinCollectorReduxMetalDetector";
 
     private static CoinCollectorReduxModule? Instance;
 
@@ -464,7 +464,7 @@ internal sealed class CoinCollectorReduxModule : WalletModule
         CoinCollectorPatchAttempted = true;
         try
         {
-            CoinCollectorEntryType = AccessTools.TypeByName("ThaleTheGreat.CoinCollectorRedux.ModEntry");
+            CoinCollectorEntryType = AccessTools.TypeByName("ThaleMagnus.CoinCollectorRedux.ModEntry");
             if (CoinCollectorEntryType is null)
             {
                 Monitor.Log("Could not find Coin Collector Redux's ModEntry type. Wallet detector passive support will be unavailable.", LogLevel.Warn);

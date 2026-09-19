@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ThaleTheGreat.UniversalItemBags.Discovery;
+namespace ThaleMagnus.UniversalItemBags.Discovery;
 
 internal sealed class ItemCandidate : IEquatable<ItemCandidate>
 {

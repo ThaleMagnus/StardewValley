@@ -1,6 +1,6 @@
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletScepter;
+namespace ThaleMagnus.WalletScepter;
 
 internal sealed class ModConfig
 {

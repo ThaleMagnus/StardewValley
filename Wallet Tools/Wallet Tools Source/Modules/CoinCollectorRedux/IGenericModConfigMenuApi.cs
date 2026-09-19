@@ -2,7 +2,7 @@ using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForCoinCollectorRedux;
+namespace ThaleMagnus.WalletToolsForCoinCollectorRedux;
 
 public interface IGenericModConfigMenuApi
 {

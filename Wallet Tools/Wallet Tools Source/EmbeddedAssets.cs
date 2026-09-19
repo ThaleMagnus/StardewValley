@@ -1,6 +1,6 @@
 using System;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal static class EmbeddedAssets
 {

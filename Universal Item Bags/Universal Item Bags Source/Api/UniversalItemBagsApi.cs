@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using ThaleTheGreat.UniversalItemBags.Discovery;
-using ThaleTheGreat.UniversalItemBags;
+using ThaleMagnus.UniversalItemBags.Discovery;
+using ThaleMagnus.UniversalItemBags;
 
-namespace ThaleTheGreat.UniversalItemBags.Api;
+namespace ThaleMagnus.UniversalItemBags.Api;
 
 public sealed class UniversalItemBagsApi : IUniversalItemBagsApi
 {

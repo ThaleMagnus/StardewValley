@@ -14,16 +14,16 @@ using StardewValley;
 using StardewValley.GameData.Powers;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForNatureInTheValley;
+namespace ThaleMagnus.WalletToolsForNatureInTheValley;
 
 internal sealed class NatureInTheValleyModule : WalletModule
 {
     internal const string ModuleKey = "NatureInTheValley";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForNatureInTheValley";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForNatureInTheValley";
 
-    internal NatureInTheValleyModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal NatureInTheValleyModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.nature-in-the-valley.name", LegacyUniqueId, "Nature.NatureInTheValley", "Nature.NatureInValleyContent")
     {
     }
@@ -31,17 +31,17 @@ internal sealed class NatureInTheValleyModule : WalletModule
     private const string LegacySaveDataKey = "WalletToolsForNatureInTheValley.NatureNet";
     private const string NatureModUniqueId = "Nature.NatureInTheValley";
     private const string NatureEntryTypeName = "NatureInTheValley.NatureInTheValleyEntry, NatureInTheValley";
-    private const string AssetPrefix = "Mods/ThaleTheGreat.WalletToolsForNatureInTheValley";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_NatureInTheValleyNet";
-    private const string HasNatureNetFlag = "ThaleTheGreat.WalletToolsForNatureInTheValley/HasNatureNet";
-    private const string RuntimeToolMarker = "ThaleTheGreat.WalletToolsForNatureInTheValley/RuntimeTool";
-    private const string RuntimeOwnerMarker = "ThaleTheGreat.WalletToolsForNatureInTheValley/OwnerPlayerId";
-    private const string OvernightExposureMarker = "ThaleTheGreat.WalletToolsForNatureInTheValley/OvernightExposure";
-    private const string NatureNetInstanceIdMarker = "ThaleTheGreat.WalletToolsForNatureInTheValley/NetInstanceId";
+    private const string AssetPrefix = "Mods/ThaleMagnus.WalletToolsForNatureInTheValley";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_NatureInTheValleyNet";
+    private const string HasNatureNetFlag = "ThaleMagnus.WalletToolsForNatureInTheValley/HasNatureNet";
+    private const string RuntimeToolMarker = "ThaleMagnus.WalletToolsForNatureInTheValley/RuntimeTool";
+    private const string RuntimeOwnerMarker = "ThaleMagnus.WalletToolsForNatureInTheValley/OwnerPlayerId";
+    private const string OvernightExposureMarker = "ThaleMagnus.WalletToolsForNatureInTheValley/OvernightExposure";
+    private const string NatureNetInstanceIdMarker = "ThaleMagnus.WalletToolsForNatureInTheValley/NetInstanceId";
     private const string NatureNetSpeedBuffId = "NatCSpeedN";
-    private const string WalletToolsRuntimeToolMarker = "ThaleTheGreat.WalletTools/RuntimeTool";
-    private const string WalletToolsOwnerPlayerIdMarker = "ThaleTheGreat.WalletTools/OwnerPlayerId";
-    private const string WalletToolsModEntryTypeName = "ThaleTheGreat.WalletTools.ModEntry, WalletTools";
+    private const string WalletToolsRuntimeToolMarker = "ThaleMagnus.WalletTools/RuntimeTool";
+    private const string WalletToolsOwnerPlayerIdMarker = "ThaleMagnus.WalletTools/OwnerPlayerId";
+    private const string WalletToolsModEntryTypeName = "ThaleMagnus.WalletTools.ModEntry, WalletTools";
 
     private static readonly NetDefinition[] NetDefinitions =
     {
@@ -118,7 +118,7 @@ internal sealed class NatureInTheValleyModule : WalletModule
         if (pressUseTool is not null && pressUseToolPrefix is not null)
             Harmony.Patch(pressUseTool, prefix: new HarmonyMethod(pressUseToolPrefix));
 
-        Type? walletToolsEntryType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.ModEntry");
+        Type? walletToolsEntryType = AccessTools.TypeByName("ThaleMagnus.WalletTools.ModEntry");
         MethodInfo? walletToolsPrepareUse = walletToolsEntryType is null
             ? null
             : AccessTools.Method(walletToolsEntryType, "TryPrepareWalletToolUse", new[] { typeof(Farmer) });

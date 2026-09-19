@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.UniversalItemBags;
+namespace ThaleMagnus.UniversalItemBags;
 
 public static class StandardBagTypeIds
 {

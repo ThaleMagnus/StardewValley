@@ -15,16 +15,16 @@ using StardewValley.GameData.Powers;
 using StardewValley.Locations;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForAnimalHusbandry;
+namespace ThaleMagnus.WalletToolsForAnimalHusbandry;
 
 internal sealed class AnimalHusbandryModule : WalletModule
 {
     internal const string ModuleKey = "AnimalHusbandry";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForAnimalHusbandry";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForAnimalHusbandry";
 
-    internal AnimalHusbandryModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal AnimalHusbandryModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.animal-husbandry.name", LegacyUniqueId, "DIGUS.ANIMALHUSBANDRYMOD")
     {
     }
@@ -33,11 +33,11 @@ internal sealed class AnimalHusbandryModule : WalletModule
     private const string MeatToolItemId = "DIGUS.ANIMALHUSBANDRYMOD.MeatCleaver";
     private const string MeatToolQualifiedItemId = "(T)DIGUS.ANIMALHUSBANDRYMOD.MeatCleaver";
     private const string MeatToolModDataKey = "DIGUS.ANIMALHUSBANDRYMOD/MeatCleaver";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_AnimalHusbandryMeatTool";
-    private const string HasMeatToolFlag = "ThaleTheGreat.WalletToolsForAnimalHusbandry/HasMeatTool";
-    private const string RuntimeToolMarker = "ThaleTheGreat.WalletToolsForAnimalHusbandry/RuntimeTool";
-    private const string RuntimeOwnerMarker = "ThaleTheGreat.WalletToolsForAnimalHusbandry/OwnerPlayerId";
-    private const string OvernightExposureMarker = "ThaleTheGreat.WalletToolsForAnimalHusbandry/OvernightExposure";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_AnimalHusbandryMeatTool";
+    private const string HasMeatToolFlag = "ThaleMagnus.WalletToolsForAnimalHusbandry/HasMeatTool";
+    private const string RuntimeToolMarker = "ThaleMagnus.WalletToolsForAnimalHusbandry/RuntimeTool";
+    private const string RuntimeOwnerMarker = "ThaleMagnus.WalletToolsForAnimalHusbandry/OwnerPlayerId";
+    private const string OvernightExposureMarker = "ThaleMagnus.WalletToolsForAnimalHusbandry/OvernightExposure";
     private const string ToolTexturePath = "Mods/DIGUS.ANIMALHUSBANDRYMOD/Tools";
     private const int MeatCleaverMenuSpriteIndex = 26;
     private const int MeatWandMenuSpriteIndex = 33;

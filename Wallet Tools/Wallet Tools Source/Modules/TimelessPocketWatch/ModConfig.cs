@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForTimelessPocketWatch;
+namespace ThaleMagnus.WalletToolsForTimelessPocketWatch;
 
 internal sealed class ModConfig
 {

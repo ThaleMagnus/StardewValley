@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForAnimalHusbandry;
+namespace ThaleMagnus.WalletToolsForAnimalHusbandry;
 
 internal sealed class ModConfig
 {

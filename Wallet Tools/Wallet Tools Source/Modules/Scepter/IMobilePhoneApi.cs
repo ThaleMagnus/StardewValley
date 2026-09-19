@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 
-namespace ThaleTheGreat.WalletScepter;
+namespace ThaleMagnus.WalletScepter;
 
 public interface IMobilePhoneApi
 {

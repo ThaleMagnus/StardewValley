@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal sealed class ModConfig
 {

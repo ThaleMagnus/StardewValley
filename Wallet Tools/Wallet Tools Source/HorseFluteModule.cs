@@ -10,15 +10,15 @@ using StardewValley;
 using StardewValley.GameData.Powers;
 using StardewValley.ItemTypeDefinitions;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal sealed class HorseFluteModule : WalletModule
 {
     internal const string ModuleKey = "HorseFlute";
     private const string HorseFluteQualifiedItemId = "(O)911";
-    private const string WalletFlagKey = "ThaleTheGreat.WalletTools/HasHorseFlute";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_HorseFlute";
-    private const string PowerIconAssetPath = "Mods/ThaleTheGreat.WalletTools/HorseFlutePower";
+    private const string WalletFlagKey = "ThaleMagnus.WalletTools/HasHorseFlute";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_HorseFlute";
+    private const string PowerIconAssetPath = "Mods/ThaleMagnus.WalletTools/HorseFlutePower";
 
     private HorseFluteConfig Config = new();
     private bool SuppressInventoryConversion;

@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using System;
 
-namespace ThaleTheGreat.UniversalItemBags.Integration;
+namespace ThaleMagnus.UniversalItemBags.Integration;
 
 public interface IGenericModConfigMenuApi
 {

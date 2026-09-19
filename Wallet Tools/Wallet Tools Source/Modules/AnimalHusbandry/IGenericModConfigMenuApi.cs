@@ -2,7 +2,7 @@ using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForAnimalHusbandry;
+namespace ThaleMagnus.WalletToolsForAnimalHusbandry;
 
 public interface IGenericModConfigMenuApi
 {

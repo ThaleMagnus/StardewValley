@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>UniversalUIMoreStats</AssemblyName>
-    <RootNamespace>ThaleTheGreat.UniversalUIMoreStats</RootNamespace>
+    <RootNamespace>ThaleMagnus.UniversalUIMoreStats</RootNamespace>
     <Version>2.2.1</Version>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>

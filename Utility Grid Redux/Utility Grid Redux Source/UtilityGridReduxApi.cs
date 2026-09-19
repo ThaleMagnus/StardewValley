@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using StardewValley;
 
-namespace ThaleTheGreat.UtilityGridRedux;
+namespace ThaleMagnus.UtilityGridRedux;
 
 public interface IUtilityGridReduxApi
 {

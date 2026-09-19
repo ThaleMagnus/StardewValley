@@ -2,7 +2,7 @@ using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForSwordAndSorcery;
+namespace ThaleMagnus.WalletToolsForSwordAndSorcery;
 
 public interface IGenericModConfigMenuApi
 {

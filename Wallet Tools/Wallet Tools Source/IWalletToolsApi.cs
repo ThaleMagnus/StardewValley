@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 public interface IWalletToolsApi
 {

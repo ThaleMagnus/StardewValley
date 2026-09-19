@@ -7,7 +7,7 @@ using StardewValley.GameData.Tools;
 using StardewValley.ItemTypeDefinitions;
 using StardewValley.Tools;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal static class GingerIslandExtraLocationsCompatibility
 {

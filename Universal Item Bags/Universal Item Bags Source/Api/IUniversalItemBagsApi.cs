@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using ThaleTheGreat.UniversalItemBags;
+using ThaleMagnus.UniversalItemBags;
 
-namespace ThaleTheGreat.UniversalItemBags.Api;
+namespace ThaleMagnus.UniversalItemBags.Api;
 
 public interface IUniversalItemBagsApi
 {

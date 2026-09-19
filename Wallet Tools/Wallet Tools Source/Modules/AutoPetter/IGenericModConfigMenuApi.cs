@@ -2,7 +2,7 @@ using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletAutoPetter;
+namespace ThaleMagnus.WalletAutoPetter;
 
 public interface IGenericModConfigMenuApi
 {

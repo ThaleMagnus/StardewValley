@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal abstract class WalletModule
 {

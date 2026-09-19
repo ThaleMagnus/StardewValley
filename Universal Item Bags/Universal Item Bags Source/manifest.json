@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Universal Item Bags",
-  "Author": "ThaleTheGreat",
-  "Version": "1.0.0",
+  "Author": "ThaleMagnus",
+  "Version": "1.0.1",
   "Description": "Automatically adds compatible items from installed mods to Item Bags' standard bag categories.",
-  "UniqueID": "ThaleTheGreat.UniversalItemBags",
+  "UniqueID": "ThaleMagnus.UniversalItemBags",
   "EntryDll": "UniversalItemBags.dll",
   "MinimumApiVersion": "4.1.3",
   "UpdateKeys": [

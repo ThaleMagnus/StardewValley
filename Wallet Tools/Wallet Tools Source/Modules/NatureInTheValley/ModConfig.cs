@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletToolsForNatureInTheValley;
+namespace ThaleMagnus.WalletToolsForNatureInTheValley;
 
 internal sealed class ModConfig
 {

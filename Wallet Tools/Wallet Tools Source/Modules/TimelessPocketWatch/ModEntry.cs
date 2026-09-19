@@ -13,9 +13,9 @@ using StardewValley.GameData.Powers;
 using StardewValley.Tools;
 using Object = StardewValley.Object;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForTimelessPocketWatch;
+namespace ThaleMagnus.WalletToolsForTimelessPocketWatch;
 
 internal sealed class TimelessPocketWatchModule : WalletModule
 {
@@ -30,10 +30,10 @@ internal sealed class TimelessPocketWatchModule : WalletModule
     private const string RadioactiveGearId = "PeacefulEnd.PocketWatch_Objects_Clockwork_Gear_Radioactive";
     private const string PocketWatchTexturePath = "PocketWatch/Textures/Tools/PocketWatch";
 
-    private const string WalletFlagKey = "ThaleTheGreat.WalletToolsForTimelessPocketWatch/HasPocketWatch";
-    private const string WalletPowerId = "ThaleTheGreat.WalletTools_TimelessPocketWatch";
-    private const string OvernightExposureMarker = "ThaleTheGreat.WalletToolsForTimelessPocketWatch/OvernightExposure";
-    private const string OwnerPlayerIdMarker = "ThaleTheGreat.WalletToolsForTimelessPocketWatch/OwnerPlayerId";
+    private const string WalletFlagKey = "ThaleMagnus.WalletToolsForTimelessPocketWatch/HasPocketWatch";
+    private const string WalletPowerId = "ThaleMagnus.WalletTools_TimelessPocketWatch";
+    private const string OvernightExposureMarker = "ThaleMagnus.WalletToolsForTimelessPocketWatch/OvernightExposure";
+    private const string OwnerPlayerIdMarker = "ThaleMagnus.WalletToolsForTimelessPocketWatch/OwnerPlayerId";
 
     private static TimelessPocketWatchModule? Instance;
 

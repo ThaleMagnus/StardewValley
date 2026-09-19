@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Wallet Tools",
-  "Author": "ThaleTheGreat",
-  "Version": "3.3.1",
+  "Author": "ThaleMagnus",
+  "Version": "3.3.2",
   "Description": "Stores vanilla and supported modded tools, the Fashion Sense Hand Mirror, Auto-Petter, Return Scepter, Horse Flute, and optional Timeless Pocket Watch with wallet-based gear loading in one multiplayer-aware wallet system.",
-  "UniqueID": "ThaleTheGreat.WalletTools",
+  "UniqueID": "ThaleMagnus.WalletTools",
   "EntryDll": "WalletTools.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
@@ -47,7 +47,7 @@
       "IsRequired": false
     },
     {
-      "UniqueID": "ThaleTheGreat.CoinCollectorRedux",
+      "UniqueID": "ThaleMagnus.CoinCollectorRedux",
       "IsRequired": false
     },
     {

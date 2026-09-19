@@ -11,21 +11,21 @@ using StardewValley;
 using StardewValley.GameData.Powers;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForSwordAndSorcery;
+namespace ThaleMagnus.WalletToolsForSwordAndSorcery;
 
 internal sealed class SwordAndSorceryModule : WalletModule
 {
     internal const string ModuleKey = "SwordAndSorcery";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForSwordAndSorcery";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForSwordAndSorcery";
 
-    internal SwordAndSorceryModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal SwordAndSorceryModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.sword-and-sorcery.name", LegacyUniqueId, "DN.SnS")
     {
     }
-    private const string WalletToolsUniqueId = "ThaleTheGreat.WalletTools";
-    private const string WalletPowerPrefix = "ThaleTheGreat.WalletTools_";
+    private const string WalletToolsUniqueId = "ThaleMagnus.WalletTools";
+    private const string WalletPowerPrefix = "ThaleMagnus.WalletTools_";
     private static SwordAndSorceryModule? Instance;
 
     private Harmony Harmony = null!;
@@ -104,7 +104,7 @@ internal sealed class SwordAndSorceryModule : WalletModule
 
     private static object? GetWalletToolsEntryInstance()
     {
-        Type? walletEntryType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.ModEntry");
+        Type? walletEntryType = AccessTools.TypeByName("ThaleMagnus.WalletTools.ModEntry");
         return walletEntryType is null ? null : AccessTools.Field(walletEntryType, "Instance")?.GetValue(null);
     }
 
@@ -121,10 +121,10 @@ internal sealed class SwordAndSorceryModule : WalletModule
             return;
         }
 
-        Type? upgradeCompatType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.ToolAndSprinklerUpgradesCompat");
-        Type? walletEntryType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.ModEntry");
-        Type? walletKindType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.WalletToolKind");
-        Type? walletStateType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.WalletToolState");
+        Type? upgradeCompatType = AccessTools.TypeByName("ThaleMagnus.WalletTools.ToolAndSprinklerUpgradesCompat");
+        Type? walletEntryType = AccessTools.TypeByName("ThaleMagnus.WalletTools.ModEntry");
+        Type? walletKindType = AccessTools.TypeByName("ThaleMagnus.WalletTools.WalletToolKind");
+        Type? walletStateType = AccessTools.TypeByName("ThaleMagnus.WalletTools.WalletToolState");
 
         bool patchedAny = false;
 
@@ -326,7 +326,7 @@ internal sealed class SwordAndSorceryModule : WalletModule
 
         private static object? CreateWalletToolState(object kind, Tool candidate)
         {
-            Type? stateType = AccessTools.TypeByName("ThaleTheGreat.WalletTools.WalletToolState");
+            Type? stateType = AccessTools.TypeByName("ThaleMagnus.WalletTools.WalletToolState");
             MethodInfo? fromTool = stateType is null ? null : AccessTools.Method(stateType, "FromTool");
             return fromTool?.Invoke(null, new[] { kind, candidate });
         }

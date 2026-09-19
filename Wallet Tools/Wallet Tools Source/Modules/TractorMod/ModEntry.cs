@@ -14,25 +14,25 @@ using StardewValley.GameData.Powers;
 using StardewValley.Menus;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForTractorMod;
+namespace ThaleMagnus.WalletToolsForTractorMod;
 
 internal sealed class TractorModModule : WalletModule
 {
     internal const string ModuleKey = "TractorMod";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForTractorMod";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForTractorMod";
 
-    internal TractorModModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal TractorModModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.tractor-mod.name", LegacyUniqueId, "Pathoschild.TractorMod")
     {
     }
     private const string TractorModId = "Pathoschild.TractorMod";
     private const string TractorManagerTypeName = "Pathoschild.Stardew.TractorMod.Framework.TractorManager";
     private const string TractorDataKey = "Pathoschild.TractorMod";
-    private const string WalletRuntimeToolMarker = "ThaleTheGreat.WalletTools/RuntimeTool";
+    private const string WalletRuntimeToolMarker = "ThaleMagnus.WalletTools/RuntimeTool";
     private const string GmcmId = "spacechase0.GenericModConfigMenu";
-    private const string WalletPowerPrefix = "ThaleTheGreat.WalletTools_";
+    private const string WalletPowerPrefix = "ThaleMagnus.WalletTools_";
     private const string OverlayTopOfScreen = "Top of Screen";
     private const string OverlayLeftOfInventoryBar = "Left of Inventory Bar";
     private const string OverlayRightOfInventoryBar = "Right of Inventory Bar";
@@ -60,7 +60,7 @@ internal sealed class TractorModModule : WalletModule
     private readonly Dictionary<string, StoredToolIcon?> OverlayIconCache = new(StringComparer.OrdinalIgnoreCase);
 
     private Harmony? Harmony;
-    private ThaleTheGreat.WalletTools.IWalletToolsApi? WalletToolsApi;
+    private ThaleMagnus.WalletTools.IWalletToolsApi? WalletToolsApi;
     private IGenericModConfigMenuApi? GmcmApi;
     private bool GmcmRegistered;
     private MethodInfo? TractorUpdateAttachmentEffects;

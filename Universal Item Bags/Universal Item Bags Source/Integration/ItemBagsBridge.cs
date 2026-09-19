@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace ThaleTheGreat.UniversalItemBags.Integration;
+namespace ThaleMagnus.UniversalItemBags.Integration;
 
 internal sealed class ItemBagsBridge
 {

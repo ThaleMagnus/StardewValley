@@ -13,25 +13,25 @@ using StardewValley;
 using StardewValley.GameData.Powers;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletScepter;
+namespace ThaleMagnus.WalletScepter;
 
 internal sealed class WalletScepterModule : WalletModule
 {
     internal const string ModuleKey = "Scepter";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletScepter";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletScepter";
 
-    internal WalletScepterModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal WalletScepterModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.scepter.name", LegacyUniqueId)
     {
     }
     private const string ReturnScepterQualifiedItemId = "(T)ReturnScepter";
-    private const string WalletFlagKey = "ThaleTheGreat.WalletScepter/HasReturnScepter";
-    private const string LegacyWalletFlagKey = "ThaleTheGreat.ReturnScepterWallet/HasReturnScepter";
-    private const string WalletPowerId = "ThaleTheGreat.WalletScepter_ReturnScepter";
-    private const string SaveMaterializedMarker = "ThaleTheGreat.WalletScepter/SaveMaterialized";
-    private const string SaveMaterializedOwnerMarker = "ThaleTheGreat.WalletScepter/OwnerPlayerId";
+    private const string WalletFlagKey = "ThaleMagnus.WalletScepter/HasReturnScepter";
+    private const string LegacyWalletFlagKey = "ThaleMagnus.ReturnScepterWallet/HasReturnScepter";
+    private const string WalletPowerId = "ThaleMagnus.WalletScepter_ReturnScepter";
+    private const string SaveMaterializedMarker = "ThaleMagnus.WalletScepter/SaveMaterialized";
+    private const string SaveMaterializedOwnerMarker = "ThaleMagnus.WalletScepter/OwnerPlayerId";
     private const string DefaultToolTexturePath = "TileSheets/tools";
     private const string DefaultHomeLocationName = "FarmHouse";
     private const int DefaultHomeWarpTileX = 9;

@@ -3,7 +3,7 @@ using System.Text.Json;
 using HarmonyLib;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.UniversalUIMoreStats;
+namespace ThaleMagnus.UniversalUIMoreStats;
 
 internal sealed class ModEntry : Mod
 {

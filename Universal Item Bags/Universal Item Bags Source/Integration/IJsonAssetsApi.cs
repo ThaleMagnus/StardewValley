@@ -2,7 +2,7 @@ using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.UniversalItemBags.Integration;
+namespace ThaleMagnus.UniversalItemBags.Integration;
 
 public interface IJsonAssetsApi
 {

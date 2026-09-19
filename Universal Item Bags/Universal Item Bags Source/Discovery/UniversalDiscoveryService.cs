@@ -4,9 +4,9 @@ using StardewValley;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ThaleTheGreat.UniversalItemBags.Integration;
+using ThaleMagnus.UniversalItemBags.Integration;
 
-namespace ThaleTheGreat.UniversalItemBags.Discovery;
+namespace ThaleMagnus.UniversalItemBags.Discovery;
 
 internal sealed class UniversalDiscoveryService
 {

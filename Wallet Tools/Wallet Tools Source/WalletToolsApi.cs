@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 public sealed class WalletToolsApi : IWalletToolsApi
 {

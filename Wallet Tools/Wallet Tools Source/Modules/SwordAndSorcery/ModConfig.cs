@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.WalletToolsForSwordAndSorcery;
+namespace ThaleMagnus.WalletToolsForSwordAndSorcery;
 
 internal sealed class ModConfig
 {

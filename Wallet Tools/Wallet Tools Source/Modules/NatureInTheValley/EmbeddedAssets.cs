@@ -1,6 +1,6 @@
 using System;
 
-namespace ThaleTheGreat.WalletToolsForNatureInTheValley;
+namespace ThaleMagnus.WalletToolsForNatureInTheValley;
 
 internal static class EmbeddedAssets
 {

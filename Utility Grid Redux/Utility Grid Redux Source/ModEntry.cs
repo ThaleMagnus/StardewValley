@@ -17,11 +17,11 @@ using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using Object = StardewValley.Object;
 
-namespace ThaleTheGreat.UtilityGridRedux;
+namespace ThaleMagnus.UtilityGridRedux;
 
 public sealed class ModEntry : Mod
 {
-    internal const string ModId = "ThaleTheGreat.UtilityGridRedux";
+    internal const string ModId = "ThaleMagnus.UtilityGridRedux";
     private const string SaveKey = "utility-grid-redux-data";
     private const string WaterChargeKey = ModId + "/waterCharge";
     private const string PowerChargeKey = ModId + "/powerCharge";
@@ -307,9 +307,9 @@ public sealed class ModEntry : Mod
     private static void ApplyToolAndSprinklerUpgradeTooltips(IDictionary<string, ObjectData> data)
     {
         Dictionary<string, string> notes = new(StringComparer.OrdinalIgnoreCase);
-        AddTooltipNote(notes, Config.EnableCobaltSprinklerRule, "ThaleTheGreat.ToolAndSprinklerUpgrades_CobaltSprinkler", ConsumedDescription(Config.CobaltSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.CobaltSprinklerPowerConsumed, "power"));
-        AddTooltipNote(notes, Config.EnablePrismaticSprinklerRule, "ThaleTheGreat.ToolAndSprinklerUpgrades_PrismaticSprinkler", ConsumedDescription(Config.PrismaticSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.PrismaticSprinklerPowerConsumed, "power"));
-        AddTooltipNote(notes, Config.EnableRadioactiveSprinklerRule, "ThaleTheGreat.ToolAndSprinklerUpgrades_RadioactiveSprinkler", ConsumedDescription(Config.RadioactiveSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.RadioactiveSprinklerPowerConsumed, "power"));
+        AddTooltipNote(notes, Config.EnableCobaltSprinklerRule, "ThaleMagnus.ToolAndSprinklerUpgrades_CobaltSprinkler", ConsumedDescription(Config.CobaltSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.CobaltSprinklerPowerConsumed, "power"));
+        AddTooltipNote(notes, Config.EnablePrismaticSprinklerRule, "ThaleMagnus.ToolAndSprinklerUpgrades_PrismaticSprinkler", ConsumedDescription(Config.PrismaticSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.PrismaticSprinklerPowerConsumed, "power"));
+        AddTooltipNote(notes, Config.EnableRadioactiveSprinklerRule, "ThaleMagnus.ToolAndSprinklerUpgrades_RadioactiveSprinkler", ConsumedDescription(Config.RadioactiveSprinklerWaterConsumed, "water") + " " + ConsumedDescription(Config.RadioactiveSprinklerPowerConsumed, "power"));
 
         AddContentPackTooltipNotes(notes);
 
@@ -3340,9 +3340,9 @@ public sealed class ModEntry : Mod
         AddObjectRuleIfEnabled(Config.EnableSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.SprinklerWaterConsumed) }, "(BC)599", "599", "Sprinkler");
         AddObjectRuleIfEnabled(Config.EnableQualitySprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.QualitySprinklerWaterConsumed) }, "(BC)621", "621", "Quality Sprinkler");
         AddObjectRuleIfEnabled(Config.EnableIridiumSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.IridiumSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.IridiumSprinklerPowerConsumed) }, "(BC)645", "645", "Iridium Sprinkler");
-        AddObjectRuleIfEnabled(Config.EnableCobaltSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.CobaltSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.CobaltSprinklerPowerConsumed) }, "(O)ThaleTheGreat.ToolAndSprinklerUpgrades_CobaltSprinkler", "ThaleTheGreat.ToolAndSprinklerUpgrades_CobaltSprinkler", "Cobalt Sprinkler");
-        AddObjectRuleIfEnabled(Config.EnablePrismaticSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.PrismaticSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.PrismaticSprinklerPowerConsumed) }, "(O)ThaleTheGreat.ToolAndSprinklerUpgrades_PrismaticSprinkler", "ThaleTheGreat.ToolAndSprinklerUpgrades_PrismaticSprinkler", "Prismatic Sprinkler");
-        AddObjectRuleIfEnabled(Config.EnableRadioactiveSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.RadioactiveSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.RadioactiveSprinklerPowerConsumed) }, "(O)ThaleTheGreat.ToolAndSprinklerUpgrades_RadioactiveSprinkler", "ThaleTheGreat.ToolAndSprinklerUpgrades_RadioactiveSprinkler", "Radioactive Sprinkler");
+        AddObjectRuleIfEnabled(Config.EnableCobaltSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.CobaltSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.CobaltSprinklerPowerConsumed) }, "(O)ThaleMagnus.ToolAndSprinklerUpgrades_CobaltSprinkler", "ThaleMagnus.ToolAndSprinklerUpgrades_CobaltSprinkler", "Cobalt Sprinkler");
+        AddObjectRuleIfEnabled(Config.EnablePrismaticSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.PrismaticSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.PrismaticSprinklerPowerConsumed) }, "(O)ThaleMagnus.ToolAndSprinklerUpgrades_PrismaticSprinkler", "ThaleMagnus.ToolAndSprinklerUpgrades_PrismaticSprinkler", "Prismatic Sprinkler");
+        AddObjectRuleIfEnabled(Config.EnableRadioactiveSprinklerRule, new UtilityObjectRule { Water = -NormalizeConsumedAmount(Config.RadioactiveSprinklerWaterConsumed), Power = -NormalizeConsumedAmount(Config.RadioactiveSprinklerPowerConsumed) }, "(O)ThaleMagnus.ToolAndSprinklerUpgrades_RadioactiveSprinkler", "ThaleMagnus.ToolAndSprinklerUpgrades_RadioactiveSprinkler", "Radioactive Sprinkler");
         AddObjectRuleIfEnabled(Config.EnableFurnaceRule, new UtilityObjectRule { Power = NormalizeProducedAmount(Config.FurnacePowerProduced), MustBeWorking = true, MustBeFull = true }, "(BC)13", "13", "Furnace");
         AddObjectRuleIfEnabled(Config.EnableCharcoalKilnRule, new UtilityObjectRule { Power = NormalizeProducedAmount(Config.CharcoalKilnPowerProduced), MustBeWorking = true, MustBeFull = true }, "(BC)114", "114", "Charcoal Kiln");
         AddObjectRuleIfEnabled(Config.EnableSolarPanelRule, new UtilityObjectRule { Power = NormalizeProducedAmount(Config.SolarPanelPowerProduced), MustHaveSun = true }, "(BC)231", "231", "Solar Panel");

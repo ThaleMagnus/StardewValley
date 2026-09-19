@@ -13,25 +13,25 @@ using StardewValley.GameData.Powers;
 using Netcode;
 using SObject = StardewValley.Object;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletAutoPetter;
+namespace ThaleMagnus.WalletAutoPetter;
 
 internal sealed class WalletAutoPetterModule : WalletModule
 {
     internal const string ModuleKey = "AutoPetter";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletAutoPetter";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletAutoPetter";
 
-    internal WalletAutoPetterModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal WalletAutoPetterModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.auto-petter.name", LegacyUniqueId)
     {
     }
     private const string StateKey = "WalletAutoPetter.State";
     private const string AutoPetterQualifiedId = "(BC)272";
     private const int AutoPetterBigCraftableId = 272;
-    private const string WalletFlagKey = "ThaleTheGreat.WalletAutoPetter/HasAutoPetter";
-    private const string WalletPowerId = "ThaleTheGreat.WalletAutoPetter_AutoPetter";
-    private const string PowerIconAssetPath = "Mods/ThaleTheGreat.WalletAutoPetter/AutoPetterInventoryIcon";
+    private const string WalletFlagKey = "ThaleMagnus.WalletAutoPetter/HasAutoPetter";
+    private const string WalletPowerId = "ThaleMagnus.WalletAutoPetter_AutoPetter";
+    private const string PowerIconAssetPath = "Mods/ThaleMagnus.WalletAutoPetter/AutoPetterInventoryIcon";
 
     private ModConfig Config = null!;
     private SaveState State = new();

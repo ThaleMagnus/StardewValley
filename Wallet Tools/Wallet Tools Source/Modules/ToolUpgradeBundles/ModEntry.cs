@@ -12,29 +12,29 @@ using StardewValley.Delegates;
 using StardewValley.GameData.Shops;
 using StardewValley.Tools;
 
-using ThaleTheGreat.WalletTools;
+using ThaleMagnus.WalletTools;
 
-namespace ThaleTheGreat.WalletToolsForToolUpgradeBundles;
+namespace ThaleMagnus.WalletToolsForToolUpgradeBundles;
 
 internal sealed class ToolUpgradeBundlesModule : WalletModule
 {
     internal const string ModuleKey = "ToolUpgradeBundles";
-    internal const string LegacyUniqueId = "ThaleTheGreat.WalletToolsForToolUpgradeBundles";
+    internal const string LegacyUniqueId = "ThaleMagnus.WalletToolsForToolUpgradeBundles";
     internal override bool HasConfigPage => false;
 
-    internal ToolUpgradeBundlesModule(ThaleTheGreat.WalletTools.ModEntry host)
+    internal ToolUpgradeBundlesModule(ThaleMagnus.WalletTools.ModEntry host)
         : base(host, ModuleKey, "module.tool-upgrade-bundles.name", LegacyUniqueId, "Pixeltica.SMAPI.Tool_Bundles", "Pixeltica.Tool_Bundles")
     {
     }
-    private const string WalletToolsUniqueId = "ThaleTheGreat.WalletTools";
+    private const string WalletToolsUniqueId = "ThaleMagnus.WalletTools";
     private const string ToolUpgradeBundlesCodeUniqueId = "Pixeltica.SMAPI.Tool_Bundles";
     private const string ToolUpgradeBundlesContentUniqueId = "Pixeltica.Tool_Bundles";
     private const string ToolUpgradeBundlesShopId = "Pixeltica.Tool_Bundles_ToolUpgradeShop";
     private const string ToolUpgradeHandlerTypeName = "ToolUpgradeBundles.ToolUpgradeHandler";
-    private const string WalletToolsModEntryTypeName = "ThaleTheGreat.WalletTools.ModEntry";
-    private const string WalletToolsMenuVirtualToolMarker = "ThaleTheGreat.WalletTools/MenuVirtualTool";
-    private const string WalletToolsRuntimeToolMarker = "ThaleTheGreat.WalletTools/RuntimeTool";
-    private const string WalletToolsOvernightExposureMarker = "ThaleTheGreat.WalletTools/OvernightExposure";
+    private const string WalletToolsModEntryTypeName = "ThaleMagnus.WalletTools.ModEntry";
+    private const string WalletToolsMenuVirtualToolMarker = "ThaleMagnus.WalletTools/MenuVirtualTool";
+    private const string WalletToolsRuntimeToolMarker = "ThaleMagnus.WalletTools/RuntimeTool";
+    private const string WalletToolsOvernightExposureMarker = "ThaleMagnus.WalletTools/OvernightExposure";
     private const string WalletToolQuery = "THALE_WALLET_TOOLS_FOR_TUB_HAS_TOOL";
 
     private static ToolUpgradeBundlesModule? Instance;

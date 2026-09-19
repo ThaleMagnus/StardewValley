@@ -2,16 +2,16 @@ using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
 
-namespace ThaleTheGreat.WalletTools;
+namespace ThaleMagnus.WalletTools;
 
 internal sealed class UnifiedGmcmApiAdapter :
-    ThaleTheGreat.WalletAutoPetter.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletScepter.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletToolsForAnimalHusbandry.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletToolsForCoinCollectorRedux.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletToolsForNatureInTheValley.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletToolsForSwordAndSorcery.IGenericModConfigMenuApi,
-    ThaleTheGreat.WalletToolsForTractorMod.IGenericModConfigMenuApi
+    ThaleMagnus.WalletAutoPetter.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletScepter.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletToolsForAnimalHusbandry.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletToolsForCoinCollectorRedux.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletToolsForNatureInTheValley.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletToolsForSwordAndSorcery.IGenericModConfigMenuApi,
+    ThaleMagnus.WalletToolsForTractorMod.IGenericModConfigMenuApi
 {
     private readonly ModEntry Host;
     private readonly IGenericModConfigMenuApi Api;

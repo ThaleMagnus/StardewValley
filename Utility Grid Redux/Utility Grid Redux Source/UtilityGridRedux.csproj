@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>UtilityGridRedux</AssemblyName>
-    <RootNamespace>ThaleTheGreat.UtilityGridRedux</RootNamespace>
+    <RootNamespace>ThaleMagnus.UtilityGridRedux</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

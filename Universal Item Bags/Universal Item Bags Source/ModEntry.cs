@@ -1,11 +1,11 @@
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using System;
-using ThaleTheGreat.UniversalItemBags.Api;
-using ThaleTheGreat.UniversalItemBags.Discovery;
-using ThaleTheGreat.UniversalItemBags.Integration;
+using ThaleMagnus.UniversalItemBags.Api;
+using ThaleMagnus.UniversalItemBags.Discovery;
+using ThaleMagnus.UniversalItemBags.Integration;
 
-namespace ThaleTheGreat.UniversalItemBags;
+namespace ThaleMagnus.UniversalItemBags;
 
 public sealed class ModEntry : Mod
 {

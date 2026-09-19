@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.UniversalItemBags.Discovery;
+namespace ThaleMagnus.UniversalItemBags.Discovery;
 
 internal static class ClassificationRules
 {

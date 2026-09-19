@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.WalletAutoPetter;
+namespace ThaleMagnus.WalletAutoPetter;
 
 internal sealed class SaveState
 {
