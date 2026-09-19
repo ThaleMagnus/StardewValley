@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) Krobus Boykisser",
-  "Author": "ThaleTheGreat and CitrineGamer",
-  "Version": "1.0.2",
+  "Author": "ThaleMagnus and CitrineGamer",
+  "Version": "1.0.3",
   "Description": "Krobus Boykisser Meme",
-  "UniqueID": "ThaleTheGreat.KrobusBoykisser",
+  "UniqueID": "ThaleMagnus.KrobusBoykisser",
   "MinimumApiVersion": "3.0.0",
   "UpdateKeys": [
     "Nexus:46172"

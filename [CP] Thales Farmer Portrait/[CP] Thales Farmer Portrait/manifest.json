@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) Thales Farmer Portrait",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.1",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.2",
   "Description": "FarmerPortrait",
-  "UniqueID": "ThaleTheGreat.ThalesFarmerPortrait",
+  "UniqueID": "ThaleMagnus.ThalesFarmerPortrait",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:47178"

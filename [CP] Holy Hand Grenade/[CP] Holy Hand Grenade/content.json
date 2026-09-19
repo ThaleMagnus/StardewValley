@@ -3,28 +3,28 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/trinkets",
+            "Target": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/trinkets",
             "FromFile": "assets/trinkets.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/rabbit",
+            "Target": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/rabbit",
             "FromFile": "assets/Rabbit.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/blood",
+            "Target": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/blood",
             "FromFile": "assets/blood.png"
         },
         {
             "Action": "EditData",
             "Target": "Data/Trinkets",
             "Entries": {
-                "ThaleTheGreat_RabbitOfCaerbannog": {
-                    "Id": "ThaleTheGreat_RabbitOfCaerbannog",
+                "ThaleMagnus_RabbitOfCaerbannog": {
+                    "Id": "ThaleMagnus_RabbitOfCaerbannog",
                     "DisplayName": "{{i18n:Trinket.Name}}",
                     "Description": "{{i18n:Trinket.Desc}}",
-                    "Texture": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/trinkets",
+                    "Texture": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/trinkets",
                     "SheetIndex": 0,
                     "DropsNaturally": true,
                     "CanBeReforged": true
@@ -39,9 +39,9 @@
                 "Items"
             ],
             "Entries": {
-                "ThaleTheGreat_RabbitOfCaerbannog_Casino": {
-                    "Id": "ThaleTheGreat_RabbitOfCaerbannog_Casino",
-                    "ItemId": "(TR)ThaleTheGreat_RabbitOfCaerbannog",
+                "ThaleMagnus_RabbitOfCaerbannog_Casino": {
+                    "Id": "ThaleMagnus_RabbitOfCaerbannog_Casino",
+                    "ItemId": "(TR)ThaleMagnus_RabbitOfCaerbannog",
                     "Price": 100000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player"
@@ -52,7 +52,7 @@
             "Action": "EditData",
             "Target": "mushymato.TrinketTinker/Tinker",
             "Entries": {
-                "ThaleTheGreat_RabbitOfCaerbannog": {
+                "ThaleMagnus_RabbitOfCaerbannog": {
                     "MinLevel": 0,
                     "VariantsBase": {
                         "Name": "{{i18n:Rabbit.Name}}",
@@ -61,7 +61,7 @@
                     },
                     "Variants": [
                         {
-                            "Texture": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/rabbit",
+                            "Texture": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/rabbit",
                             "SpriteIndex": 0
                         }
                     ],
@@ -172,7 +172,7 @@
                                     "Hits": 1,
                                     "CritChance": 1.0,
                                     "Knockback": 0.0,
-                                    "HitTAS": "ThaleTheGreat_BloodSplatter"
+                                    "HitTAS": "ThaleMagnus_BloodSplatter"
                                 }
                             }
                         ]
@@ -184,9 +184,9 @@
             "Action": "EditData",
             "Target": "mushymato.TrinketTinker/TAS",
             "Entries": {
-                "ThaleTheGreat_BloodSplatter": {
-                    "Id": "ThaleTheGreat_BloodSplatter",
-                    "Texture": "Mods/ThaleTheGreat.CaerbannogRabbitTrinket/blood",
+                "ThaleMagnus_BloodSplatter": {
+                    "Id": "ThaleMagnus_BloodSplatter",
+                    "Texture": "Mods/ThaleMagnus.CaerbannogRabbitTrinket/blood",
                     "SourceRect": {
                         "X": 0,
                         "Y": 0,

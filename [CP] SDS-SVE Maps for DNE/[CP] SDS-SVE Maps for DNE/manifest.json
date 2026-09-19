@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) SDS-SVE Maps for DNE",
-  "Author": "ThaleTheGreat",
-  "Version": "2.0.2",
+  "Author": "ThaleMagnus",
+  "Version": "2.0.3",
   "Description": "Replaces the seasonal world map with SDS-SVE maps for DNE.",
-  "UniqueID": "ThaleTheGreat.CPSdsSveMapsForDne",
+  "UniqueID": "ThaleMagnus.CPSdsSveMapsForDne",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:41468"

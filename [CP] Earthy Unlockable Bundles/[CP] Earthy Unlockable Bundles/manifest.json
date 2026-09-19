@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) Earthy Unlockable Bundles",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.2",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.3",
   "Description": "Earthy Unlockable Bundles textures.",
-  "UniqueID": "ThaleTheGreat.EarthyUnlockableBundles",
+  "UniqueID": "ThaleMagnus.EarthyUnlockableBundles",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:41717"

@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) Bridge Canopies",
-  "Author": "ThaleTheGreat",
-  "Version": "1.7.2",
+  "Author": "ThaleMagnus",
+  "Version": "1.7.3",
   "Description": "Adds bridge canopies to the town bridges.",
-  "UniqueID": "ThaleTheGreat.BridgeCanopies",
+  "UniqueID": "ThaleMagnus.BridgeCanopies",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [
     "Nexus:46736"
