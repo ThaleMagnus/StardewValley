@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 internal interface IObjectCache<TKey, TValue> :
     IDisposable, IAsyncDisposable, ICache

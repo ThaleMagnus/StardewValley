@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Exceptions;
+namespace ThaleMagnus.ClearMonocle.Types.Exceptions;
 
 internal class UnknownArgumentEnumException<TArgument> : UnknownArgumentException<TArgument>, IUnknownEnumException<TArgument>
     where TArgument : unmanaged, Enum {

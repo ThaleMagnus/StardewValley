@@ -2,7 +2,7 @@
 
 using NumericsVector2 = System.Numerics.Vector2;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal partial struct Vector2F {
     [MethodImpl(Runtime.MethodImpl.Inline)]

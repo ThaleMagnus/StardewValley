@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+﻿namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 public enum EvictionReason {
     None,

@@ -2,7 +2,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 internal interface IMemoryCache<TKey, TValue> : IObjectCache<TKey, TValue[]> where TKey : notnull where TValue : unmanaged {
     [Pure, MustUseReturnValue]

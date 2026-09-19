@@ -1,12 +1,12 @@
-﻿using ThaleTheGreat.ClearMonocle.Colors;
-using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Colors;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using static ThaleTheGreat.ClearMonocle.Runtime;
+using static ThaleMagnus.ClearMonocle.Runtime;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Fixed;
+namespace ThaleMagnus.ClearMonocle.Types.Fixed;
 
 [DebuggerDisplay("{Value}")]
 [StructLayout(LayoutKind.Sequential, Pack = sizeof(byte), Size = sizeof(byte))]

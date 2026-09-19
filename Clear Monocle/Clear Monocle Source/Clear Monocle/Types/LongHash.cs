@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Hashing;
+﻿using ThaleMagnus.ClearMonocle.Hashing;
 using System;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal static class LongHash {
     internal const ulong Null = HashUtility.Constants.Bits64.Null;

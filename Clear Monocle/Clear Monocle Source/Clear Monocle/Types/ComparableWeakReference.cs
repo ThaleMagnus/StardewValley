@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+﻿using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Security;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [SuppressMessage("Code Quality", "IDE0051:Remove unused private members")]
 internal sealed class ComparableWeakReference<T> :

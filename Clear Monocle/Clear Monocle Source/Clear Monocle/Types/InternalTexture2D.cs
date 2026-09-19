@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.GL;
+using ThaleMagnus.ClearMonocle.GL;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 /// <summary>
 /// A Texture2D that represents internal Clear Monocle data, and thus shouldn't continue down any resampling pipelines

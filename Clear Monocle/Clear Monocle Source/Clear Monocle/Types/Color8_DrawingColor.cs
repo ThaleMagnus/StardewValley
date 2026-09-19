@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal readonly partial struct Color8 : IEquatable<DrawingColor> {
     // ToArgb

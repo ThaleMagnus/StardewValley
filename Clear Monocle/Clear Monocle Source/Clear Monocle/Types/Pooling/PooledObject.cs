@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Pooling;
+namespace ThaleMagnus.ClearMonocle.Types.Pooling;
 
 internal interface IPooledObject<T> : IDisposable where T : class, new() {
     T Value { get; }

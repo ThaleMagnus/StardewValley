@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [DebuggerDisplay("[{Bytes[0]}, {Bytes[1]}, {Bytes[2]}, {Bytes[3]}]")]
 [DebuggerDisplay("[{Shorts[0]}, {Shorts[1]}]")]

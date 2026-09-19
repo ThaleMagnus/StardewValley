@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal sealed class ConcurrentConsumer<T> {
     internal delegate void CallbackDelegate(in T item);

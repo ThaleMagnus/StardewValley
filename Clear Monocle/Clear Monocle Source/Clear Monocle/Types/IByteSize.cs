@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.Contracts;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal interface IByteSize {
     [Pure]

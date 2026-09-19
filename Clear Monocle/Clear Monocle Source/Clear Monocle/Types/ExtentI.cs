@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [CLSCompliant(false)]
 [DebuggerDisplay("[{Min} <-> {Max}}")]

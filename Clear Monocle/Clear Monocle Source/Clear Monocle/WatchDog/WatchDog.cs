@@ -1,4 +1,4 @@
-﻿using ThaleTheGreat.ClearMonocle.Configuration;
+﻿using ThaleMagnus.ClearMonocle.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,7 +6,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.WatchDog;
+namespace ThaleMagnus.ClearMonocle.WatchDog;
 
 // WatchDog only interrupts in non-debug builds; in debug builds, if we encounter a deadlock, I want to know about it.
 

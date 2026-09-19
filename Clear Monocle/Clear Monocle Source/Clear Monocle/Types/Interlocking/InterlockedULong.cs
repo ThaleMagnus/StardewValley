@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Interlocking;
+namespace ThaleMagnus.ClearMonocle.Types.Interlocking;
 
 [DebuggerDisplay("{Value}")]
 [StructLayout(LayoutKind.Sequential, Pack = sizeof(ulong), Size = sizeof(ulong))]

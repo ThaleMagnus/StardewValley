@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Types;
+﻿namespace ThaleMagnus.ClearMonocle.Types;
 
 internal enum TextureType {
     Sprite = 0, // sprite in a spritesheet

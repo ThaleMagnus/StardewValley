@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+﻿using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal sealed class DoubleBuffer<T> {
     private const uint StartingIndex = 0U;

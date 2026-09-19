@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Interlocking;
+namespace ThaleMagnus.ClearMonocle.Types.Interlocking;
 
 using UnderlyingInt = Int32;
 

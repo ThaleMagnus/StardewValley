@@ -2,7 +2,7 @@
 using System.Runtime.Intrinsics;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal partial struct Vector2I {
     [MethodImpl(Runtime.MethodImpl.Inline)]

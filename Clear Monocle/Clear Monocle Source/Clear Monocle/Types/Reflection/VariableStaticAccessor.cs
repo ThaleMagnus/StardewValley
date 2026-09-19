@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Reflection;
+namespace ThaleMagnus.ClearMonocle.Types.Reflection;
 
 [StructLayout(LayoutKind.Auto)]
 internal class VariableStaticAccessor<TResult> {

@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Tasking;
+﻿using ThaleMagnus.ClearMonocle.Tasking;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 internal interface ICompressedMemoryCache : ICache {
     private static readonly ThreadedTaskScheduler CompressedMemoryCacheScheduler = new(

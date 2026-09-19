@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+﻿namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 internal interface ITouchable {
     bool Touch();

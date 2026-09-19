@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -10,7 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 internal class ObjectCache<TKey, TValue> : AbstractObjectCache<TKey, TValue>
     where TKey : notnull where TValue : notnull {

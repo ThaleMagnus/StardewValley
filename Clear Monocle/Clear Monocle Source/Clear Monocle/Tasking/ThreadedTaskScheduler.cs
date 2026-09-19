@@ -1,6 +1,6 @@
 //#define SM_SINGLE_THREAD
 
-using ThaleTheGreat.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Configuration;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Tasking;
+namespace ThaleMagnus.ClearMonocle.Tasking;
 
 [DebuggerTypeProxy(typeof(ThreadedTaskSchedulerDebugView))]
 [DebuggerDisplay("Id={Id}, ScheduledTasks = {DebugTaskCount}")]

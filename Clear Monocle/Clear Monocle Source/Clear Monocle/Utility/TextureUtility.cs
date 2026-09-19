@@ -1,13 +1,13 @@
 ﻿#if false
 
 using FastExpressionCompiler.LightExpression;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ThaleTheGreat.ClearMonocle.Utility;
+namespace ThaleMagnus.ClearMonocle.Utility;
 
 internal static class TextureUtility {
 

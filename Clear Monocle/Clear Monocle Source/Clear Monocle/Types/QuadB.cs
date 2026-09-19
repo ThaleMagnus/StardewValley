@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [DebuggerDisplay("[{Horizontal}, {Vertical}]")]
 [StructLayout(LayoutKind.Sequential, Pack = sizeof(byte), Size = sizeof(byte))]

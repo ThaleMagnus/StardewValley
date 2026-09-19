@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Pooling;
+namespace ThaleMagnus.ClearMonocle.Types.Pooling;
 
 // Based upon 'LeakTrackingObjectPool.cs'
 // https://github.com/dotnet/aspnetcore/blob/4adb4258cb630114bc232af5339860dab9a5415e/src/ObjectPool/src/LeakTrackingObjectPool.cs

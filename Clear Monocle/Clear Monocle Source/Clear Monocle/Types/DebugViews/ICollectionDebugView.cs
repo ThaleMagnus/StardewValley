@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace ThaleTheGreat.ClearMonocle.Types.DebugViews;
+namespace ThaleMagnus.ClearMonocle.Types.DebugViews;
 
 // https://github.com/dotnet/runtime/blob/4019e83878a81465f6e42e8502b53bc5d1752f81/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/ICollectionDebugView.cs
 // ReSharper disable once InconsistentNaming

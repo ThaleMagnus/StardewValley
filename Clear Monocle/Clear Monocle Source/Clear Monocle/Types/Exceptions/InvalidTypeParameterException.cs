@@ -1,7 +1,7 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Exceptions;
+namespace ThaleMagnus.ClearMonocle.Types.Exceptions;
 
 /// <summary>
 /// Indicates that the generic type parameter is invalid or does not match the required constraints.

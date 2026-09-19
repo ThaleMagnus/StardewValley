@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.HighPerformance;
 using JetBrains.Annotations;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Types.MemoryCache;
+namespace ThaleMagnus.ClearMonocle.Types.MemoryCache;
 
 #pragma warning disable CS0809 // Obsolete member overrides non-obsolete member
 

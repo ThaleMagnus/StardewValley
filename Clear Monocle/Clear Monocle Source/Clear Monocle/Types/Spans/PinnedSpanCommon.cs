@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Spans;
+namespace ThaleMagnus.ClearMonocle.Types.Spans;
 
 internal static class PinnedSpanCommon {
     [Conditional("DEBUG"), Conditional("DEVELOPMENT"), Conditional("RELEASE"), MethodImpl(MethodImplOptions.AggressiveInlining)]

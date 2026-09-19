@@ -3,7 +3,7 @@
 // ReSharper disable UnusedMember.Global
 // ReSharper disable ConvertToAutoProperty
 
-namespace ThaleTheGreat.ClearMonocle.Types.Spans;
+namespace ThaleMagnus.ClearMonocle.Types.Spans;
 
 internal sealed class PinnedSpanDebugView<T> where T : unmanaged {
     private readonly T[] _array;

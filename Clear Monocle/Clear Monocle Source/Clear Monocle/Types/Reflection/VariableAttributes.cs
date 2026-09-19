@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.HighPerformance;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Reflection;
+namespace ThaleMagnus.ClearMonocle.Types.Reflection;
 
 // Clones from PropertyAttributes and FieldAttributes
 [Flags]

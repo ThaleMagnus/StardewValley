@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Pooling;
+namespace ThaleMagnus.ClearMonocle.Types.Pooling;
 
 internal interface IObjectPool<T> where T : class, new() {
     int Count { get; }

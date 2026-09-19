@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Exceptions;
+namespace ThaleMagnus.ClearMonocle.Types.Exceptions;
 
 internal interface IUnknownValueException {
     internal string? Name { get; }

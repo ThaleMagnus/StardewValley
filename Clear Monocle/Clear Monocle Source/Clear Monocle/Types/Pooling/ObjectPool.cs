@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Pooling;
+namespace ThaleMagnus.ClearMonocle.Types.Pooling;
 
 internal sealed class ObjectPool<T> : ISealedObjectPool<T, ObjectPool<T>> where T : class, new() {
     internal static readonly ObjectPool<T> Default = new();

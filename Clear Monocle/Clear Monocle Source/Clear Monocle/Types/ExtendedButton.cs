@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework.Input;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
 using StardewModdingAPI;
 using StardewValley;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [StructLayout(LayoutKind.Auto)]
 internal readonly struct ExtendedButton : IConfigSerializable<ExtendedButton> {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Exceptions;
+namespace ThaleMagnus.ClearMonocle.Types.Exceptions;
 
 internal sealed class ReversePatchException : InvalidOperationException {
     internal ReversePatchException(string message, string member) : base($"Reverse Patch '{member}' : {message}") {

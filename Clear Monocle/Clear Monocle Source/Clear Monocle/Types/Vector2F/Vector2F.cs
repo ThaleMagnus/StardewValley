@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 using NumericsVector2 = System.Numerics.Vector2;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [DebuggerDisplay("[{X}, {Y}]")]
 [StructLayout(LayoutKind.Sequential, Pack = sizeof(float) * 2, Size = sizeof(float) * 2)]

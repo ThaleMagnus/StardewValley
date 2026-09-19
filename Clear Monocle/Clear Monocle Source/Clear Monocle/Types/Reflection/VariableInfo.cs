@@ -1,6 +1,6 @@
 ﻿using LinqFasterer;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Extensions.Reflection;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Extensions.Reflection;
 using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types.Reflection;
+namespace ThaleMagnus.ClearMonocle.Types.Reflection;
 internal abstract class VariableInfo : MemberInfo, ILongHash {
     protected abstract MemberInfo Value { get; }
 

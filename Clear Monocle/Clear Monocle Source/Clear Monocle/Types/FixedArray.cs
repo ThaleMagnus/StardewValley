@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [StructLayout(LayoutKind.Auto)]
 internal readonly unsafe struct FixedArray<T> : IReadOnlyList<T> where T : unmanaged {

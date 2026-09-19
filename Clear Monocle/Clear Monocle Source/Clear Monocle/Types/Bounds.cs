@@ -1,10 +1,10 @@
-﻿using ThaleTheGreat.ClearMonocle.Hashing;
+﻿using ThaleMagnus.ClearMonocle.Hashing;
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [StructLayout(LayoutKind.Sequential, Pack = Vector2I.Alignment)]
 internal partial struct Bounds :

@@ -1,4 +1,4 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 // ReSharper disable UnusedMember.Global
 
-namespace ThaleTheGreat.ClearMonocle.Types.Spans;
+namespace ThaleMagnus.ClearMonocle.Types.Spans;
 
 [DebuggerTypeProxy(typeof(PinnedSpanDebugView<>))]
 [DebuggerDisplay("{ToString(),raw}")]

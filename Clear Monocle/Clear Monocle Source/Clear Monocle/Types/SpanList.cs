@@ -1,6 +1,6 @@
 ﻿#if false
 
-using ThaleTheGreat.ClearMonocle.Types.DebugViews;
+using ThaleMagnus.ClearMonocle.Types.DebugViews;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 [DebuggerTypeProxy(typeof(ICollectionDebugView<>))]
 [DebuggerDisplay("Count = {Count}")]

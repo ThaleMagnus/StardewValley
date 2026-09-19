@@ -1,4 +1,4 @@
-﻿namespace ThaleTheGreat.ClearMonocle.Types;
+﻿namespace ThaleMagnus.ClearMonocle.Types;
 
 internal interface ICache : IPurgeable, IByteSize {
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ThaleTheGreat.ClearMonocle.Types;
+namespace ThaleMagnus.ClearMonocle.Types;
 
 internal abstract class ClearMonocleObject : IDisposable {
     private IPurgeable? Purgeable => this as IPurgeable;
