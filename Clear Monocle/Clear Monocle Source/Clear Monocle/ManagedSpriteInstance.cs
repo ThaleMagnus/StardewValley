@@ -1,14 +1,14 @@
 ﻿using LinqFasterer;
 using Microsoft.Xna.Framework.Graphics;
-using ThaleTheGreat.ClearMonocle.Caching;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Mitigations.PyTK;
-using ThaleTheGreat.ClearMonocle.Resample;
-using ThaleTheGreat.ClearMonocle.Tasking;
-using ThaleTheGreat.ClearMonocle.Types;
-using ThaleTheGreat.ClearMonocle.Types.Interlocking;
+using ThaleMagnus.ClearMonocle.Caching;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Mitigations.PyTK;
+using ThaleMagnus.ClearMonocle.Resample;
+using ThaleMagnus.ClearMonocle.Tasking;
+using ThaleMagnus.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Types.Interlocking;
 using StardewValley;
 using System;
 using System.Diagnostics;
@@ -17,11 +17,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
-using static ThaleTheGreat.ClearMonocle.ResourceManager;
-using WeakInstance = System.WeakReference<ThaleTheGreat.ClearMonocle.ManagedSpriteInstance>;
+using static ThaleMagnus.ClearMonocle.ResourceManager;
+using WeakInstance = System.WeakReference<ThaleMagnus.ClearMonocle.ManagedSpriteInstance>;
 using WeakTexture = System.WeakReference<Microsoft.Xna.Framework.Graphics.Texture2D>;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal sealed class ManagedSpriteInstance : IByteSize, IDisposable {
     private static readonly ConcurrentLinkedListSlim<WeakInstance> RecentAccessList = new();

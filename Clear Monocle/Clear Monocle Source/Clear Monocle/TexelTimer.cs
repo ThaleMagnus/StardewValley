@@ -1,8 +1,8 @@
-﻿using ThaleTheGreat.ClearMonocle.Extensions;
+﻿using ThaleMagnus.ClearMonocle.Extensions;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal sealed class TexelTimer {
     private long TotalDuration = 0;

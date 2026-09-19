@@ -1,9 +1,9 @@
-﻿using ThaleTheGreat.ClearMonocle.Types.Exceptions;
+﻿using ThaleMagnus.ClearMonocle.Types.Exceptions;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 [Pure]
 internal static class ThrowHelper {

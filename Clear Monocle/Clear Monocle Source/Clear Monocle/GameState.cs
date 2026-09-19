@@ -1,6 +1,6 @@
 ﻿using StardewValley;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static class GameState {
     internal static bool IsLoading => Game1.currentLoader is not null || Game1.gameMode == Game1.loadingMode;

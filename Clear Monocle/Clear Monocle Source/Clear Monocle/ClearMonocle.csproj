@@ -3,7 +3,7 @@
 	<PropertyGroup>
     <Description>Performance-optimized xBRZ-only sprite resampling for Stardew Valley.</Description>
     <Product>(TTG) Clear Monocle</Product>
-    <RootNamespace>ThaleTheGreat.ClearMonocle</RootNamespace>
+    <RootNamespace>ThaleMagnus.ClearMonocle</RootNamespace>
     <ModFolderName>Clear Monocle</ModFolderName>
 <EnableModZip>false</EnableModZip>
 		<FileAlignment>512</FileAlignment>
@@ -37,7 +37,7 @@
 	<PropertyGroup>
 		<AssemblyName>ClearMonocle</AssemblyName>
 		<PackageId>ClearMonocle</PackageId>
-		<Authors>ThaleTheGreat</Authors>
+		<Authors>ThaleMagnus</Authors>
 		<Version>1.1.0</Version>
 		<AssemblyVersion>1.1.0.0</AssemblyVersion>
 		<FileVersion>1.1.0.0</FileVersion>

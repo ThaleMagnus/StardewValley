@@ -3,7 +3,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.X86;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static partial class SystemInfo {
     internal enum ProcessorType : byte {

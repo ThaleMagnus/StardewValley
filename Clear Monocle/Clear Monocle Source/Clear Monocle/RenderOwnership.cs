@@ -1,6 +1,6 @@
 using System;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 internal static class RenderOwnership {
     [ThreadStatic]

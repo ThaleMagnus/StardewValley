@@ -2,14 +2,14 @@ using HarmonyLib;
 using JetBrains.Annotations;
 using LinqFasterer;
 using Microsoft.Xna.Framework.Input;
-using ThaleTheGreat.ClearMonocle.Caching;
-using ThaleTheGreat.ClearMonocle.Configuration;
-using ThaleTheGreat.ClearMonocle.Extensions;
-using ThaleTheGreat.ClearMonocle.Harmonize;
-using ThaleTheGreat.ClearMonocle.Integrations;
-using ThaleTheGreat.ClearMonocle.Metadata;
-using ThaleTheGreat.ClearMonocle.Tasking;
-using ThaleTheGreat.ClearMonocle.Types;
+using ThaleMagnus.ClearMonocle.Caching;
+using ThaleMagnus.ClearMonocle.Configuration;
+using ThaleMagnus.ClearMonocle.Extensions;
+using ThaleMagnus.ClearMonocle.Harmonize;
+using ThaleMagnus.ClearMonocle.Integrations;
+using ThaleMagnus.ClearMonocle.Metadata;
+using ThaleMagnus.ClearMonocle.Tasking;
+using ThaleMagnus.ClearMonocle.Types;
 using StardewModdingAPI;
 using StardewModdingAPI.Enums;
 using StardewModdingAPI.Events;
@@ -23,11 +23,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.ClearMonocle;
+namespace ThaleMagnus.ClearMonocle;
 
 public sealed class ModEntry : Mod {
     internal static Assembly Assembly => typeof(ModEntry).Assembly;
-    private const string UniqueId = "ThaleTheGreat.ClearMonocle";
+    private const string UniqueId = "ThaleMagnus.ClearMonocle";
     private static string ModDirectory => Self?.Helper?.DirectoryPath ?? Path.GetDirectoryName(Assembly.Location) ?? Assembly.Location;
 
     internal static ModEntry Self { get; private set; } = default!;
