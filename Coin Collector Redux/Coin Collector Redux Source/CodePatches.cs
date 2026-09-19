@@ -8,7 +8,7 @@ using StardewValley.Tools;
 using Object = StardewValley.Object;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
-namespace ThaleTheGreat.CoinCollectorRedux
+namespace ThaleMagnus.CoinCollectorRedux
 {
     public partial class ModEntry
     {

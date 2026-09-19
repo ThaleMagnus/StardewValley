@@ -7,7 +7,7 @@ This is a one-coin Content Patcher example pack for **Coin Collector Redux**. It
 This pack adds one coin:
 
 - **Traveler Copper Coin**
-- Internal object ID: `ThaleTheGreat.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin`
+- Internal object ID: `ThaleMagnus.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin`
 - Set name: `Traveler`
 - Sell price: `150g`
 - Rarity weight: `3.0`
@@ -28,7 +28,7 @@ Dynamic Game Assets is **not** required.
 1. Download or clone this pack.
 2. Put the folder named `[CP] Coin Collector Redux Example Coin Pack` into your Stardew Valley `Mods` folder.
 3. Launch the game through SMAPI.
-4. Coin Collector Redux will read the patched coin data from `ThaleTheGreat.CoinCollectorRedux/Coins`.
+4. Coin Collector Redux will read the patched coin data from `ThaleMagnus.CoinCollectorRedux/Coins`.
 
 ## Files
 
@@ -47,7 +47,7 @@ Dynamic Game Assets is **not** required.
 Coin Collector Redux exposes this custom data asset:
 
 ```text
-ThaleTheGreat.CoinCollectorRedux/Coins
+ThaleMagnus.CoinCollectorRedux/Coins
 ```
 
 This pack uses Content Patcher to edit that asset. Coin Collector Redux then creates a native Stardew Valley 1.6 object entry for the coin through `Data/Objects`.
@@ -55,13 +55,13 @@ This pack uses Content Patcher to edit that asset. Coin Collector Redux then cre
 The pack also loads its coin texture as this custom asset:
 
 ```text
-ThaleTheGreat.CoinCollectorReduxExampleCoinPack/CoinsTexture
+ThaleMagnus.CoinCollectorReduxExampleCoinPack/CoinsTexture
 ```
 
 The coin entry points at that texture with:
 
 ```json
-"TexturePath": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack/CoinsTexture",
+"TexturePath": "ThaleMagnus.CoinCollectorReduxExampleCoinPack/CoinsTexture",
 "SpriteIndex": 0
 ```
 
@@ -70,7 +70,7 @@ The coin entry points at that texture with:
 The coin entry is in `content.json` under this target:
 
 ```json
-"Target": "ThaleTheGreat.CoinCollectorRedux/Coins"
+"Target": "ThaleMagnus.CoinCollectorRedux/Coins"
 ```
 
 ### `Id`
@@ -86,7 +86,7 @@ AuthorName.PackName_CoinName
 Example:
 
 ```json
-"Id": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin"
+"Id": "ThaleMagnus.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin"
 ```
 
 Do not change this ID after release unless you are intentionally making a breaking save-compatibility change.
@@ -144,7 +144,7 @@ The content asset path for the coin spritesheet.
 This example loads `assets/coins.png` into:
 
 ```text
-ThaleTheGreat.CoinCollectorReduxExampleCoinPack/CoinsTexture
+ThaleMagnus.CoinCollectorReduxExampleCoinPack/CoinsTexture
 ```
 
 The coin points at that same asset path.
@@ -271,10 +271,10 @@ Example structure:
 ```json
 "Entries": {
   "TravelerCopperCoin": {
-    "Id": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin"
+    "Id": "ThaleMagnus.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin"
   },
   "TravelerSilverCoin": {
-    "Id": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack_TravelerSilverCoin"
+    "Id": "ThaleMagnus.CoinCollectorReduxExampleCoinPack_TravelerSilverCoin"
   }
 }
 ```
@@ -310,5 +310,5 @@ Use the actual Nexus ID if the pack is uploaded to Nexus, or remove `UpdateKeys`
 - This is a Content Patcher pack, so it does not include a DLL.
 - This pack does not use Dynamic Game Assets.
 - This pack depends on Coin Collector Redux.
-- Multiple Content Patcher packs can add entries to `ThaleTheGreat.CoinCollectorRedux/Coins`.
+- Multiple Content Patcher packs can add entries to `ThaleMagnus.CoinCollectorRedux/Coins`.
 - Coin Collector Redux handles the daily burying, metal detector pings, indicator projectile, and hoe pickup behavior.

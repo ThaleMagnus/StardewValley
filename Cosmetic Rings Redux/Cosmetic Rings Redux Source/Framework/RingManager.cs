@@ -1,11 +1,11 @@
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Rings;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Rings;
 using StardewValley;
 using StardewValley.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework
+namespace ThaleMagnus.CosmeticRingsRedux.Framework
 {
     internal enum RingType
     {
@@ -25,7 +25,7 @@ namespace ThaleTheGreat.CosmeticRingsRedux.Framework
 
     internal static class RingManager
     {
-        private const string RingNamePrefix = "ThaleTheGreat.CosmeticRingsRedux.Rings";
+        private const string RingNamePrefix = "ThaleMagnus.CosmeticRingsRedux.Rings";
         private static readonly HashSet<string> RingNames = Enum
             .GetValues<RingType>()
             .Where(type => type != RingType.Unknown)

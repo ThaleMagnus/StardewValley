@@ -3,20 +3,20 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack/CoinsTexture",
+      "Target": "ThaleMagnus.CoinCollectorReduxExampleCoinPack/CoinsTexture",
       "FromFile": "assets/coins.png"
     },
     {
       "Action": "EditData",
-      "Target": "ThaleTheGreat.CoinCollectorRedux/Coins",
+      "Target": "ThaleMagnus.CoinCollectorRedux/Coins",
       "Entries": {
         "TravelerCopperCoin": {
-          "Id": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin",
+          "Id": "ThaleMagnus.CoinCollectorReduxExampleCoinPack_TravelerCopperCoin",
           "Name": "TravelerCopperCoin",
           "SetName": "Traveler",
           "DisplayName": "{{i18n:coin.traveler-copper.name}}",
           "Description": "{{i18n:coin.traveler-copper.description}}",
-          "TexturePath": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack/CoinsTexture",
+          "TexturePath": "ThaleMagnus.CoinCollectorReduxExampleCoinPack/CoinsTexture",
           "SpriteIndex": 0,
           "Locations": [],
           "Rarity": 3.0,

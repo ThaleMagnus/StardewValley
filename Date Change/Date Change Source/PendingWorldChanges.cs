@@ -1,7 +1,7 @@
 using System;
 
 #nullable enable
-namespace ThaleTheGreat.DateChange;
+namespace ThaleMagnus.DateChange;
 
 internal sealed class PendingWorldChanges
 {

@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 
 #nullable enable
-namespace ThaleTheGreat.DateChange;
+namespace ThaleMagnus.DateChange;
 
 public class DateChangeMenu : IClickableMenu
 {

@@ -9,7 +9,7 @@
     <Product>(TTG) Coin Collector Redux</Product>
     <Title>(TTG) Coin Collector Redux</Title>
     <ModFolderName>Coin Collector Redux</ModFolderName>
-    <RootNamespace>ThaleTheGreat.CoinCollectorRedux</RootNamespace>
+    <RootNamespace>ThaleMagnus.CoinCollectorRedux</RootNamespace>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
   

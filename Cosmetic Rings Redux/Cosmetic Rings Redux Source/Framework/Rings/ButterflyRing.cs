@@ -1,10 +1,10 @@
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Critters;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Critters;
 using StardewValley;
 using StardewValley.BellsAndWhistles;
 using StardewValley.Objects;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Rings
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Rings
 {
     internal sealed class ButterflyRing : CustomRing
     {

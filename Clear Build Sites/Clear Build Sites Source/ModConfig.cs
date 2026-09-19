@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.ClearBuildSites;
+namespace ThaleMagnus.ClearBuildSites;
 
 internal sealed class ModConfig
 {

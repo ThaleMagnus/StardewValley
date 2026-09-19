@@ -8,7 +8,7 @@ using System;
 using System.IO;
 
 #nullable enable
-namespace ThaleTheGreat.DateChange;
+namespace ThaleMagnus.DateChange;
 
 public class ModEntry : Mod
 {

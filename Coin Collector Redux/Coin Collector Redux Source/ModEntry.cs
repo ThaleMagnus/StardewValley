@@ -15,20 +15,20 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace ThaleTheGreat.CoinCollectorRedux
+namespace ThaleMagnus.CoinCollectorRedux
 {
     public partial class ModEntry : Mod
     {
-        public const string DetectorId = "ThaleTheGreat.CoinCollectorRedux_MetalDetector";
-        public const string DetectorQualifiedId = "(O)ThaleTheGreat.CoinCollectorRedux_MetalDetector";
-        public const string DetectorWeaponId = "ThaleTheGreat.CoinCollectorRedux_MetalDetectorWeapon";
-        public const string DetectorWeaponQualifiedId = "(W)ThaleTheGreat.CoinCollectorRedux_MetalDetectorWeapon";
+        public const string DetectorId = "ThaleMagnus.CoinCollectorRedux_MetalDetector";
+        public const string DetectorQualifiedId = "(O)ThaleMagnus.CoinCollectorRedux_MetalDetector";
+        public const string DetectorWeaponId = "ThaleMagnus.CoinCollectorRedux_MetalDetectorWeapon";
+        public const string DetectorWeaponQualifiedId = "(W)ThaleMagnus.CoinCollectorRedux_MetalDetectorWeapon";
 
-        private const string NewDictionaryPath = "ThaleTheGreat.CoinCollectorRedux/Coins";
-        private const string DetectorTexturePath = "ThaleTheGreat.CoinCollectorRedux/MetalDetector";
-        private const string CoinTexturePath = "ThaleTheGreat.CoinCollectorRedux/CoinsTexture";
-        private const string LocationCoinsModDataKey = "ThaleTheGreat.CoinCollectorRedux/Coins";
-        private const string DetectorModDataKey = "ThaleTheGreat.CoinCollectorRedux/MetalDetectorItem";
+        private const string NewDictionaryPath = "ThaleMagnus.CoinCollectorRedux/Coins";
+        private const string DetectorTexturePath = "ThaleMagnus.CoinCollectorRedux/MetalDetector";
+        private const string CoinTexturePath = "ThaleMagnus.CoinCollectorRedux/CoinsTexture";
+        private const string LocationCoinsModDataKey = "ThaleMagnus.CoinCollectorRedux/Coins";
+        private const string DetectorModDataKey = "ThaleMagnus.CoinCollectorRedux/MetalDetectorItem";
         private const int DetectorShopPrice = 2500;
 
         public static IMonitor PMonitor = null!;
@@ -877,7 +877,7 @@ namespace ThaleTheGreat.CoinCollectorRedux
             string suffix = new string(key.Where(char.IsLetterOrDigit).ToArray());
             if (string.IsNullOrWhiteSpace(suffix))
                 suffix = "Coin";
-            return $"ThaleTheGreat.CoinCollectorRedux_{suffix}";
+            return $"ThaleMagnus.CoinCollectorRedux_{suffix}";
         }
 
         private static Dictionary<string, CoinData> GetDefaultCoinData()
@@ -886,7 +886,7 @@ namespace ThaleTheGreat.CoinCollectorRedux
             {
                 ["YobaCopperCoin"] = new CoinData
                 {
-                    Id = "ThaleTheGreat.CoinCollectorRedux_YobaCopperCoin",
+                    Id = "ThaleMagnus.CoinCollectorRedux_YobaCopperCoin",
                     Name = "YobaCopperCoin",
                     SetName = "Yoba",
                     DisplayName = T("coin.yoba-copper.name"),
@@ -898,7 +898,7 @@ namespace ThaleTheGreat.CoinCollectorRedux
                 },
                 ["YobaSilverCoin"] = new CoinData
                 {
-                    Id = "ThaleTheGreat.CoinCollectorRedux_YobaSilverCoin",
+                    Id = "ThaleMagnus.CoinCollectorRedux_YobaSilverCoin",
                     Name = "YobaSilverCoin",
                     SetName = "Yoba",
                     DisplayName = T("coin.yoba-silver.name"),
@@ -910,7 +910,7 @@ namespace ThaleTheGreat.CoinCollectorRedux
                 },
                 ["YobaGoldCoin"] = new CoinData
                 {
-                    Id = "ThaleTheGreat.CoinCollectorRedux_YobaGoldCoin",
+                    Id = "ThaleMagnus.CoinCollectorRedux_YobaGoldCoin",
                     Name = "YobaGoldCoin",
                     SetName = "Yoba",
                     DisplayName = T("coin.yoba-gold.name"),
@@ -922,7 +922,7 @@ namespace ThaleTheGreat.CoinCollectorRedux
                 },
                 ["YobaIridiumCoin"] = new CoinData
                 {
-                    Id = "ThaleTheGreat.CoinCollectorRedux_YobaIridiumCoin",
+                    Id = "ThaleMagnus.CoinCollectorRedux_YobaIridiumCoin",
                     Name = "YobaIridiumCoin",
                     SetName = "Yoba",
                     DisplayName = T("coin.yoba-iridium.name"),

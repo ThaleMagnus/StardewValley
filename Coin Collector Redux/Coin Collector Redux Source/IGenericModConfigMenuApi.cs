@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using System;
 
-namespace ThaleTheGreat.CoinCollectorRedux
+namespace ThaleMagnus.CoinCollectorRedux
 {
     public interface IGenericModConfigMenuApi
     {

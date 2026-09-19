@@ -5,28 +5,28 @@ using StardewValley.GameData.Shops;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework
+namespace ThaleMagnus.CosmeticRingsRedux.Framework
 {
     internal static class RingDataManager
     {
-        internal const string TextureAssetName = "Mods/ThaleTheGreat.CosmeticRingsRedux/Rings";
+        internal const string TextureAssetName = "Mods/ThaleMagnus.CosmeticRingsRedux/Rings";
 
         private const string HatMouseShopId = "HatMouse";
         private const int PurchasePrice = 100;
 
         private static readonly RingDefinition[] Rings =
         {
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.PetalRing", "ring.petal.name", "ring.petal.description", 0),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.ButterflyRing", "ring.butterfly.name", "ring.butterfly.description", 1),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.FairyRing", "ring.fairy.name", "ring.fairy.description", 2),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.RaindropRing", "ring.raindrop.name", "ring.raindrop.description", 3),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.BunnyRing", "ring.bunny.name", "ring.bunny.description", 4),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.JunimoRing", "ring.junimo.name", "ring.junimo.description", 5),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.SlimeRing", "ring.slime.name", "ring.slime.description", 6),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.FireflyRing", "ring.firefly.name", "ring.firefly.description", 7),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.FrogRing", "ring.frog.name", "ring.frog.description", 8),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.DustRing", "ring.dust.name", "ring.dust.description", 9),
-            new RingDefinition("ThaleTheGreat.CosmeticRingsRedux.Rings.BatRing", "ring.bat.name", "ring.bat.description", 10)
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.PetalRing", "ring.petal.name", "ring.petal.description", 0),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.ButterflyRing", "ring.butterfly.name", "ring.butterfly.description", 1),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.FairyRing", "ring.fairy.name", "ring.fairy.description", 2),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.RaindropRing", "ring.raindrop.name", "ring.raindrop.description", 3),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.BunnyRing", "ring.bunny.name", "ring.bunny.description", 4),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.JunimoRing", "ring.junimo.name", "ring.junimo.description", 5),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.SlimeRing", "ring.slime.name", "ring.slime.description", 6),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.FireflyRing", "ring.firefly.name", "ring.firefly.description", 7),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.FrogRing", "ring.frog.name", "ring.frog.description", 8),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.DustRing", "ring.dust.name", "ring.dust.description", 9),
+            new RingDefinition("ThaleMagnus.CosmeticRingsRedux.Rings.BatRing", "ring.bat.name", "ring.bat.description", 10)
         };
 
         internal static void HandleAssetRequested(AssetRequestedEventArgs e, System.Func<string, string> translate)
@@ -72,7 +72,7 @@ namespace ThaleTheGreat.CosmeticRingsRedux.Framework
                     shop.Items ??= new List<ShopItemData>();
                     foreach (RingDefinition ring in Rings)
                     {
-                        string entryId = $"ThaleTheGreat.CosmeticRingsRedux.HatMouse.{ring.ItemId}";
+                        string entryId = $"ThaleMagnus.CosmeticRingsRedux.HatMouse.{ring.ItemId}";
                         ShopItemData item = shop.Items.FirstOrDefault(entry => entry.Id == entryId);
                         if (item == null)
                         {

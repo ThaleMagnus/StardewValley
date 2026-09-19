@@ -1,6 +1,6 @@
 using StardewValley.Objects;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Interfaces
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Interfaces
 {
     public interface IWearMoreRingsApi
     {

@@ -13,7 +13,7 @@ using StardewValley.Menus;
 using StardewValley.TerrainFeatures;
 using SObject = StardewValley.Object;
 
-namespace ThaleTheGreat.ClearBuildSites;
+namespace ThaleMagnus.ClearBuildSites;
 
 internal sealed class ModEntry : Mod
 {

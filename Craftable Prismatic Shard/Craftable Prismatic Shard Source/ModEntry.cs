@@ -3,7 +3,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 
-namespace ThaleTheGreat.CraftablePrismaticShard;
+namespace ThaleMagnus.CraftablePrismaticShard;
 
 public sealed class ModEntry : Mod
 {

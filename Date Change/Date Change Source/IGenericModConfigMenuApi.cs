@@ -3,7 +3,7 @@ using StardewModdingAPI.Utilities;
 using System;
 
 #nullable enable
-namespace ThaleTheGreat.DateChange;
+namespace ThaleMagnus.DateChange;
 
 public interface IGenericModConfigMenuApi
 {

@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.BellsAndWhistles;
 using System;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Critters
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Critters
 {
     internal sealed class FireflyFollower : Critter
     {
@@ -26,7 +26,7 @@ namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Critters
             startingPosition = this.position;
             motion = new Vector2(Game1.random.Next(-10, 11) * 0.1f, Game1.random.Next(-10, 11) * 0.1f);
             motionMultiplier = 1f;
-            lightId = $"ThaleTheGreat.CosmeticRingsRedux.Firefly.{Guid.NewGuid():N}";
+            lightId = $"ThaleMagnus.CosmeticRingsRedux.Firefly.{Guid.NewGuid():N}";
             light = new LightSource(
                 lightId,
                 4,

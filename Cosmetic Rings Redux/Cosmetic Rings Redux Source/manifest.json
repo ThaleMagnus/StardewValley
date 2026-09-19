@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Cosmetic Rings Redux",
-  "Author": "ThaleTheGreat",
-  "Version": "1.0.3",
+  "Author": "ThaleMagnus",
+  "Version": "1.0.4",
   "Description": "Adds a variety of rings with cosmetic follower effects.",
-  "UniqueID": "ThaleTheGreat.CosmeticRingsRedux",
+  "UniqueID": "ThaleMagnus.CosmeticRingsRedux",
   "EntryDll": "CosmeticRingsRedux.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

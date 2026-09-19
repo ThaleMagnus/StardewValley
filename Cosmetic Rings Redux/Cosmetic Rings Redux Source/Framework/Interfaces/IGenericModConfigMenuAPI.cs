@@ -1,7 +1,7 @@
 using StardewModdingAPI;
 using System;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Interfaces
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Interfaces
 {
     public interface IGenericModConfigMenuAPI
     {

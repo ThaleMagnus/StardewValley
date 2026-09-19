@@ -1,7 +1,7 @@
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Interfaces;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Interfaces;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework
+namespace ThaleMagnus.CosmeticRingsRedux.Framework
 {
     public static class ApiManager
     {

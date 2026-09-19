@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Critters
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Critters
 {
     internal class SlimeFollower : NPC
     {

@@ -1,9 +1,9 @@
 {
   "Name": "[CP] (TTG) Coin Collector Redux Example Coin Pack",
-  "Author": "ThaleTheGreat",
-  "Version": "1.1.4",
+  "Author": "ThaleMagnus",
+  "Version": "1.1.5",
   "Description": "A one-coin Content Patcher example pack for Coin Collector Redux.",
-  "UniqueID": "ThaleTheGreat.CoinCollectorReduxExampleCoinPack",
+  "UniqueID": "ThaleMagnus.CoinCollectorReduxExampleCoinPack",
   "UpdateKeys": [
     "Nexus:0000"
   ],
@@ -13,7 +13,7 @@
   },
   "Dependencies": [
     {
-      "UniqueID": "ThaleTheGreat.CoinCollectorRedux",
+      "UniqueID": "ThaleMagnus.CoinCollectorRedux",
       "IsRequired": true
     }
   ]

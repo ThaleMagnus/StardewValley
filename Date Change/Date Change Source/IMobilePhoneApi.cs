@@ -4,7 +4,7 @@ using StardewValley;
 using System;
 
 #nullable enable
-namespace ThaleTheGreat.DateChange;
+namespace ThaleMagnus.DateChange;
 
 public interface IMobilePhoneApi
 {

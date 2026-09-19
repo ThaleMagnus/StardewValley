@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework
+namespace ThaleMagnus.CosmeticRingsRedux.Framework
 {
     internal static class ResourceManager
     {

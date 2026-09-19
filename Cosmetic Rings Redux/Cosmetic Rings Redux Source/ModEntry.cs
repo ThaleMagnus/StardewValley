@@ -1,6 +1,6 @@
-using ThaleTheGreat.CosmeticRingsRedux.Framework;
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Interfaces;
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Patches;
+using ThaleMagnus.CosmeticRingsRedux.Framework;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Interfaces;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Patches;
 using HarmonyLib;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ThaleTheGreat.CosmeticRingsRedux
+namespace ThaleMagnus.CosmeticRingsRedux
 {
     public sealed class ModEntry : Mod
     {

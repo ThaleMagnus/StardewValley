@@ -1,7 +1,7 @@
 using StardewValley;
 using StardewValley.Objects;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Rings
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Rings
 {
     internal abstract class CustomRing
     {

@@ -1,7 +1,7 @@
 using System;
 using StardewModdingAPI;
 
-namespace ThaleTheGreat.ClearBuildSites;
+namespace ThaleMagnus.ClearBuildSites;
 
 public interface IGenericModConfigMenuApi
 {

@@ -3,7 +3,7 @@ using StardewValley;
 using StardewValley.Projectiles;
 using StardewValley.TerrainFeatures;
 
-namespace ThaleTheGreat.CoinCollectorRedux
+namespace ThaleMagnus.CoinCollectorRedux
 {
     internal class IndicatorProjectile : BasicProjectile
     {

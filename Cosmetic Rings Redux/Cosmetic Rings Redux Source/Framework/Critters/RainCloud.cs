@@ -5,7 +5,7 @@ using StardewValley.BellsAndWhistles;
 using System;
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Critters
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Critters
 {
     internal class RainCloud : Critter
     {

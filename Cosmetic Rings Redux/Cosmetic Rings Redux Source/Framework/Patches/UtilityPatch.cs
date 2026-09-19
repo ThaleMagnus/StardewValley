@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.Locations;
 using System;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Patches
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Patches
 {
     internal sealed class UtilityPatch
     {

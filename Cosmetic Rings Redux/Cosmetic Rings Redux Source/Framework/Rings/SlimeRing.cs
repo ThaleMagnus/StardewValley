@@ -1,8 +1,8 @@
-using ThaleTheGreat.CosmeticRingsRedux.Framework.Critters;
+using ThaleMagnus.CosmeticRingsRedux.Framework.Critters;
 using StardewValley;
 using StardewValley.Objects;
 
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework.Rings
+namespace ThaleMagnus.CosmeticRingsRedux.Framework.Rings
 {
     internal sealed class SlimeRing : CustomRing
     {

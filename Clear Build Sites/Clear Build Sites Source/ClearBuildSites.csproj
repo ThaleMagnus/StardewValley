@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <EnableHarmony>true</EnableHarmony>
     <AssemblyName>ClearBuildSites</AssemblyName>
-    <RootNamespace>ThaleTheGreat.ClearBuildSites</RootNamespace>
+    <RootNamespace>ThaleMagnus.ClearBuildSites</RootNamespace>
     <Version>1.0.1</Version>
     <Nullable>enable</Nullable>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

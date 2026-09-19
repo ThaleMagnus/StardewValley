@@ -1,9 +1,9 @@
 {
   "Name": "(TTG) Craftable Prismatic Shard",
-  "Author": "ThaleTheGreat",
-  "Version": "1.0.1",
+  "Author": "ThaleMagnus",
+  "Version": "1.0.2",
   "Description": "Adds a crafting recipe for Prismatic Shards.",
-  "UniqueID": "ThaleTheGreat.CraftablePrismaticShard",
+  "UniqueID": "ThaleMagnus.CraftablePrismaticShard",
   "EntryDll": "CraftablePrismaticShard.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [

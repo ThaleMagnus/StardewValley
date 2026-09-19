@@ -1,4 +1,4 @@
-namespace ThaleTheGreat.CosmeticRingsRedux.Framework
+namespace ThaleMagnus.CosmeticRingsRedux.Framework
 {
     public class ModConfig
     {

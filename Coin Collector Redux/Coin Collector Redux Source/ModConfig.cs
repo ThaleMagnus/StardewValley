@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ThaleTheGreat.CoinCollectorRedux
+namespace ThaleMagnus.CoinCollectorRedux
 {
     public class ModConfig
     {
