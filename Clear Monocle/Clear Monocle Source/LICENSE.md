@@ -1,7 +1,7 @@
-(TTG) CLEAR MONOCLE LICENSE
+(TM) CLEAR MONOCLE LICENSE
 ===========================
 
-This license applies to (TTG) Clear Monocle v1.1.0.
+This license applies to (TM) Clear Monocle v1.1.0.
 
 PRIMARY LICENSE
 ---------------

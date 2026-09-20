@@ -6,8 +6,8 @@
     <AssemblyName>CoinCollectorRedux</AssemblyName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin/$(Configuration)/Coin Collector Redux/</OutputPath>
-    <Product>(TTG) Coin Collector Redux</Product>
-    <Title>(TTG) Coin Collector Redux</Title>
+    <Product>(TM) Coin Collector Redux</Product>
+    <Title>(TM) Coin Collector Redux</Title>
     <ModFolderName>Coin Collector Redux</ModFolderName>
     <RootNamespace>ThaleMagnus.CoinCollectorRedux</RootNamespace>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

@@ -1,5 +1,5 @@
 {
-  "app.name": "(TTG) 钱包工具",
+  "app.name": "(TM) 钱包工具",
   "config.mod-enabled.name": "启用模组",
   "config.mod-enabled.tooltip": "启用或禁用钱包工具.",
   "config.play-tool-swap-sound.name": "播放工具切换音效",
@@ -76,7 +76,7 @@
   "module.tractor-mod.name": "拖拉机模组",
   "module.scepter.name": "钱包回程魔杖",
   "module.animal-husbandry.name": "畜牧业",
-  "module.coin-collector-redux.name": "(TTG) 硬币收集器重制版",
+  "module.coin-collector-redux.name": "(TM) 硬币收集器重制版",
   "config.horse-flute.enabled.name": "启用",
   "config.horse-flute.enabled.tooltip": "将原版马笛存储在钱包中, 并允许你使用快捷键调用.",
   "config.horse-flute.auto-store.name": "从背包自动存储",

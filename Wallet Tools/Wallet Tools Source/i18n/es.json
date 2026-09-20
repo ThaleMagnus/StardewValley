@@ -1,5 +1,5 @@
 {
-    "app.name": "(TTG) Wallet Tools",
+    "app.name": "(TM) Wallet Tools",
     "config.mod-enabled.name": "Mod activado",
     "config.mod-enabled.tooltip": "Activa o desactiva Wallet Tools.",
     "config.play-tool-swap-sound.name": "Reproducir sonido de cambio de herramienta",
@@ -75,7 +75,7 @@
     "module.tractor-mod.name": "Tractor Mod",
     "module.scepter.name": "Cetro de monedero",
     "module.animal-husbandry.name": "Ganadería (Animal Husbandry)",
-    "module.coin-collector-redux.name": "(TTG) Coin Collector Redux",
+    "module.coin-collector-redux.name": "(TM) Coin Collector Redux",
     "config.horse-flute.enabled.name": "Activado",
     "config.horse-flute.enabled.tooltip": "Guarda la flauta de caballo original en el monedero y te permite usarla con una tecla rápida.",
     "config.horse-flute.auto-store.name": "Guardar automáticamente desde el inventario",

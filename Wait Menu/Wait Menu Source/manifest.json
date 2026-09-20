@@ -1,5 +1,5 @@
 {
-  "Name": "(TTG) Wait Menu",
+  "Name": "(TM) Wait Menu",
   "Author": "ThaleMagnus",
   "Version": "1.3.2",
   "Description": "Adds a wait menu (30-minute steps up to 4 hours) opened with a configurable keybind (default Ctrl+W). Controller-friendly.",

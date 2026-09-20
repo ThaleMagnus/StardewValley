@@ -1,5 +1,5 @@
 {
-  "config.section.title": "(TTG) GMCM Advanced Search",
+  "config.section.title": "(TM) GMCM Advanced Search",
   "config.section.tooltip": "Search inside GMCM authors, mod names, UniqueIDs, Nexus IDs, option labels, tooltips, field IDs, and config keys.",
   "config.open-menu.name": "Open search menu",
   "config.open-menu.tooltip": "Hotkey to open the GMCM Advanced Search menu.",
@@ -20,7 +20,7 @@
   "message.gmcm-not-installed": "Generic Mod Config Menu is not installed.",
   "message.no-options-found": "No GMCM options or config keys found.",
   "message.open-failed": "That entry couldn't be opened in GMCM.",
-  "menu.title": "(TTG) GMCM Advanced Search",
+  "menu.title": "(TM) GMCM Advanced Search",
   "menu.search-label": "Search",
   "menu.search-placeholder": "Results order: Alphabetical",
   "status.search-results": "{{count}} result(s). Results order: Authors → Mods → Options.",
